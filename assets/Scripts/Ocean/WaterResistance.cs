@@ -11,12 +11,14 @@ public class WaterResistance : MonoBehaviour
 		public GameObject debugSphere;
 	
 		private Weather waveGenerator;
+		private int numberOfForces;
 		private GameObject gameController;
 	
 		// Use this for initialization
 		void Start ()
 		{
 				waveGenerator = GameObject.FindGameObjectWithTag (Tags.gameController).GetComponent<Weather> ();
+				numberOfForces = GetComponents<Buoyancy> ().Length;
 				gameController = GameObject.FindGameObjectWithTag (Tags.gameController);
 		}
 	
