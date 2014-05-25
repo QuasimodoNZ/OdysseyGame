@@ -457,7 +457,7 @@ MonoBehaviour:
   turnRate: 1
   defaultMoveSpeed: .0199999996
   defaultAcceleration: 0
-  currentThrust: 10
+  currentThrust: 5
 --- !u!136 &287864667
 CapsuleCollider:
   m_ObjectHideFlags: 0
