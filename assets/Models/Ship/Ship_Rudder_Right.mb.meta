@@ -21,7 +21,11 @@ ModelImporter:
     3300002: pasted__pasted__polySurface3
     4300000: Oar_Holder
     4300002: pasted__pasted__polySurface3
-    7400000: Take 001
+    7400000: Left to Straight
+    7400002: Straight to Left
+    7400004: Straight to Right
+    7400006: Right to Straight
+    7400008: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -37,7 +41,159 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Straight to Left
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Oar_Holder
+        weight: 1
+      - path: Rudder2
+        weight: 1
+      - path: Rudder2/Rudder2 1
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4/pasted__pasted__polySurface3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Left to Straight
+      takeName: Take 001
+      firstFrame: 21
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Oar_Holder
+        weight: 1
+      - path: Rudder2
+        weight: 1
+      - path: Rudder2/Rudder2 1
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4/pasted__pasted__polySurface3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Straight to Right
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Oar_Holder
+        weight: 1
+      - path: Rudder2
+        weight: 1
+      - path: Rudder2/Rudder2 1
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4/pasted__pasted__polySurface3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Right to Straight
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Oar_Holder
+        weight: 1
+      - path: Rudder2
+        weight: 1
+      - path: Rudder2/Rudder2 1
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4
+        weight: 1
+      - path: Rudder2/Rudder2 1/pasted__pasted__polySurface4/pasted__pasted__polySurface3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

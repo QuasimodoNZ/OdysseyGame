@@ -55,7 +55,10 @@ ModelImporter:
     4300014: pasted__pSphere9
     4300016: pasted__pSphere10
     4300018: pasted__pSphere11
-    7400000: Take 001
+    7400000: First sequence
+    7400002: Second sequence
+    7400004: Third sequence
+    7400006: Ship wreak
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -71,7 +74,151 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: First sequence
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__pSphere1
+        weight: 1
+      - path: pasted__pSphere3
+        weight: 1
+      - path: pasted__pSphere4
+        weight: 1
+      - path: pasted__pSphere5
+        weight: 1
+      - path: pasted__pSphere6
+        weight: 1
+      - path: pasted__pSphere7
+        weight: 1
+      - path: pasted__pSphere8
+        weight: 1
+      - path: pasted__pSphere9
+        weight: 1
+      - path: pasted__pSphere10
+        weight: 1
+      - path: pasted__pSphere11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Second sequence
+      takeName: Take 001
+      firstFrame: 34
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__pSphere1
+        weight: 1
+      - path: pasted__pSphere3
+        weight: 1
+      - path: pasted__pSphere4
+        weight: 1
+      - path: pasted__pSphere5
+        weight: 1
+      - path: pasted__pSphere6
+        weight: 1
+      - path: pasted__pSphere7
+        weight: 1
+      - path: pasted__pSphere8
+        weight: 1
+      - path: pasted__pSphere9
+        weight: 1
+      - path: pasted__pSphere10
+        weight: 1
+      - path: pasted__pSphere11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Third sequence
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__pSphere1
+        weight: 1
+      - path: pasted__pSphere3
+        weight: 1
+      - path: pasted__pSphere4
+        weight: 1
+      - path: pasted__pSphere5
+        weight: 1
+      - path: pasted__pSphere6
+        weight: 1
+      - path: pasted__pSphere7
+        weight: 1
+      - path: pasted__pSphere8
+        weight: 1
+      - path: pasted__pSphere9
+        weight: 1
+      - path: pasted__pSphere10
+        weight: 1
+      - path: pasted__pSphere11
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
