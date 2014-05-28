@@ -454,10 +454,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caae94ec0d2416f479c78c8bb2ba8e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnRate: 1
-  defaultMoveSpeed: .0199999996
+  turnRate: 5
+  defaultMoveSpeed: .0399999991
   defaultAcceleration: 0
-  currentThrust: 10
+  currentThrust: 20
 --- !u!136 &287864667
 CapsuleCollider:
   m_ObjectHideFlags: 0
