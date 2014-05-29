@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: eb464088efe36429683ff370be5a61dd
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Basket
+    100002: CenterPole
+    100004: joint1
+    100006: joint1_pointOnPolyConstraint1
+    100008: joint2
+    100010: joint2_pointOnPolyConstraint1
+    100012: joint3
+    100014: joint3_pointOnPolyConstraint1
+    100016: joint4
+    100018: joint4_pointOnPolyConstraint1
+    100020: joint5
+    100022: joint5_pointOnPolyConstraint1
+    100024: joint6
+    100026: joint6_pointOnPolyConstraint1
+    100028: joint7
+    100030: joint7_pointOnPolyConstraint1
+    100032: joint8
+    100034: joint8_pointOnPolyConstraint1
+    100036: Joints2
+    100038: Joints3
+    100040: Joints4
+    100042: Joints5
+    100044: LowerPole
+    100046: LowerSailPole
+    100048: //RootNode
+    100050: Mast
+    100052: Mast1
+    100054: Nest_Group
+    100056: pasted__group31
+    100058: pasted__group31 1
+    100060: pasted__joint1
+    100062: pasted__joint1 1
+    100064: pasted__joint1 2
+    100066: pasted__joint1 3
+    100068: pasted__joint1_pointOnPolyConstraint1
+    100070: pasted__joint1_pointOnPolyConstraint2
+    100072: pasted__joint1_pointOnPolyConstraint3
+    100074: pasted__joint1_pointOnPolyConstraint4
+    100076: pasted__joint2
+    100078: pasted__joint2 1
+    100080: pasted__joint2 2
+    100082: pasted__joint2 3
+    100084: pasted__joint2_pointOnPolyConstraint1
+    100086: pasted__joint2_pointOnPolyConstraint2
+    100088: pasted__joint2_pointOnPolyConstraint3
+    100090: pasted__joint2_pointOnPolyConstraint4
+    100092: pasted__joint3
+    100094: pasted__joint3 1
+    100096: pasted__joint3 2
+    100098: pasted__joint3 3
+    100100: pasted__joint3_pointOnPolyConstraint1
+    100102: pasted__joint3_pointOnPolyConstraint2
+    100104: pasted__joint3_pointOnPolyConstraint3
+    100106: pasted__joint3_pointOnPolyConstraint4
+    100108: pasted__joint4
+    100110: pasted__joint4 1
+    100112: pasted__joint4 2
+    100114: pasted__joint4 3
+    100116: pasted__joint4_pointOnPolyConstraint1
+    100118: pasted__joint4_pointOnPolyConstraint2
+    100120: pasted__joint4_pointOnPolyConstraint3
+    100122: pasted__joint4_pointOnPolyConstraint4
+    100124: pasted__joint5
+    100126: pasted__joint5 1
+    100128: pasted__joint5 2
+    100130: pasted__joint5 3
+    100132: pasted__joint5_pointOnPolyConstraint1
+    100134: pasted__joint5_pointOnPolyConstraint2
+    100136: pasted__joint5_pointOnPolyConstraint3
+    100138: pasted__joint5_pointOnPolyConstraint4
+    100140: pasted__joint6
+    100142: pasted__joint6 1
+    100144: pasted__joint6 2
+    100146: pasted__joint6 3
+    100148: pasted__joint6_pointOnPolyConstraint1
+    100150: pasted__joint6_pointOnPolyConstraint2
+    100152: pasted__joint6_pointOnPolyConstraint3
+    100154: pasted__joint6_pointOnPolyConstraint4
+    100156: pasted__joint7
+    100158: pasted__joint7 1
+    100160: pasted__joint7 2
+    100162: pasted__joint7 3
+    100164: pasted__joint7_pointOnPolyConstraint1
+    100166: pasted__joint7_pointOnPolyConstraint2
+    100168: pasted__joint7_pointOnPolyConstraint3
+    100170: pasted__joint7_pointOnPolyConstraint4
+    100172: pasted__joint8
+    100174: pasted__joint8 1
+    100176: pasted__joint8 2
+    100178: pasted__joint8 3
+    100180: pasted__joint8_pointOnPolyConstraint1
+    100182: pasted__joint8_pointOnPolyConstraint2
+    100184: pasted__joint8_pointOnPolyConstraint3
+    100186: pasted__joint8_pointOnPolyConstraint4
+    100188: pasted__pasted__joint1
+    100190: pasted__pasted__joint1 1
+    100192: pasted__pasted__joint1_pointOnPolyConstraint1
+    100194: pasted__pasted__joint1_pointOnPolyConstraint2
+    100196: pasted__pasted__joint2
+    100198: pasted__pasted__joint2 1
+    100200: pasted__pasted__joint2_pointOnPolyConstraint1
+    100202: pasted__pasted__joint2_pointOnPolyConstraint2
+    100204: pasted__pasted__joint3
+    100206: pasted__pasted__joint3 1
+    100208: pasted__pasted__joint3_pointOnPolyConstraint1
+    100210: pasted__pasted__joint3_pointOnPolyConstraint2
+    100212: pasted__pasted__joint4
+    100214: pasted__pasted__joint4 1
+    100216: pasted__pasted__joint4_pointOnPolyConstraint1
+    100218: pasted__pasted__joint4_pointOnPolyConstraint2
+    100220: pasted__pasted__joint5
+    100222: pasted__pasted__joint5 1
+    100224: pasted__pasted__joint5_pointOnPolyConstraint1
+    100226: pasted__pasted__joint5_pointOnPolyConstraint2
+    100228: pasted__pasted__joint6
+    100230: pasted__pasted__joint6 1
+    100232: pasted__pasted__joint6_pointOnPolyConstraint1
+    100234: pasted__pasted__joint6_pointOnPolyConstraint2
+    100236: pasted__pasted__joint7
+    100238: pasted__pasted__joint7 1
+    100240: pasted__pasted__joint7_pointOnPolyConstraint1
+    100242: pasted__pasted__joint7_pointOnPolyConstraint2
+    100244: pasted__pasted__joint8
+    100246: pasted__pasted__joint8 1
+    100248: pasted__pasted__joint8_pointOnPolyConstraint1
+    100250: pasted__pasted__joint8_pointOnPolyConstraint2
+    100252: pPlane1
+    100254: Sail1
+    100256: Sail_Pole
+    100258: transform10
+    100260: transform11
+    100262: transform12
+    100264: transform13
+    100266: transform8
+    100268: transform9
+    100270: Upper_Nest
+    100272: UpperPole
+    100274: UpperSailPole
+    100276: Wire1
+    100278: Wire2
+    100280: Wire_Group
+    400000: Basket
+    400002: CenterPole
+    400004: joint1
+    400006: joint1_pointOnPolyConstraint1
+    400008: joint2
+    400010: joint2_pointOnPolyConstraint1
+    400012: joint3
+    400014: joint3_pointOnPolyConstraint1
+    400016: joint4
+    400018: joint4_pointOnPolyConstraint1
+    400020: joint5
+    400022: joint5_pointOnPolyConstraint1
+    400024: joint6
+    400026: joint6_pointOnPolyConstraint1
+    400028: joint7
+    400030: joint7_pointOnPolyConstraint1
+    400032: joint8
+    400034: joint8_pointOnPolyConstraint1
+    400036: Joints2
+    400038: Joints3
+    400040: Joints4
+    400042: Joints5
+    400044: LowerPole
+    400046: LowerSailPole
+    400048: //RootNode
+    400050: Mast
+    400052: Mast1
+    400054: Nest_Group
+    400056: pasted__group31
+    400058: pasted__group31 1
+    400060: pasted__joint1
+    400062: pasted__joint1 1
+    400064: pasted__joint1 2
+    400066: pasted__joint1 3
+    400068: pasted__joint1_pointOnPolyConstraint1
+    400070: pasted__joint1_pointOnPolyConstraint2
+    400072: pasted__joint1_pointOnPolyConstraint3
+    400074: pasted__joint1_pointOnPolyConstraint4
+    400076: pasted__joint2
+    400078: pasted__joint2 1
+    400080: pasted__joint2 2
+    400082: pasted__joint2 3
+    400084: pasted__joint2_pointOnPolyConstraint1
+    400086: pasted__joint2_pointOnPolyConstraint2
+    400088: pasted__joint2_pointOnPolyConstraint3
+    400090: pasted__joint2_pointOnPolyConstraint4
+    400092: pasted__joint3
+    400094: pasted__joint3 1
+    400096: pasted__joint3 2
+    400098: pasted__joint3 3
+    400100: pasted__joint3_pointOnPolyConstraint1
+    400102: pasted__joint3_pointOnPolyConstraint2
+    400104: pasted__joint3_pointOnPolyConstraint3
+    400106: pasted__joint3_pointOnPolyConstraint4
+    400108: pasted__joint4
+    400110: pasted__joint4 1
+    400112: pasted__joint4 2
+    400114: pasted__joint4 3
+    400116: pasted__joint4_pointOnPolyConstraint1
+    400118: pasted__joint4_pointOnPolyConstraint2
+    400120: pasted__joint4_pointOnPolyConstraint3
+    400122: pasted__joint4_pointOnPolyConstraint4
+    400124: pasted__joint5
+    400126: pasted__joint5 1
+    400128: pasted__joint5 2
+    400130: pasted__joint5 3
+    400132: pasted__joint5_pointOnPolyConstraint1
+    400134: pasted__joint5_pointOnPolyConstraint2
+    400136: pasted__joint5_pointOnPolyConstraint3
+    400138: pasted__joint5_pointOnPolyConstraint4
+    400140: pasted__joint6
+    400142: pasted__joint6 1
+    400144: pasted__joint6 2
+    400146: pasted__joint6 3
+    400148: pasted__joint6_pointOnPolyConstraint1
+    400150: pasted__joint6_pointOnPolyConstraint2
+    400152: pasted__joint6_pointOnPolyConstraint3
+    400154: pasted__joint6_pointOnPolyConstraint4
+    400156: pasted__joint7
+    400158: pasted__joint7 1
+    400160: pasted__joint7 2
+    400162: pasted__joint7 3
+    400164: pasted__joint7_pointOnPolyConstraint1
+    400166: pasted__joint7_pointOnPolyConstraint2
+    400168: pasted__joint7_pointOnPolyConstraint3
+    400170: pasted__joint7_pointOnPolyConstraint4
+    400172: pasted__joint8
+    400174: pasted__joint8 1
+    400176: pasted__joint8 2
+    400178: pasted__joint8 3
+    400180: pasted__joint8_pointOnPolyConstraint1
+    400182: pasted__joint8_pointOnPolyConstraint2
+    400184: pasted__joint8_pointOnPolyConstraint3
+    400186: pasted__joint8_pointOnPolyConstraint4
+    400188: pasted__pasted__joint1
+    400190: pasted__pasted__joint1 1
+    400192: pasted__pasted__joint1_pointOnPolyConstraint1
+    400194: pasted__pasted__joint1_pointOnPolyConstraint2
+    400196: pasted__pasted__joint2
+    400198: pasted__pasted__joint2 1
+    400200: pasted__pasted__joint2_pointOnPolyConstraint1
+    400202: pasted__pasted__joint2_pointOnPolyConstraint2
+    400204: pasted__pasted__joint3
+    400206: pasted__pasted__joint3 1
+    400208: pasted__pasted__joint3_pointOnPolyConstraint1
+    400210: pasted__pasted__joint3_pointOnPolyConstraint2
+    400212: pasted__pasted__joint4
+    400214: pasted__pasted__joint4 1
+    400216: pasted__pasted__joint4_pointOnPolyConstraint1
+    400218: pasted__pasted__joint4_pointOnPolyConstraint2
+    400220: pasted__pasted__joint5
+    400222: pasted__pasted__joint5 1
+    400224: pasted__pasted__joint5_pointOnPolyConstraint1
+    400226: pasted__pasted__joint5_pointOnPolyConstraint2
+    400228: pasted__pasted__joint6
+    400230: pasted__pasted__joint6 1
+    400232: pasted__pasted__joint6_pointOnPolyConstraint1
+    400234: pasted__pasted__joint6_pointOnPolyConstraint2
+    400236: pasted__pasted__joint7
+    400238: pasted__pasted__joint7 1
+    400240: pasted__pasted__joint7_pointOnPolyConstraint1
+    400242: pasted__pasted__joint7_pointOnPolyConstraint2
+    400244: pasted__pasted__joint8
+    400246: pasted__pasted__joint8 1
+    400248: pasted__pasted__joint8_pointOnPolyConstraint1
+    400250: pasted__pasted__joint8_pointOnPolyConstraint2
+    400252: pPlane1
+    400254: Sail1
+    400256: Sail_Pole
+    400258: transform10
+    400260: transform11
+    400262: transform12
+    400264: transform13
+    400266: transform8
+    400268: transform9
+    400270: Upper_Nest
+    400272: UpperPole
+    400274: UpperSailPole
+    400276: Wire1
+    400278: Wire2
+    400280: Wire_Group
+    2300000: Basket
+    2300002: CenterPole
+    2300004: LowerPole
+    2300006: UpperPole
+    2300008: Wire1
+    3300000: Basket
+    3300002: CenterPole
+    3300004: LowerPole
+    3300006: UpperPole
+    3300008: Wire1
+    4300000: LowerPole
+    4300002: Wire1
+    4300004: UpperPole
+    4300006: CenterPole
+    4300008: Sail1
+    4300010: Basket
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Sail1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
