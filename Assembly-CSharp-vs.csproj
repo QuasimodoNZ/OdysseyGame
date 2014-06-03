@@ -55,6 +55,7 @@
      <Compile Include="assets\Scripts\Miscellaneous\DebugScript.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\Tags.cs" />
      <Compile Include="assets\Scripts\Ocean\Buoyancy.cs" />
+     <Compile Include="assets\Scripts\Ocean\Wake.cs" />
      <Compile Include="assets\Scripts\Ocean\WaterResistance.cs" />
      <Compile Include="assets\Scripts\Ocean\WaveFunction.cs" />
      <Compile Include="assets\Scripts\Ocean\WaveManipulator.cs" />
@@ -66,6 +67,8 @@
      <Compile Include="assets\Scripts\WorldTile.cs" />
      <Compile Include="assets\imported assets\water (basic)\sources\Scripts\WaterSimple.cs" />
      <None Include="assets\imported assets\water (basic)\sources\Shaders\FX-Water Simple.shader" />
+     <None Include="assets\Fonts\olympus\readme.txt" />
+     <None Include="assets\Fonts\dont_look_back\Font License - Please Read.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

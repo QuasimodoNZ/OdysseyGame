@@ -33,8 +33,8 @@ public class GuiController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		hpGui.guiText.text = "HP: " + player.GetComponent<PlayerController> ().GetHpPercent () + "%";
+		hpGui.guiText.text = "" + player.GetComponent<PlayerController> ().GetHpPercent () + "%";
 		speedGui.guiText.text = "Speed: " + player.GetComponent<PlayerMovement> ().GetCurrentSpeedDisplay ();
-		scoreGui.guiText.text = "Score: " + player.GetComponent<PlayerController> ().GetScore ();
+		scoreGui.guiText.text = "" + player.GetComponent<PlayerController> ().GetScore ();
 	}
 }
