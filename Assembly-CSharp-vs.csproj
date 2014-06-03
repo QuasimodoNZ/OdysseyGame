@@ -51,6 +51,7 @@
      <Compile Include="assets\Scripts\Controllers\MenuController.cs" />
      <Compile Include="assets\Scripts\Controllers\ModelController.cs" />
      <Compile Include="assets\Scripts\Controllers\TileController.cs" />
+     <Compile Include="assets\Scripts\LurePlayer.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\BoatFollower.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\DebugScript.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\ScoreManager.cs" />

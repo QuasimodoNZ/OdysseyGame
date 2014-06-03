@@ -78,11 +78,6 @@ public class PlayerMovement : MonoBehaviour
 		}
 	}
 	
-	void OnCollisionEnter(UnityEngine.Collision hit)
-	{
-		Debug.LogWarning ("COLLISION!!");
-	}
-	
 	public float GetCurrentSpeed ()
 	{
 		return rigidbody.velocity.magnitude;

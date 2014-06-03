@@ -1452,7 +1452,16 @@ MonoBehaviour:
   INITIAL_MAP_DIMENSIONS: 4
   BLANK_MAP_TILE_TYPE_NUM: 0
   SCALE: 50
-  NUM_TILE_TYPES: 5
+  difficultyScale: 1000
+  maxDifficulty: 2
+  tileTypesT1: []
+  tileTypesT2: []
+  tileTypesT3: []
+  tileTypesT4: []
+  NUM_TILE_TYPES_T1: 2
+  NUM_TILE_TYPES_T2: 3
+  NUM_TILE_TYPES_T3: 0
+  NUM_TILE_TYPES_T4: 0
 --- !u!4 &927856708
 Transform:
   m_ObjectHideFlags: 0

@@ -28,22 +28,47 @@ public class TileController : MonoBehaviour {
 	// Initial Map array will be sqaure with dimensions double this value. e.g. value of 4 => 8x8 map
 	public int BLANK_MAP_TILE_TYPE_NUM = 0; // The Tile Type Number for a blank tile of water (Will be used for starting tile)
 	public int SCALE = 50; // Size of tiles
-	public int NUM_TILE_TYPES = 5; // Current Number of Possible Tile Types to Choose From
-	
+
+	// Difficulty
+	public int difficultyScale = 100;
+	public int maxDifficulty = 2;
+
 	// VARIABLES
 	private Map map;
 	private System.Random random;
-	private GameObject[] tileTypes;	// List of Different Tile Types Available Indexed by their Tile Type Number
-	// NOTE: Index=0 should be the type of tile Player starts on (a Blank Tile??)
+	private GameObject worldTile0;
+
+	// Lists of Different Tile Types Available Indexed by their Tile Type Number per Difficulty Tier
+	public GameObject[] tileTypesT1;
+	public GameObject[] tileTypesT2;
+	public GameObject[] tileTypesT3;
+	public GameObject[] tileTypesT4;	
+	// Current Number of Possible Tile Types to Choose From per Difficulty Tier
+	public int NUM_TILE_TYPES_T1 = 0;
+	public int NUM_TILE_TYPES_T2 = 0;
+	public int NUM_TILE_TYPES_T3 = 0;
+	public int NUM_TILE_TYPES_T4 = 0; 
 	
 	
 	// Use this for initialization
 	void Start () {
 		// Initialize Tile Types
-		tileTypes = new GameObject[NUM_TILE_TYPES];
-		for (int i = 0; i<NUM_TILE_TYPES; i++) {
-			tileTypes[i]=(GameObject)(Resources.Load("WorldTile"+i)); // All the Tiles Named WorldTile# from the WorldTiles/Resources Folder will be added to list
-			
+		worldTile0 = (GameObject)(Resources.Load ("WorldTile0"));
+		tileTypesT1 = new GameObject[NUM_TILE_TYPES_T1];
+		for (int i = 0; i<NUM_TILE_TYPES_T1; i++) {
+			tileTypesT1[i]=(GameObject)(Resources.Load("WorldTile1_"+i)); // All the Tiles Named WorldTile# from the WorldTiles/Resources Folder will be added to list
+		}
+		tileTypesT2 = new GameObject[NUM_TILE_TYPES_T2];
+		for (int i = 0; i<NUM_TILE_TYPES_T2; i++) {
+			tileTypesT2[i]=(GameObject)(Resources.Load("WorldTile2_"+i)); // All the Tiles Named WorldTile# from the WorldTiles/Resources Folder will be added to list
+		}
+		tileTypesT3 = new GameObject[NUM_TILE_TYPES_T3];
+		for (int i = 0; i<NUM_TILE_TYPES_T3; i++) {
+			tileTypesT3[i]=(GameObject)(Resources.Load("WorldTile3_"+i)); // All the Tiles Named WorldTile# from the WorldTiles/Resources Folder will be added to list
+		}
+		tileTypesT4 = new GameObject[NUM_TILE_TYPES_T4];
+		for (int i = 0; i<NUM_TILE_TYPES_T4; i++) {
+			tileTypesT4[i]=(GameObject)(Resources.Load("WorldTile4_"+i)); // All the Tiles Named WorldTile# from the WorldTiles/Resources Folder will be added to list
 		}
 		random = new System.Random ();
 		
@@ -55,12 +80,41 @@ public class TileController : MonoBehaviour {
 		PlaceNeighbours (0, 0, GENERATION_RADIUS);		
 	}
 	
-	public int GenerateTileType(){
-		return random.Next (NUM_TILE_TYPES);
+	public int GenerateTileType(int depth){
+		int difTier;
+		int dice = random.Next (4);
+		if (dice == 1)
+			difTier = 0;
+		else if (dice == 2)
+			difTier = 1;
+		else {
+			float difficulty = random.Next (depth);
+			difTier = (int)(Mathf.Log (difficulty * difficultyScale));
+		}
+		if (difTier > maxDifficulty)
+			difTier = maxDifficulty;
+		if (difTier==1)
+			return random.Next (NUM_TILE_TYPES_T1)+100;
+		if (difTier==2)
+			return random.Next (NUM_TILE_TYPES_T2)+200;
+		if (difTier==3)
+			return random.Next (NUM_TILE_TYPES_T3)+300;
+		if (difTier == 4)
+			return random.Next (NUM_TILE_TYPES_T4) + 400;
+		else
+			return 0;
 	}
 	
 	public GameObject GetTileByTypeNum(int typeNum){
-		return tileTypes [typeNum];
+		if(typeNum>=400)
+			return tileTypesT4 [typeNum-400];
+		if(typeNum>=300)
+			return tileTypesT3 [typeNum-300];
+		if(typeNum>=200)
+			return tileTypesT2 [typeNum-200];
+		if(typeNum>=100)
+			return tileTypesT1 [typeNum-100];
+		return worldTile0;
 	}
 	
 	public void TileEntryAt(float px, float py) { 
@@ -79,7 +133,8 @@ public class TileController : MonoBehaviour {
 		
 		for (int i = x-radiusDepth; i <= x+radiusDepth; i++) {
 			for (int j = y-radiusDepth; j <= y+radiusDepth; j++) {
-				int tileType = GenerateTileType();
+				int depth = Mathf.Max (Mathf.Abs(x),Mathf.Abs(y));
+				int tileType = GenerateTileType(depth);
 				MapNode mapNode = map.AddTileToMap (i, j, tileType);
 				if(mapNode != null)	// Check Tile. If no tile is present add a new one
 					mapNode.SetObject(PlaceTileInWorld(i, j, mapNode.GetTileNum())); 	// Place the new tile on physical map
