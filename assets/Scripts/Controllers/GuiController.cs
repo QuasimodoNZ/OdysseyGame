@@ -21,12 +21,14 @@ public class GuiController : MonoBehaviour {
 	// External Game Objects
 	private GameObject player;
 
+	private ScoreManager manager;
+
 	// Use this for initialization
 	void Start () {
 		hpGui = transform.Find ("HPGUI").gameObject;
 		speedGui = transform.Find ("SpeedGUI").gameObject;
 		scoreGui = transform.Find ("ScoreGUI").gameObject;
-
+		manager = ScoreManager.getInstance ();
 
 		player = GameObject.FindGameObjectWithTag ("Player");
 	}
@@ -35,6 +37,10 @@ public class GuiController : MonoBehaviour {
 	void Update () {
 		hpGui.guiText.text = "HP: " + player.GetComponent<PlayerController> ().GetHpPercent () + "%";
 		speedGui.guiText.text = "Speed: " + player.GetComponent<PlayerMovement> ().GetCurrentSpeedDisplay ();
-		scoreGui.guiText.text = "Score: " + player.GetComponent<PlayerController> ().GetScore ();
+		manager.setScore (player.GetComponent<PlayerController> ().GetScore ());
+		scoreGui.guiText.text = "Score: " + manager.getScore();
+		if (player.GetComponent<PlayerController> ().GetHpPercent () == 0) {
+			Application.LoadLevel("Menu");
+		}
 	}
 }
