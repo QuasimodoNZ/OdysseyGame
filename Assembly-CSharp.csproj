@@ -53,6 +53,7 @@
      <Compile Include="assets\Scripts\Controllers\TileController.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\BoatFollower.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\DebugScript.cs" />
+     <Compile Include="assets\Scripts\Miscellaneous\ScoreManager.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\Tags.cs" />
      <Compile Include="assets\Scripts\Ocean\Buoyancy.cs" />
      <Compile Include="assets\Scripts\Ocean\WaterResistance.cs" />
