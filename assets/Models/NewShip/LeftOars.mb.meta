@@ -88,7 +88,9 @@ ModelImporter:
     4300024: pasted__pasted__pasted__pasted__polySurface16
     4300026: pasted__pasted__pasted__pasted__polySurface17
     4300028: pasted__pasted__pasted__pasted__polySurface20
-    7400000: Take 001
+    7400000: Slow
+    7400002: Fast
+    7400004: Death
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -104,7 +106,205 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Slow
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__group29
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface3
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface5
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface6
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface7
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface8
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface9
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface10
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface11
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface12
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface13
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface14
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface15
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface16
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface17
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fast
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__group29
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface3
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface5
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface6
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface7
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface8
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface9
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface10
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface11
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface12
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface13
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface14
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface15
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface16
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface17
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__group29
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface3
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface5
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface6
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface7
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface8
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface9
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface10
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface11
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface12
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface13
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface14
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface15
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface16
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface17
+        weight: 1
+      - path: pasted__group29/pasted__pasted__group18/pasted__pasted__pasted__group16/pasted__pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__pasted__polySurface20
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
