@@ -23,7 +23,7 @@ public class SplashTranslation : MonoBehaviour {
 		randomZ = Random.Range (-5, 5);
 		//randomY = Random.Range (-1, 0);
 		delay++;
-		print(delay);
+		//print(delay);
 		if (delay >= frequency) {
 			delay = 0;
 			x = randomX;
