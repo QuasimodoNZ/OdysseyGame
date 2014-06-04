@@ -65,6 +65,7 @@
      <Compile Include="assets\Scripts\PlayerBoat\PlayerCoreHull.cs" />
      <Compile Include="assets\Scripts\PlayerBoat\PlayerMovement.cs" />
      <Compile Include="assets\Scripts\WorldTile.cs" />
+     <Compile Include="assets\SplashTranslation.cs" />
      <Compile Include="assets\imported assets\water (basic)\sources\Scripts\WaterSimple.cs" />
      <None Include="assets\imported assets\water (basic)\sources\Shaders\FX-Water Simple.shader" />
      <None Include="assets\Fonts\olympus\readme.txt" />

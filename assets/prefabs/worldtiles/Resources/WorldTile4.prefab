@@ -441,6 +441,7 @@ GameObject:
   - 114: {fileID: 11400002}
   - 65: {fileID: 6500000}
   - 114: {fileID: 11400000}
+  - 64: {fileID: 6400000}
   m_Layer: 0
   m_Name: WorldTile4
   m_TagString: Untagged
@@ -2664,6 +2665,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_Mesh: {fileID: 4300000, guid: 7567c36af6b92413fabbffd74ef05469, type: 3}
+--- !u!64 &6400000
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 1
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!65 &6500000
 BoxCollider:
   m_ObjectHideFlags: 1
