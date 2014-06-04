@@ -3,7 +3,6 @@ using System.Collections;
 
 public class AnimController : MonoBehaviour
 {
-
 		Animator[] animators;
 		// Use this for initialization
 		void Start ()
@@ -27,7 +26,7 @@ public class AnimController : MonoBehaviour
 		public void SetDeath (bool b)
 		{
 				foreach (Animator animator in animators) {
-						//animator.SetBool ("isDead", b);
+						animator.SetBool ("isDead", b);
 				}
 		}
 

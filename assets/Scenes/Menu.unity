@@ -104,13 +104,13 @@ GUIText:
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 45b2f7ab78be94e4ba84711aaca8c1a4, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 20
+  m_FontSize: 50
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4288028698
+    rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &69972173
@@ -148,19 +148,19 @@ GUIText:
   m_GameObject: {fileID: 399163138}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: 'Highscore: 9999'
+  m_Text: 'Longest Voyage: 9999miles'
   m_Anchor: 4
   m_Alignment: 1
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: 45b2f7ab78be94e4ba84711aaca8c1a4, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 0
-  m_FontStyle: 0
+  m_FontSize: 40
+  m_FontStyle: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4282664191
+    rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &399163140
@@ -295,7 +295,7 @@ GUIText:
   m_GameObject: {fileID: 1526672883}
   m_Enabled: 1
   serializedVersion: 3
-  m_Text: 'Score: 9999'
+  m_Text: 9999
   m_Anchor: 4
   m_Alignment: 1
   m_PixelOffset: {x: 0, y: 0}
@@ -307,7 +307,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4281037056
+    rgba: 4278190080
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &1526672885
@@ -351,13 +351,13 @@ GUIText:
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: e0d191bc4b9be4ff4a41ae71a2875137, type: 3}
   m_Material: {fileID: 0}
-  m_FontSize: 30
+  m_FontSize: 100
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4288028698
+    rgba: 4294967295
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &2047123996
@@ -395,7 +395,7 @@ GUITexture:
   m_GameObject: {fileID: 2115061567}
   m_Enabled: 1
   m_Texture: {fileID: 10400, guid: 0000000000000000e000000000000000, type: 0}
-  m_Color: {r: .5, g: .5, b: .5, a: .5}
+  m_Color: {r: .441176474, g: .441176474, b: .441176474, a: .501960814}
   m_PixelInset:
     serializedVersion: 2
     x: -64
@@ -413,7 +413,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2115061567}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .5, y: .5, z: 0}
+  m_LocalPosition: {x: .105022192, y: .164043427, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

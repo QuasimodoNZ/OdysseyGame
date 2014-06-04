@@ -40,10 +40,10 @@ public class GuiController : MonoBehaviour
 		// Update is called once per frame
 		void Update ()
 		{
-				hpGui.guiText.text = "HP: " + player.GetComponent<PlayerController> ().GetHpPercent () + "%";
+				hpGui.guiText.text = "" + player.GetComponent<PlayerController> ().GetHpPercent () + "%";
 				speedGui.guiText.text = "Speed: " + player.GetComponent<PlayerMovement> ().GetCurrentSpeedDisplay ();
 				manager.setScore (player.GetComponent<PlayerController> ().GetScore ());
-				scoreGui.guiText.text = "Score: " + manager.getScore ();
+				scoreGui.guiText.text = "" + manager.getScore ();
 				if (player.GetComponent<PlayerController> ().GetHpPercent () == 0) {
 						if (timeOfDeath != float.MaxValue && timeOfDeath < Time.realtimeSinceStartup - 5) {
 								Application.LoadLevel ("Menu");
