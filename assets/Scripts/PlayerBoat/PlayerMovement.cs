@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 		public float currentThrust = 0.01f;
 
 		// When player is dead
-		private bool sinking = false;
+		private bool isDead = false;
 
 		private GameObject gameController;
 
@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
-				if (sinking) {
+				if (isDead) {
 						return;
 				}
 
@@ -83,6 +83,6 @@ public class PlayerMovement : MonoBehaviour
 
 		public void SetSinking ()
 		{
-				sinking = true;
+				isDead = true;
 		}
 }
