@@ -544,11 +544,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caae94ec0d2416f479c78c8bb2ba8e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnRate: 1
+  turnRate: 1.29999995
   defaultMoveSpeed: .0199999996
   defaultAcceleration: 0
   collisionForce: 200
-  currentThrust: 10
+  currentThrust: 12
 --- !u!1 &56144754
 GameObject:
   m_ObjectHideFlags: 0
@@ -3059,6 +3059,18 @@ Prefab:
     - target: {fileID: 13600000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
       propertyPath: m_Radius
       value: 1.39999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: currentThrust
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: turnRate
+      value: 1.29999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 13600002, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6500000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
