@@ -5,7 +5,7 @@ using System.Collections;
  * Odyssey Game
  * 
  * Player Movement
- * Version: 0.13
+ * Version: 0.14.7
  * Author: Thomas Auberson
  * 
  * This script handles the movement controls of the player avatar
@@ -16,73 +16,80 @@ using System.Collections;
 public class PlayerMovement : MonoBehaviour
 {
 	
-		//public float turnAcceleration = 0.1; // Rate at which turning accelerates
-		public float turnRate = 1.0f; // Rate at which character turns
-		public float defaultMoveSpeed = 1.0f; // Default speed at which character moves
-		public float defaultAcceleration = 0.001f; // Default rate at which the character gradually accelerates throughout game
+	//public float turnAcceleration = 0.1; // Rate at which turning accelerates
+	public float turnRate = 1.0f; // Rate at which character turns
+	public float defaultMoveSpeed = 1.0f; // Default speed at which character moves
+	public float defaultAcceleration = 0.001f; // Default rate at which the character gradually accelerates throughout game
+
+	public int collisionForce = 200;
+	public float currentThrust = 0.01f;
 	
-		public float currentThrust = 0.01f;
-
-		// When player is dead
-		private bool sinking = false;
-
-		private GameObject gameController;
-
-
-		// Use this for initialization
-		void Start ()
-		{
-				gameController = GameObject.FindGameObjectWithTag (Tags.gameController);
-		}
+	// When player is dead
+	private bool sinking = false;
 	
-		// Update is called once per frame
-		void FixedUpdate ()
-		{
-				if (sinking) {
-						return;
-				}
-
-				float hInput = Input.GetAxis ("Horizontal"); 
-				//float vInput = Input.GetAxis ("Vertical");
+	private GameObject gameController;
+	
+	
+	// Use this for initialization
+	void Start ()
+	{
+		gameController = GameObject.FindGameObjectWithTag (Tags.gameController);
 		
-				// Roatation
-				float turnAmount = hInput * turnRate;
-				rigidbody.AddForceAtPosition (-transform.right * turnAmount, transform.position + transform.forward * -3);
-				//transform.Rotate (0, turnAmount, 0);
+	}
+	
+	// Update is called once per frame
+	void FixedUpdate ()
+	{
+		if (sinking) {
+			return;
+		}
 		
-				// Movement
-				// Currently movement is at a fixed speed
-				currentThrust += defaultAcceleration;
-				//transform.Translate (0, 0, currentSpeed);
-				rigidbody.AddForce (transform.forward * currentThrust);
-				
-				if (gameController.GetComponent<DebugScript> ().debug) {
-						Debug.DrawRay (transform.position, transform.forward * currentThrust);
-				}
+		float hInput = Input.GetAxis ("Horizontal"); 
+		//float vInput = Input.GetAxis ("Vertical");
+		
+		// Roatation
+		float turnAmount = hInput * turnRate;
+		rigidbody.AddForceAtPosition (-transform.right * turnAmount, transform.position + transform.up*(2) + transform.forward * -4);
+		//transform.Rotate (0, turnAmount, 0);
+		
+		// Movement
+		// Currently movement is at a fixed speed
+		currentThrust += defaultAcceleration;
+		//transform.Translate (0, 0, currentSpeed);
+		rigidbody.AddForce (transform.forward * currentThrust);
+		
+		if (gameController.GetComponent<DebugScript> ().debug) {
+			Debug.DrawRay (transform.position, transform.forward * currentThrust);
 		}
+	}
+	
+	// When Player collides with another game object...
+	void OnTriggerEnter (Collider other)
+	{
+		// Collision with Obstacle
+		if (other.gameObject.tag.Equals ("Obstacle")) {
+			Debug.Log ("PLAYER HIT");
 
-		// When Player collides with another game object...
-		void OnTriggerEnter (Collider other)
-		{
-				// Collision with Obstacle
-				if (other.gameObject.tag.Equals ("Obstacle")) {
-						Debug.Log ("PLAYER HIT");
-						gameObject.GetComponent<PlayerController> ().InflictDamage ((int)currentThrust);
-				}
-		}
 
-		public float GetCurrentSpeed ()
-		{
-				return currentThrust;
+			Vector3 forceVec = (transform.position - other.transform.position).normalized*collisionForce;
+			rigidbody.AddForce(forceVec,ForceMode.Acceleration);
+			
+			gameObject.GetComponent<PlayerController> ().InflictDamage ((int)GetCurrentSpeed());
 		}
-
-		public string GetCurrentSpeedDisplay ()
-		{
-				return currentThrust.ToString ("F1");
-		}
-
-		public void SetSinking ()
-		{
-				sinking = true;
-		}
+	}
+	
+	public float GetCurrentSpeed ()
+	{
+		return rigidbody.velocity.magnitude;
+	}
+	
+	public string GetCurrentSpeedDisplay ()
+	{
+		return GetCurrentSpeed().ToString ("F1");
+	}
+	
+	public void SetSinking ()
+	{
+		sinking = true;
+	}
 }

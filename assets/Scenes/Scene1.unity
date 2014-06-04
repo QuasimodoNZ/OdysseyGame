@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1db282063b3aa646b67e2af74f1e4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHp: 30
+  startingHp: 50
 --- !u!65 &316351987
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -708,6 +708,7 @@ MonoBehaviour:
   turnRate: 1
   defaultMoveSpeed: .0199999996
   defaultAcceleration: 0
+  collisionForce: 200
   currentThrust: 5
 --- !u!1 &389412169
 GameObject:
@@ -837,7 +838,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &427608159
 Transform:
   m_ObjectHideFlags: 0
@@ -1451,7 +1452,16 @@ MonoBehaviour:
   INITIAL_MAP_DIMENSIONS: 4
   BLANK_MAP_TILE_TYPE_NUM: 0
   SCALE: 50
-  NUM_TILE_TYPES: 5
+  difficultyScale: 1000
+  maxDifficulty: 2
+  tileTypesT1: []
+  tileTypesT2: []
+  tileTypesT3: []
+  tileTypesT4: []
+  NUM_TILE_TYPES_T1: 2
+  NUM_TILE_TYPES_T2: 3
+  NUM_TILE_TYPES_T3: 0
+  NUM_TILE_TYPES_T4: 0
 --- !u!4 &927856708
 Transform:
   m_ObjectHideFlags: 0
