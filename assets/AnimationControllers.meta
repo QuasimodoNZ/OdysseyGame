@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 599dab4a0062b0b468dd61ad7e0582e6
+=======
+guid: d16ce240e9ba841689cbd0bd36216e64
+>>>>>>> feature/Importing_new_boat
 folderAsset: yes
 DefaultImporter:
   userData: 
