@@ -17,7 +17,7 @@ public class AnimController : MonoBehaviour
 				foreach (Animator animator in animators) {
 
 						//if (animator.tag// TODO implements the use of tags .GetFloat ("healthPercentage") != null) {
-						animator.SetFloat ("healthPercentage", percentage);
+						//animator.SetFloat ("healthPercentage", percentage);
 						//}
 				}
 				if (percentage <= 0) {
@@ -27,7 +27,7 @@ public class AnimController : MonoBehaviour
 		public void SetDeath (bool b)
 		{
 				foreach (Animator animator in animators) {
-						animator.SetBool ("isDead", b);
+						//animator.SetBool ("isDead", b);
 				}
 		}
 

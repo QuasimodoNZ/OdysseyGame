@@ -22,7 +22,7 @@ public class LurePlayer : MonoBehaviour
 	{
 		// Collision with Obstacle
 		if (other.gameObject.tag.Equals ("Player")) {
-			Debug.Log ("LURING PLAYER");			
+			//Debug.Log ("LURING PLAYER");			
 			
 			Vector3 forceVec = (transform.position - other.transform.position).normalized * lureForce;
 			other.rigidbody.AddForce (forceVec);//, ForceMode.Acceleration);			
