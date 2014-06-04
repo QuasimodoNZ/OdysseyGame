@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class LurePlayer : MonoBehaviour {
+public class LurePlayer : MonoBehaviour
+{
 
-	public int lureForce = 100;
+	public float lureForce = 0.01f;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 	
 	}
 
@@ -21,8 +24,8 @@ public class LurePlayer : MonoBehaviour {
 		if (other.gameObject.tag.Equals ("Player")) {
 			Debug.Log ("LURING PLAYER");			
 			
-			Vector3 forceVec = (transform.position - other.transform.position).normalized*lureForce;
-			other.rigidbody.AddForce(forceVec,ForceMode.Acceleration);			
+			Vector3 forceVec = (transform.position - other.transform.position).normalized * lureForce;
+			other.rigidbody.AddForce (forceVec);//, ForceMode.Acceleration);			
 
 		}
 	}
