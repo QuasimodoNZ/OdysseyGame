@@ -24,7 +24,7 @@ Material:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 301500224f0664ee285391e0ac886465, type: 3}
+          m_Texture: {fileID: 2800000, guid: 01807c4b27f8a0143a17da63553a67ab, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -72,12 +72,12 @@ Material:
     m_Floats:
       data:
         first:
-          name: _WaveScale
-        second: .0702830181
-      data:
-        first:
           name: _Shininess
         second: 1
+      data:
+        first:
+          name: _WaveScale
+        second: .0702830181
       data:
         first:
           name: _Highlight
@@ -113,8 +113,12 @@ Material:
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
+          name: _SpecColor
+        second: {r: 0, g: 0, b: 0, a: .400000006}
+      data:
+        first:
           name: _horizonColor
-        second: {r: .165530786, g: .241492584, b: .381818175, a: 0}
+        second: {r: .607843161, g: .607843161, b: .607843161, a: 0}
       data:
         first:
           name: _ColorControl_ST
@@ -131,10 +135,6 @@ Material:
         first:
           name: WaveSpeed
         second: {r: 9, g: 4.5, b: -8, a: -3.5}
-      data:
-        first:
-          name: _SpecColor
-        second: {r: 0, g: 0, b: 0, a: .400000006}
       data:
         first:
           name: BumpParm
