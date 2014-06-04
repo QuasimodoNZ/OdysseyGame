@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temp: .100000001
-  floatHeight: 1
+  floatHeight: .25
   buoyancyCentreOffset: {x: 0, y: -.200000003, z: -3}
   bounceDamp: 0
   debugSphere: {fileID: 0}
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temp: .100000001
-  floatHeight: 1
+  floatHeight: .25
   buoyancyCentreOffset: {x: 0, y: -.200000003, z: 3}
   bounceDamp: 0
   debugSphere: {fileID: 0}
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d653d491c0c4fa59ab1ca76d65ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatHeight: 1
+  floatHeight: .25
   buoyancyCentreOffset: {x: 0, y: .5, z: -3}
   bounceDamp: .25
   debugSphere: {fileID: 0}
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d653d491c0c4fa59ab1ca76d65ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatHeight: 1
+  floatHeight: .25
   buoyancyCentreOffset: {x: 0, y: .5, z: 3}
   bounceDamp: .25
   debugSphere: {fileID: 0}
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d653d491c0c4fa59ab1ca76d65ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatHeight: 1
+  floatHeight: .25
   buoyancyCentreOffset: {x: -1.5, y: .5, z: 0}
   bounceDamp: .25
   debugSphere: {fileID: 0}
@@ -485,7 +485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76d653d491c0c4fa59ab1ca76d65ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatHeight: 1
+  floatHeight: .25
   buoyancyCentreOffset: {x: 1.5, y: .5, z: 0}
   bounceDamp: .25
   debugSphere: {fileID: 0}
@@ -3028,6 +3028,7 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ab8b01fe005b048d998466feb0d45e05, type: 2}
+<<<<<<< HEAD
     - target: {fileID: 100058, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
       propertyPath: m_IsActive
       value: 1
@@ -3074,6 +3075,37 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6500000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+=======
+    - target: {fileID: 11400010, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: floatHeight
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: floatHeight
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: floatHeight
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: floatHeight
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400014, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: floatHeight
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400012, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: floatHeight
+      value: .25
+      objectReference: {fileID: 0}
+    - target: {fileID: 400108, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+>>>>>>> feature/Tweaking_of_the_boat_physics
   m_ParentPrefab: {fileID: 100100000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
   m_RootGameObject: {fileID: 44866980}
   m_IsPrefabParent: 0
@@ -7517,8 +7549,13 @@ Transform:
   m_PrefabParentObject: {fileID: 400108, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
   m_PrefabInternal: {fileID: 548855782}
   m_GameObject: {fileID: 1405206588}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: .70710665, z: 0, w: -.707107008}
   m_LocalPosition: {x: 1.74151087, y: 4.55222702, z: 11.2104168}
+=======
+  m_LocalRotation: {x: 0, y: .70710659, z: 0, w: -.707106948}
+  m_LocalPosition: {x: 1.84000003, y: 4, z: 11.71}
+>>>>>>> feature/Tweaking_of_the_boat_physics
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 761262649}
