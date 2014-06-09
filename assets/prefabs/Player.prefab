@@ -16756,7 +16756,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100194}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.92182016, y: 0, z: .159027442}
+  m_LocalPosition: {x: -4.51165295, y: 0, z: .0362944603}
   m_LocalScale: {x: 2.80428481, y: 2.80428481, z: .505967259}
   m_Children: []
   m_Father: {fileID: 400186}
@@ -17363,7 +17363,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100296}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.92182016, y: 0, z: .159027442}
+  m_LocalPosition: {x: -3.92181873, y: 0, z: .0615403652}
   m_LocalScale: {x: 2.80428481, y: 2.80428481, z: .505967259}
   m_Children: []
   m_Father: {fileID: 400162}
@@ -21321,7 +21321,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100964}
-  m_LocalRotation: {x: .547495008, y: 0, z: 0, w: .83680898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -.833046734, y: 1.16767597, z: .374225914}
   m_LocalScale: {x: 11.4776611, y: 11.477663, z: 11.4776621}
   m_Children:
@@ -24585,8 +24585,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101506}
-  m_LocalRotation: {x: .280213058, y: .470352441, z: -.718901813, w: .428286701}
-  m_LocalPosition: {x: .615384698, y: 1.33507156, z: .959995925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .13583748, y: 5.93527222, z: -.345516294}
   m_LocalScale: {x: 11.4776611, y: 11.4776611, z: 11.4776611}
   m_Children:
   - {fileID: 401508}
@@ -30172,7 +30172,7 @@ Animator:
   m_GameObject: {fileID: 100426}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30186,7 +30186,7 @@ Animator:
   m_GameObject: {fileID: 100964}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30200,7 +30200,7 @@ Animator:
   m_GameObject: {fileID: 100966}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30214,7 +30214,7 @@ Animator:
   m_GameObject: {fileID: 101504}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30228,7 +30228,7 @@ Animator:
   m_GameObject: {fileID: 101506}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30242,7 +30242,7 @@ Animator:
   m_GameObject: {fileID: 102044}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30261,7 +30261,7 @@ MonoBehaviour:
   turnRate: 4
   defaultMoveSpeed: .0199999996
   defaultAcceleration: .00100000005
-  collisionForce: 100
+  collisionForce: 500
   currentThrust: 15
 --- !u!114 &11400002
 MonoBehaviour:
@@ -30274,7 +30274,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1db282063b3aa646b67e2af74f1e4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHp: 30
+  startingHp: 50
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
