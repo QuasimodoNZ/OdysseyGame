@@ -53,6 +53,9 @@ public class PlayerController : MonoBehaviour
 	{
 		return hp;
 	}
+	public void SetHp(int hp2) {
+		hp = hp2;
+	}
 
 	public int GetHpPercent ()
 	{	// Get HP as an integer percentage of full hp

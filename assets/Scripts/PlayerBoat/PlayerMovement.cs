@@ -76,7 +76,14 @@ public class PlayerMovement : MonoBehaviour
 			gameObject.GetComponent<PlayerController> ().InflictDamage ((int)GetCurrentSpeed ());
 		}
 	}
-	
+
+	public float getCurrentThrust() {
+		return currentThrust;
+	}
+	public void setCurrentThrust(float thrust) {
+		currentThrust = thrust;
+	}
+
 	public float GetCurrentSpeed ()
 	{
 		return rigidbody.velocity.magnitude;
