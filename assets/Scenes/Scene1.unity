@@ -18118,6 +18118,50 @@ Transform:
   m_Children:
   - {fileID: 1995251284}
   m_Father: {fileID: 358591174}
+--- !u!1 &637645475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 637645476}
+  - 114: {fileID: 637645477}
+  m_Layer: 0
+  m_Name: Compass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &637645476
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 637645475}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70, y: 70, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1649689350}
+--- !u!114 &637645477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 637645475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cfdaf9b2381543f08959014fc8855f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  compass: {fileID: 2800000, guid: f924828744b1f484b9c4b91c905ec879, type: 3}
+  pointer: {fileID: 2800000, guid: 8516b813e98384227803a0b6a92ba9f2, type: 3}
+  angle: 0
+  size: {x: 128, y: 128}
+  moves: 1
+  boat: {fileID: 44866980}
 --- !u!1 &637704461
 GameObject:
   m_ObjectHideFlags: 0
@@ -47058,6 +47102,7 @@ Transform:
   m_LocalPosition: {x: .0883951187, y: 4.53630733, z: -1.1175499}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 637645476}
   - {fileID: 1905071934}
   - {fileID: 124598815}
   - {fileID: 1053701057}
@@ -55015,7 +55060,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1905071933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .0122871995, y: -3.6272006, z: 0}
+  m_LocalPosition: {x: .850000024, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1649689350}
@@ -55028,8 +55073,8 @@ GUIText:
   m_Enabled: 1
   serializedVersion: 3
   m_Text: 100%
-  m_Anchor: 8
-  m_Alignment: 2
+  m_Anchor: 4
+  m_Alignment: 1
   m_PixelOffset: {x: 0, y: 0}
   m_LineSpacing: 1
   m_TabSize: 4
