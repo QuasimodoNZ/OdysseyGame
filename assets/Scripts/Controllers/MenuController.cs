@@ -30,11 +30,11 @@ public class MenuController : MonoBehaviour {
 			if (manager.getScore () > PlayerPrefs.GetInt ("HiScore")) {
 				PlayerPrefs.SetInt("HiScore", manager.getScore());
 			}
-			highScoreLbl.guiText.text = "Highscore: "+PlayerPrefs.GetInt ("HiScore");
+			highScoreLbl.guiText.text = "Longest Odyssey: "+PlayerPrefs.GetInt ("HiScore");
 		}
 		// Update is called once per frame
 		void Update () {
-			camera2.transform.Rotate(0,Time.deltaTime*speed,0);
+			//camera2.transform.Rotate(0,Time.deltaTime*speed,0);
 			if(Input.GetKeyDown("space")){
 			    Application.LoadLevel("Scene1");
 			}
