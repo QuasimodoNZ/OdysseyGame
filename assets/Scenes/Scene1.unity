@@ -7827,15 +7827,15 @@ Light:
   m_Enabled: 1
   serializedVersion: 3
   m_Type: 1
-  m_Color: {r: .595588207, g: .628600419, b: .75, a: 1}
-  m_Intensity: .839999974
+  m_Color: {r: .645943224, g: .647058845, b: .566176474, a: 1}
+  m_Intensity: 1.33000004
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: -1
-    m_Strength: 1
+    m_Strength: .714999974
     m_Bias: 0
     m_Softness: 3.03999996
     m_SoftnessFade: 1.82000005
@@ -7859,8 +7859,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 389412169}
-  m_LocalRotation: {x: .608761489, y: 0, z: 0, w: .793353379}
-  m_LocalPosition: {x: -32.1319275, y: 1117.20789, z: -25.7145309}
+  m_LocalRotation: {x: .98488611, y: -.03936987, z: -.0180438012, w: .167701796}
+  m_LocalPosition: {x: 0, y: 18.2822037, z: -38.3764992}
   m_LocalScale: {x: 2.05310535, y: 2.05310535, z: 2.05310535}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16239,8 +16239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSmooth: 1
   turningSmooth: 1
-  targetDistanceOffset: 10
-  cameraHeightOffset: 1
+  targetDistanceOffset: 6
+  cameraHeightOffset: 4
 --- !u!82 &966847685
 AudioSource:
   m_ObjectHideFlags: 0
