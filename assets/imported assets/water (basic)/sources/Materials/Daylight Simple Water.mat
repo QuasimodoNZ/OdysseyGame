@@ -106,7 +106,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .536764741, g: .528381228, b: .481509537, a: 1}
+        second: {r: .485294104, g: .485294104, b: .485294104, a: 1}
       data:
         first:
           name: _MainTex_ST
@@ -114,7 +114,7 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .426470578, g: .426470578, b: .426470578, a: .400000006}
+        second: {r: .970588207, g: .926193178, b: .677984416, a: .400000006}
       data:
         first:
           name: _horizonColor
