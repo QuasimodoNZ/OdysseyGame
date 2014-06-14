@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="assets\CirceController.cs" />
+     <Compile Include="assets\CirceProjectile.cs" />
      <Compile Include="assets\Scripts\Controllers\AnimController.cs" />
      <Compile Include="assets\Scripts\Controllers\CameraScript.cs" />
      <Compile Include="assets\Scripts\Controllers\GuiController.cs" />

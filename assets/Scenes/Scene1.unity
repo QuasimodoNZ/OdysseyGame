@@ -15496,7 +15496,7 @@ MonoBehaviour:
   SCALE: 50
   depthTier1: 0
   depthTier2: 5
-  depthTier3: 12
+  depthTier3: 10
   difficultyScale: 1000
   maxDifficulty: 3
   tileTypesT1: []
@@ -15504,8 +15504,8 @@ MonoBehaviour:
   tileTypesT3: []
   tileTypesT4: []
   NUM_TILE_TYPES_T1: 5
-  NUM_TILE_TYPES_T2: 4
-  NUM_TILE_TYPES_T3: 2
+  NUM_TILE_TYPES_T2: 5
+  NUM_TILE_TYPES_T3: 1
   NUM_TILE_TYPES_T4: 1
 --- !u!4 &927856708
 Transform:
@@ -23972,6 +23972,7 @@ MonoBehaviour:
   healSpeed: 200
   healingHoleHealAmount: 25
   cyclopsClubDamage: 20
+  circeAttackDamage: 5
 --- !u!54 &1383449207
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -25544,6 +25545,10 @@ Prefab:
     - target: {fileID: 11400002, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
       propertyPath: healingHoleHealAmount
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: circeAttackDamage
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}

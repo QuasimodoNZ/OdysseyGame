@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
 	
 	// Damage
 	public int cyclopsClubDamage = 20;
+	public int circeAttackDamage = 10;
 	
 	// Score
 	private int score = 0; // Player's current
@@ -89,6 +90,10 @@ public class PlayerController : MonoBehaviour
 	
 	public void CyclopsClubDamage(){
 		InflictDamage (cyclopsClubDamage);
+	}
+
+	public void CirceAttackDamage(){
+		InflictDamage (circeAttackDamage);
 	}
 	
 	public void HealingHoleEffect(){
