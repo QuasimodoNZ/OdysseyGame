@@ -1419,7 +1419,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400186}
   - 65: {fileID: 6500004}
-  - 136: {fileID: 13600000}
   m_Layer: 0
   m_Name: Collider4
   m_TagString: Obstacle
@@ -1452,7 +1451,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400190}
   - 65: {fileID: 6500002}
-  - 136: {fileID: 13600004}
   m_Layer: 0
   m_Name: Collider3
   m_TagString: Obstacle
@@ -2304,7 +2302,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 220.705612, y: 964.160522, z: -416.776031}
+  m_LocalPosition: {x: 705.21582, y: 824.615967, z: 461.992432}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 400194}
@@ -2906,19 +2904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f01801f484af3470d91b340ad0f4fb4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &13600000
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100186}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: .200000003
-  m_Height: 3
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &13600002
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2931,19 +2916,6 @@ CapsuleCollider:
   m_Radius: .200000003
   m_Height: 2.29999995
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!136 &13600004
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100190}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: .200000003
-  m_Height: 2.29999995
-  m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!137 &13700000
 SkinnedMeshRenderer:

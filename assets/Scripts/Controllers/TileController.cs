@@ -29,9 +29,14 @@ public class TileController : MonoBehaviour {
 	public int BLANK_MAP_TILE_TYPE_NUM = 0; // The Tile Type Number for a blank tile of water (Will be used for starting tile)
 	public int SCALE = 50; // Size of tiles
 
+	// Depth (distance into game) at which tiles of level 1,2 & 3 start spawining
+	public int depthTier1 = 0;
+	public int depthTier2 = 5;
+	public int depthTier3 = 15;
+
 	// Difficulty
 	public int difficultyScale = 100;
-	public int maxDifficulty = 2;
+	public int maxDifficulty = 3;
 
 	// VARIABLES
 	private Map map;
@@ -81,7 +86,42 @@ public class TileController : MonoBehaviour {
 	}
 	
 	public int GenerateTileType(int depth){
+		//Debug.Log (depth);
+
+		// Generate a tile difficulty tier
+		int dice = random.Next (10);
 		int difTier;
+		if (dice <= 1)
+			return 0;
+		else if (dice <= 5)
+			difTier = 1;
+		else if (dice <= 8)
+			difTier = 2;
+		else
+			difTier = 3;
+
+		// Scale tier difficulty for depth (distance travelled into world)
+		if (depth <= depthTier1) {
+			difTier -= 3;
+			if(difTier<0)
+				difTier = 0;
+		}
+		else if( (depth <= depthTier2) && (difTier>1))
+			difTier -= 2;
+		else if( (depth <= depthTier3) && (difTier>2))
+			difTier -= 1;
+
+		// Generate a tile number
+		if (difTier==1)
+			return random.Next (NUM_TILE_TYPES_T1)+100;
+		if (difTier==2)
+			return random.Next (NUM_TILE_TYPES_T2)+200;
+		if (difTier==3)
+			return random.Next (NUM_TILE_TYPES_T3)+300;
+		else
+			return 0;
+
+		/*int difTier;
 		int dice = random.Next (4);
 		if (dice == 1)
 			difTier = 0;
@@ -103,6 +143,7 @@ public class TileController : MonoBehaviour {
 			return random.Next (NUM_TILE_TYPES_T4) + 400;
 		else
 			return 0;
+			*/
 	}
 	
 	public GameObject GetTileByTypeNum(int typeNum){

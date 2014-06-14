@@ -15494,15 +15494,18 @@ MonoBehaviour:
   INITIAL_MAP_DIMENSIONS: 4
   BLANK_MAP_TILE_TYPE_NUM: 0
   SCALE: 50
+  depthTier1: 0
+  depthTier2: 5
+  depthTier3: 12
   difficultyScale: 1000
-  maxDifficulty: 2
+  maxDifficulty: 3
   tileTypesT1: []
   tileTypesT2: []
   tileTypesT3: []
   tileTypesT4: []
-  NUM_TILE_TYPES_T1: 3
-  NUM_TILE_TYPES_T2: 5
-  NUM_TILE_TYPES_T3: 1
+  NUM_TILE_TYPES_T1: 5
+  NUM_TILE_TYPES_T2: 4
+  NUM_TILE_TYPES_T3: 2
   NUM_TILE_TYPES_T4: 1
 --- !u!4 &927856708
 Transform:
@@ -23966,7 +23969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHp: 50
-  healSpeed: 100
+  healSpeed: 200
   healingHoleHealAmount: 25
   cyclopsClubDamage: 20
 --- !u!54 &1383449207
@@ -25536,7 +25539,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
       propertyPath: healSpeed
-      value: 100
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
       propertyPath: healingHoleHealAmount
