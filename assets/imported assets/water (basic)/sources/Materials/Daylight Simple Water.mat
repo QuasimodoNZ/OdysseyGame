@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Daylight Simple Water
-  m_Shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 9dccc8e8f0da4494991c26ef59019551, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: fb1455fa8efb84d5c876c3af1b226db6, type: 3}
+          m_Texture: {fileID: 2800000, guid: 42e20f914bee24fac94cb28abd7a42c8, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -106,7 +106,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .485294104, g: .485294104, b: .485294104, a: 1}
+        second: {r: .446042359, g: .465803593, b: .485294104, a: 1}
       data:
         first:
           name: _MainTex_ST
@@ -114,11 +114,11 @@ Material:
       data:
         first:
           name: _SpecColor
-        second: {r: .970588207, g: .926193178, b: .677984416, a: .400000006}
+        second: {r: .33088237, g: .317224264, b: .240862906, a: .400000006}
       data:
         first:
           name: _horizonColor
-        second: {r: .607843161, g: .607843161, b: .607843161, a: 0}
+        second: {r: .232482702, g: .260765433, b: .316176474, a: 0}
       data:
         first:
           name: _ColorControl_ST

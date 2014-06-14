@@ -68,7 +68,7 @@ GameObject:
   - 114: {fileID: 11400006}
   - 64: {fileID: 6400000}
   m_Layer: 0
-  m_Name: WorldTile4
+  m_Name: WorldTile4_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
