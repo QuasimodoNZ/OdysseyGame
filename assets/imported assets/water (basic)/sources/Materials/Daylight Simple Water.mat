@@ -24,7 +24,7 @@ Material:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: ccc39812dba574ce2bff01ceff929e5d, type: 3}
+          m_Texture: {fileID: 2800000, guid: a53cf5449d11a15d1100a04b44295342, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -118,7 +118,7 @@ Material:
       data:
         first:
           name: _horizonColor
-        second: {r: .232482702, g: .260765433, b: .316176474, a: 0}
+        second: {r: .283737004, g: .293398738, b: .301470578, a: 0}
       data:
         first:
           name: _ColorControl_ST
