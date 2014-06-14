@@ -885,7 +885,7 @@ GameObject:
   - 95: {fileID: 9500002}
   m_Layer: 0
   m_Name: RightRudder
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,7 +931,7 @@ GameObject:
   - 95: {fileID: 9500004}
   m_Layer: 0
   m_Name: RightOars
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1011,7 +1011,7 @@ GameObject:
   - 95: {fileID: 9500006}
   m_Layer: 0
   m_Name: LeftOars
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1234,7 +1234,7 @@ GameObject:
   - 95: {fileID: 9500010}
   m_Layer: 0
   m_Name: FrontRight
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1295,7 +1295,7 @@ GameObject:
   - 95: {fileID: 9500012}
   m_Layer: 0
   m_Name: ShieldsLeft
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1484,7 +1484,7 @@ GameObject:
   - 95: {fileID: 9500014}
   m_Layer: 0
   m_Name: ShieldsRight
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1690,7 +1690,7 @@ GameObject:
   - 95: {fileID: 9500016}
   m_Layer: 0
   m_Name: FrontMast
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2010,7 +2010,7 @@ GameObject:
   - 95: {fileID: 9500020}
   m_Layer: 0
   m_Name: CowCatcher
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2088,7 +2088,7 @@ GameObject:
   - 95: {fileID: 9500024}
   m_Layer: 0
   m_Name: BackKoru
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2121,7 +2121,7 @@ GameObject:
   - 95: {fileID: 9500026}
   m_Layer: 0
   m_Name: FrontKoru
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3077,7 +3077,7 @@ GameObject:
   - 95: {fileID: 9500000}
   m_Layer: 0
   m_Name: MastNEW
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3160,8 +3160,8 @@ GameObject:
   - 4: {fileID: 400400}
   - 95: {fileID: 9500008}
   m_Layer: 0
-  m_Name: FrontLeftPieceNEW
-  m_TagString: Untagged
+  m_Name: FrontLeftPiece
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3380,7 +3380,7 @@ GameObject:
   - 95: {fileID: 9500028}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7426,7 +7426,7 @@ GameObject:
   - 95: {fileID: 9500030}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7442,7 +7442,7 @@ GameObject:
   - 95: {fileID: 9500032}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11488,7 +11488,7 @@ GameObject:
   - 95: {fileID: 9500034}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11504,7 +11504,7 @@ GameObject:
   - 95: {fileID: 9500036}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15550,7 +15550,7 @@ GameObject:
   - 95: {fileID: 9500038}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15644,7 +15644,7 @@ GameObject:
   - 95: {fileID: 9500040}
   m_Layer: 0
   m_Name: LeftRudder
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15727,8 +15727,8 @@ GameObject:
   - 4: {fileID: 402066}
   - 95: {fileID: 9500042}
   m_Layer: 0
-  m_Name: FrontEndNEW
-  m_TagString: Untagged
+  m_Name: FrontEnd
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15777,8 +15777,8 @@ GameObject:
   - 4: {fileID: 402072}
   - 95: {fileID: 9500044}
   m_Layer: 0
-  m_Name: BackEndNEW
-  m_TagString: Untagged
+  m_Name: BackEnd
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30779,7 +30779,7 @@ Animator:
   m_GameObject: {fileID: 100390}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2f9d8af29269c41f5abeeadf346b1825, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2818bd8959f484a69b0a404c015810e2, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -30835,7 +30835,7 @@ Animator:
   m_GameObject: {fileID: 100400}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c1342b18220ab438997c1279df3498b7, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb0d4c67e79eb4b0d930ae8940f55942, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -31005,7 +31005,7 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: f2fd43ddac3294bbeb7d09ee3a1b9883, type: 3}
   m_Controller: {fileID: 9100000, guid: 7e7d389b32628d841b189981d5ca7edb, type: 2}
   m_CullingMode: 1
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!95 &9500034
@@ -31059,7 +31059,7 @@ Animator:
   m_GameObject: {fileID: 102056}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3cf1d41b7b35f45b5a5fbcfbade7eeba, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8acec145a76ab42ee9ed76711329168d, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -31073,7 +31073,7 @@ Animator:
   m_GameObject: {fileID: 102066}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2c8b7c151cfdf480fbf033770bf4a248, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: afa4becd4970b4438ae6323648729c39, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -31087,7 +31087,7 @@ Animator:
   m_GameObject: {fileID: 102072}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e35e0ba049a684ddeb13b124d0c430ca, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7bd3c5755b0bd40b7a63b2c020c2c526, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
