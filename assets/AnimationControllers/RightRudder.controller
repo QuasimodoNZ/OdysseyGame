@@ -8,9 +8,9 @@ AnimatorController:
   m_Name: RightRudder
   serializedVersion: 2
   m_AnimatorParameters:
-  - m_Name: isDead
-    m_Type: 4
-    m_DefaultFloat: 0
+  - m_Name: health
+    m_Type: 1
+    m_DefaultFloat: 1
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
@@ -37,8 +37,8 @@ Transition:
   m_TransitionDuration: .100000001
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isDead
+  - m_ConditionMode: 4
+    m_ConditionEvent: health
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1

@@ -8,8 +8,9 @@ TagManager:
   - WaveFunction
   - AnimationController
   - Shield
-  - 
+  - HealthListener
   - Gui
+  - CrewMember
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

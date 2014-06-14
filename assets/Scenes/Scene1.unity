@@ -4044,7 +4044,7 @@ GameObject:
   - 95: {fileID: 175772446}
   m_Layer: 0
   m_Name: ShieldsLeft
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4735,7 +4735,7 @@ GameObject:
   - 95: {fileID: 214339861}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5411,8 +5411,8 @@ GameObject:
   - 4: {fileID: 252860160}
   - 95: {fileID: 252860161}
   m_Layer: 0
-  m_Name: FrontEndNEW
-  m_TagString: Untagged
+  m_Name: FrontEnd
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5442,7 +5442,7 @@ Animator:
   m_GameObject: {fileID: 252860159}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2c8b7c151cfdf480fbf033770bf4a248, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: afa4becd4970b4438ae6323648729c39, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5832,7 +5832,7 @@ GameObject:
   - 95: {fileID: 281150151}
   m_Layer: 0
   m_Name: MastNEW
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5880,7 +5880,7 @@ Animator:
   m_GameObject: {fileID: 281150149}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 2f9d8af29269c41f5abeeadf346b1825, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2818bd8959f484a69b0a404c015810e2, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -7215,7 +7215,7 @@ GameObject:
   - 95: {fileID: 358591175}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7448,7 +7448,7 @@ GameObject:
   - 95: {fileID: 371021687}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7930,7 +7930,7 @@ GameObject:
   - 95: {fileID: 399097500}
   m_Layer: 0
   m_Name: RightRudder
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9288,7 +9288,7 @@ GameObject:
   - 95: {fileID: 503244058}
   m_Layer: 0
   m_Name: LeftOars
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12960,7 +12960,7 @@ GameObject:
   - 95: {fileID: 745481365}
   m_Layer: 0
   m_Name: BackKoru
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15004,7 +15004,7 @@ GameObject:
   - 95: {fileID: 887653837}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19148,6 +19148,122 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100964, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: CrewMember
+      objectReference: {fileID: 0}
+    - target: {fileID: 101504, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: CrewMember
+      objectReference: {fileID: 0}
+    - target: {fileID: 100426, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: CrewMember
+      objectReference: {fileID: 0}
+    - target: {fileID: 102044, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: CrewMember
+      objectReference: {fileID: 0}
+    - target: {fileID: 100966, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: CrewMember
+      objectReference: {fileID: 0}
+    - target: {fileID: 101506, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: CrewMember
+      objectReference: {fileID: 0}
+    - target: {fileID: 102072, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Name
+      value: BackEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 102066, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Name
+      value: FrontEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 100400, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Name
+      value: FrontLeftPiece
+      objectReference: {fileID: 0}
+    - target: {fileID: 100162, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 102066, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100390, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100110, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100126, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100264, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100254, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100268, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100186, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100154, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 102072, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100116, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100212, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 102056, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 100400, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_TagString
+      value: HealthListener
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500044, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7bd3c5755b0bd40b7a63b2c020c2c526, type: 2}
+    - target: {fileID: 9500042, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: afa4becd4970b4438ae6323648729c39, type: 2}
+    - target: {fileID: 9500008, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: eb0d4c67e79eb4b0d930ae8940f55942, type: 2}
+    - target: {fileID: 9500040, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8acec145a76ab42ee9ed76711329168d, type: 2}
+    - target: {fileID: 9500000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2818bd8959f484a69b0a404c015810e2, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
   m_RootGameObject: {fileID: 44866980}
@@ -20898,7 +21014,7 @@ GameObject:
   - 95: {fileID: 1220618795}
   m_Layer: 0
   m_Name: CowCatcher
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21812,7 +21928,7 @@ GameObject:
   - 95: {fileID: 1277553512}
   m_Layer: 0
   m_Name: FrontKoru
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22893,7 +23009,7 @@ GameObject:
   - 95: {fileID: 1343854116}
   m_Layer: 0
   m_Name: ShieldsRight
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25961,7 +26077,7 @@ GameObject:
   - 95: {fileID: 1535944115}
   m_Layer: 0
   m_Name: FrontRight
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26683,7 +26799,7 @@ GameObject:
   - 95: {fileID: 1568231786}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28845,7 +28961,7 @@ GameObject:
   - 95: {fileID: 1685368631}
   m_Layer: 0
   m_Name: litteman
-  m_TagString: Untagged
+  m_TagString: CrewMember
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31215,8 +31331,8 @@ GameObject:
   - 4: {fileID: 1771262502}
   - 95: {fileID: 1771262503}
   m_Layer: 0
-  m_Name: BackEndNEW
-  m_TagString: Untagged
+  m_Name: BackEnd
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31244,7 +31360,7 @@ Animator:
   m_GameObject: {fileID: 1771262501}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e35e0ba049a684ddeb13b124d0c430ca, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7bd3c5755b0bd40b7a63b2c020c2c526, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -33271,7 +33387,7 @@ GameObject:
   - 95: {fileID: 1921878351}
   m_Layer: 0
   m_Name: RightOars
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33428,7 +33544,7 @@ GameObject:
   - 95: {fileID: 1930480626}
   m_Layer: 0
   m_Name: FrontMast
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34795,7 +34911,7 @@ GameObject:
   - 95: {fileID: 2017561226}
   m_Layer: 0
   m_Name: LeftRudder
-  m_TagString: Untagged
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34822,7 +34938,7 @@ Animator:
   m_GameObject: {fileID: 2017561224}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3cf1d41b7b35f45b5a5fbcfbade7eeba, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8acec145a76ab42ee9ed76711329168d, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -36577,8 +36693,8 @@ GameObject:
   - 4: {fileID: 2121938897}
   - 95: {fileID: 2121938898}
   m_Layer: 0
-  m_Name: FrontLeftPieceNEW
-  m_TagString: Untagged
+  m_Name: FrontLeftPiece
+  m_TagString: HealthListener
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36606,7 +36722,7 @@ Animator:
   m_GameObject: {fileID: 2121938896}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c1342b18220ab438997c1279df3498b7, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb0d4c67e79eb4b0d930ae8940f55942, type: 2}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0

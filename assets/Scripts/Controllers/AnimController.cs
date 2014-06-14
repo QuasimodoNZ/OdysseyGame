@@ -28,5 +28,10 @@ public class AnimController : MonoBehaviour
 				foreach (Animator animator in animators) {
 						animator.SetFloat ("health", -1f);
 				}
+				foreach (GameObject crew in GameObject.FindGameObjectsWithTag(Tags.crew)) {
+						crew.AddComponent<Rigidbody> ();	
+						crew.GetComponent<Animator> ().SetInteger ("stance", Random.Range (1, 3));
+
+				}
 		}
 }
