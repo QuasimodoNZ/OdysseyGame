@@ -20,16 +20,17 @@ public class PlayerMovement : MonoBehaviour
 	public float turnRate = 1.0f; // Rate at which character turns
 	public float defaultMoveSpeed = 1.0f; // Default speed at which character moves
 	public float defaultAcceleration = 0.001f; // Default rate at which the character gradually accelerates throughout game
-
+	
 	public int collisionForce = 200;
+	public int pushForce = 20;
 	public float currentThrust = 0.01f;
-
+	
 	// When player is dead
 	private bool isDead = false;
-
+	
 	private GameObject gameController;
-
-
+	
+	
 	// Use this for initialization
 	void Start ()
 	{
@@ -68,12 +69,26 @@ public class PlayerMovement : MonoBehaviour
 		// Collision with Obstacle
 		if (other.gameObject.tag.Equals ("Obstacle")) {
 			Debug.Log ("PLAYER HIT");
-
-
-			Vector3 forceVec = (transform.position - other.transform.position).normalized * collisionForce;
+			
+			
+			Vector3 forceVec = (transform.position - other.transform.parent.Find("IslandCentre").position).normalized * collisionForce;
 			rigidbody.AddForce (forceVec, ForceMode.Acceleration);
 			
 			gameObject.GetComponent<PlayerController> ().InflictDamage ((int)GetCurrentSpeed ());
+		}
+	}
+	
+	// When Player collides with another game object...
+	void OnTriggerStay (Collider other)
+	{
+		// Collision with Obstacle
+		if (other.gameObject.tag.Equals ("Obstacle")) {
+			//Debug.Log ("PLAYER PUSH");
+			
+			
+			Vector3 forceVec = (transform.position - other.transform.parent.Find("IslandCentre").position).normalized * pushForce;
+			rigidbody.AddForce (forceVec, ForceMode.Acceleration);
+			
 		}
 	}
 	
