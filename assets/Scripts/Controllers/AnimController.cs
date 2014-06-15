@@ -17,6 +17,7 @@ public class AnimController : MonoBehaviour
 
 		public void SetHealth (float percentage)
 		{
+				Debug.Log ("Setting health for animations: " + percentage);
 				foreach (Animator animator in animators) {
 						animator.SetFloat ("health", percentage);
 				}

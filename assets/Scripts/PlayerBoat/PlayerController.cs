@@ -68,7 +68,6 @@ public class PlayerController : MonoBehaviour
 						healCounter = 0;
 				}
 		
-				animController.SetHealth (GetHpPercent ());
 				if (!dead) {
 						score = (int)transform.position.magnitude;
 				}
@@ -119,7 +118,7 @@ public class PlayerController : MonoBehaviour
 						return;
 				hp -= damage;
 
-				animController.SetHealth (GetHpPercent () / 100.0f);
+				animController.SetHealth ((float)(GetHpPercent ()) / 100.0f);
 
 				if (hp <= 0) {
 						KillPlayer ();
