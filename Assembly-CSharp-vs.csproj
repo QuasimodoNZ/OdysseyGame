@@ -50,6 +50,7 @@
      <Compile Include="assets\Scripts\Controllers\CameraScript.cs" />
      <Compile Include="assets\Scripts\Controllers\GuiController.cs" />
      <Compile Include="assets\Scripts\Controllers\MenuController.cs" />
+     <Compile Include="assets\Scripts\Controllers\Menu_LittleMenController.cs" />
      <Compile Include="assets\Scripts\Controllers\ModelController.cs" />
      <Compile Include="assets\Scripts\Controllers\TileController.cs" />
      <Compile Include="assets\Scripts\LurePlayer.cs" />

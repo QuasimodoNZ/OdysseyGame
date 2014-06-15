@@ -3,17 +3,24 @@ using System.Collections;
 
 public class MenuController : MonoBehaviour {
 
-		public float speed;
+	public float speed;
+	public AudioClip start;
 	public float speedRock;
-		public GameObject water;
-
+	public GameObject water;
+	private float sailScale = 1.25f;
+	public GameObject sail;
 	public GameObject ship;
-		//public GameObject logo;
-		public GameObject scoreLbl;
-		public GameObject highScoreLbl;
+	//public GameObject logo;
+	//public GameObject scoreLbl;
+	public GameObject highScoreLbl;
 	private bool positive = true;
 	private int counter = 100;
+	private int timer = 0;
 	private bool go = true;
+	private bool move = false;
+	private float boatSpeed = 0.1f;
+	private bool once = false;
+	public GUIText text;
 	
 
 		private ScoreManager manager;
@@ -36,7 +43,7 @@ public class MenuController : MonoBehaviour {
 			if (manager.getScore () > PlayerPrefs.GetInt ("HiScore")) {
 				PlayerPrefs.SetInt("HiScore", manager.getScore());
 			}
-			highScoreLbl.guiText.text = "Longest Voyage: "+PlayerPrefs.GetInt ("HiScore")+" meters";
+			highScoreLbl.guiText.text = "" + PlayerPrefs.GetInt ("HiScore");
 		}
 		// Update is called once per frame
 		void Update () {
@@ -60,9 +67,24 @@ public class MenuController : MonoBehaviour {
 								counter = 0;
 								go = true;
 						}
+			if(move == true){
+				boatSpeed+=0.003f;
+				sailScale += 0.1f;
+				sail.transform.localScale = new Vector3(-3.3f,sailScale,1.0f);
+				ship.transform.Translate(-0.05f,0,boatSpeed);
+				timer++;
+				if(timer==150 && once == false){
+					Application.LoadLevel("Scene1");
+					once = true;
 				}
-			if(Input.GetKeyDown("space")){
-			    Application.LoadLevel("Scene1");
 			}
+				}
+			if (Input.GetKeyDown ("space") && move == false) {
+			text.enabled = !text.enabled;
+			move = true;			
+			audio.PlayOneShot (start);
+				}
+			
 		}
+
 	}
