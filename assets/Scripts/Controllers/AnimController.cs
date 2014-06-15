@@ -3,6 +3,7 @@ using System.Collections;
 
 public class AnimController : MonoBehaviour
 {
+		private bool alreadyPlayed = false;
 		Animator[] animators;
 		// Use this for initialization
 		void Start ()
@@ -29,9 +30,18 @@ public class AnimController : MonoBehaviour
 						animator.SetFloat ("health", -1f);
 				}
 				foreach (GameObject crew in GameObject.FindGameObjectsWithTag(Tags.crew)) {
-						crew.AddComponent<Rigidbody> ();	
-						crew.GetComponent<Animator> ().SetInteger ("stance", Random.Range (1, 3));
-
+						if (!crew.GetComponent<Rigidbody> ()) {
+								crew.AddComponent<Rigidbody> ();	
+								crew.GetComponent<Animator> ().SetInteger ("stance", Random.Range (1, 3));
+						}
 				}
+				GameObject splash = GameObject.FindGameObjectWithTag (Tags.splash);
+				if (splash) {
+						splash.SetActive (false);
+				}
+				foreach (GameObject obj in GameObject.FindGameObjectsWithTag(Tags.remove)) {
+						obj.SetActive (false);
+				}
+				alreadyPlayed = !alreadyPlayed;
 		}
 }

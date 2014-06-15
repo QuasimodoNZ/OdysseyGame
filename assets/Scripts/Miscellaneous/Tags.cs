@@ -9,4 +9,6 @@ public class Tags : MonoBehaviour
 		public const string animationController = "AnimationController";
 		public const string crew = "CrewMember";
 		public const string healthListeners = "HealthListener";
+		public const string splash = "Splash";
+		public const string remove = "RemoveUponDeath";
 }
