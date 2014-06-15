@@ -8,9 +8,9 @@ AnimatorController:
   m_Name: FrontLeft
   serializedVersion: 2
   m_AnimatorParameters:
-  - m_Name: isDead
-    m_Type: 4
-    m_DefaultFloat: 0
+  - m_Name: health
+    m_Type: 1
+    m_DefaultFloat: 1
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
@@ -37,9 +37,9 @@ Transition:
   m_TransitionDuration: .100000001
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: isDead
-    m_EventTreshold: 0
+  - m_ConditionMode: 4
+    m_ConditionEvent: health
+    m_EventTreshold: .571428597
     m_ExitTime: .899999976
   m_Atomic: 1
   m_Solo: 0
@@ -53,7 +53,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 098fff32d866b49eaab3b7b13be0e30e, type: 3}
+  - {fileID: 7400000, guid: c1342b18220ab438997c1279df3498b7, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 480, y: 0, z: 0}
   m_IKOnFeet: 0

@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: LeftRudder
+  m_Name: CratesRight
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: health
@@ -32,7 +32,7 @@ Transition:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110204321}
+  m_SrcState: {fileID: 110239840}
   m_DstState: {fileID: 110200000}
   m_TransitionDuration: .100000001
   m_TransitionOffset: 0
@@ -53,13 +53,13 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400008, guid: 3cf1d41b7b35f45b5a5fbcfbade7eeba, type: 3}
+  - {fileID: 7400000, guid: 55fb13ea79acb4562949a6e290ce054b, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 600, y: 0, z: 0}
+  m_Position: {x: 480, y: 0, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110204321
+--- !u!1102 &110239840
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
@@ -70,7 +70,7 @@ State:
   m_Motions:
   - {fileID: 0}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 360, y: 0, z: 0}
+  m_Position: {x: 240, y: 0, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -81,20 +81,20 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110204321}
+  m_DefaultState: {fileID: 110239840}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110204321}
+  - {fileID: 110239840}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110204321}
+      first: {fileID: 110239840}
       second:
       - {fileID: 110100000}
     data:
       first: {fileID: 110200000}
       second: []
   m_MotionSetCount: 1
-  m_AnyStatePosition: {x: 120, y: 0, z: 0}
+  m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}

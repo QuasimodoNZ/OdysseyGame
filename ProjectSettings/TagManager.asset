@@ -9,7 +9,11 @@ TagManager:
   - AnimationController
   - Shield
   - Circe
+  - HealthListener
   - Gui
+  - CrewMember
+  - Splash
+  - RemoveUponDeath
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

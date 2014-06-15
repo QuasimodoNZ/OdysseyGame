@@ -1,311 +1,309 @@
 fileFormatVersion: 2
-guid: eb464088efe36429683ff370be5a61dd
+guid: 2f9d8af29269c41f5abeeadf346b1825
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: Basket
-    100002: CenterPole
-    100004: joint1
-    100006: joint1_pointOnPolyConstraint1
-    100008: joint2
-    100010: joint2_pointOnPolyConstraint1
-    100012: joint3
-    100014: joint3_pointOnPolyConstraint1
-    100016: joint4
-    100018: joint4_pointOnPolyConstraint1
-    100020: joint5
-    100022: joint5_pointOnPolyConstraint1
-    100024: joint6
-    100026: joint6_pointOnPolyConstraint1
-    100028: joint7
-    100030: joint7_pointOnPolyConstraint1
-    100032: joint8
-    100034: joint8_pointOnPolyConstraint1
-    100036: Joints2
-    100038: Joints3
-    100040: Joints4
-    100042: Joints5
-    100044: LowerPole
-    100046: LowerSailPole
-    100048: //RootNode
-    100050: Mast
-    100052: Mast1
-    100054: Nest_Group
-    100056: pasted__group31
-    100058: pasted__group31 1
-    100060: pasted__joint1
-    100062: pasted__joint1 1
-    100064: pasted__joint1 2
-    100066: pasted__joint1 3
-    100068: pasted__joint1_pointOnPolyConstraint1
-    100070: pasted__joint1_pointOnPolyConstraint2
-    100072: pasted__joint1_pointOnPolyConstraint3
-    100074: pasted__joint1_pointOnPolyConstraint4
-    100076: pasted__joint2
-    100078: pasted__joint2 1
-    100080: pasted__joint2 2
-    100082: pasted__joint2 3
-    100084: pasted__joint2_pointOnPolyConstraint1
-    100086: pasted__joint2_pointOnPolyConstraint2
-    100088: pasted__joint2_pointOnPolyConstraint3
-    100090: pasted__joint2_pointOnPolyConstraint4
-    100092: pasted__joint3
-    100094: pasted__joint3 1
-    100096: pasted__joint3 2
-    100098: pasted__joint3 3
-    100100: pasted__joint3_pointOnPolyConstraint1
-    100102: pasted__joint3_pointOnPolyConstraint2
-    100104: pasted__joint3_pointOnPolyConstraint3
-    100106: pasted__joint3_pointOnPolyConstraint4
-    100108: pasted__joint4
-    100110: pasted__joint4 1
-    100112: pasted__joint4 2
-    100114: pasted__joint4 3
-    100116: pasted__joint4_pointOnPolyConstraint1
-    100118: pasted__joint4_pointOnPolyConstraint2
-    100120: pasted__joint4_pointOnPolyConstraint3
-    100122: pasted__joint4_pointOnPolyConstraint4
-    100124: pasted__joint5
-    100126: pasted__joint5 1
-    100128: pasted__joint5 2
-    100130: pasted__joint5 3
-    100132: pasted__joint5_pointOnPolyConstraint1
-    100134: pasted__joint5_pointOnPolyConstraint2
-    100136: pasted__joint5_pointOnPolyConstraint3
-    100138: pasted__joint5_pointOnPolyConstraint4
-    100140: pasted__joint6
-    100142: pasted__joint6 1
-    100144: pasted__joint6 2
-    100146: pasted__joint6 3
-    100148: pasted__joint6_pointOnPolyConstraint1
-    100150: pasted__joint6_pointOnPolyConstraint2
-    100152: pasted__joint6_pointOnPolyConstraint3
-    100154: pasted__joint6_pointOnPolyConstraint4
-    100156: pasted__joint7
-    100158: pasted__joint7 1
-    100160: pasted__joint7 2
-    100162: pasted__joint7 3
-    100164: pasted__joint7_pointOnPolyConstraint1
-    100166: pasted__joint7_pointOnPolyConstraint2
-    100168: pasted__joint7_pointOnPolyConstraint3
-    100170: pasted__joint7_pointOnPolyConstraint4
-    100172: pasted__joint8
-    100174: pasted__joint8 1
-    100176: pasted__joint8 2
-    100178: pasted__joint8 3
-    100180: pasted__joint8_pointOnPolyConstraint1
-    100182: pasted__joint8_pointOnPolyConstraint2
-    100184: pasted__joint8_pointOnPolyConstraint3
-    100186: pasted__joint8_pointOnPolyConstraint4
-    100188: pasted__pasted__joint1
-    100190: pasted__pasted__joint1 1
-    100192: pasted__pasted__joint1_pointOnPolyConstraint1
-    100194: pasted__pasted__joint1_pointOnPolyConstraint2
-    100196: pasted__pasted__joint2
-    100198: pasted__pasted__joint2 1
-    100200: pasted__pasted__joint2_pointOnPolyConstraint1
-    100202: pasted__pasted__joint2_pointOnPolyConstraint2
-    100204: pasted__pasted__joint3
-    100206: pasted__pasted__joint3 1
-    100208: pasted__pasted__joint3_pointOnPolyConstraint1
-    100210: pasted__pasted__joint3_pointOnPolyConstraint2
-    100212: pasted__pasted__joint4
-    100214: pasted__pasted__joint4 1
-    100216: pasted__pasted__joint4_pointOnPolyConstraint1
-    100218: pasted__pasted__joint4_pointOnPolyConstraint2
-    100220: pasted__pasted__joint5
-    100222: pasted__pasted__joint5 1
-    100224: pasted__pasted__joint5_pointOnPolyConstraint1
-    100226: pasted__pasted__joint5_pointOnPolyConstraint2
-    100228: pasted__pasted__joint6
-    100230: pasted__pasted__joint6 1
-    100232: pasted__pasted__joint6_pointOnPolyConstraint1
-    100234: pasted__pasted__joint6_pointOnPolyConstraint2
-    100236: pasted__pasted__joint7
-    100238: pasted__pasted__joint7 1
-    100240: pasted__pasted__joint7_pointOnPolyConstraint1
-    100242: pasted__pasted__joint7_pointOnPolyConstraint2
-    100244: pasted__pasted__joint8
-    100246: pasted__pasted__joint8 1
-    100248: pasted__pasted__joint8_pointOnPolyConstraint1
-    100250: pasted__pasted__joint8_pointOnPolyConstraint2
-    100252: pPlane1
-    100254: Sail1
-    100256: Sail_Pole
-    100258: transform10
-    100260: transform11
-    100262: transform12
-    100264: transform13
-    100266: transform8
-    100268: transform9
-    100270: Upper_Nest
-    100272: UpperPole
-    100274: UpperSailPole
-    100276: Wire1
-    100278: Wire2
-    100280: Wire_Group
-    400000: Basket
-    400002: CenterPole
-    400004: joint1
-    400006: joint1_pointOnPolyConstraint1
-    400008: joint2
-    400010: joint2_pointOnPolyConstraint1
-    400012: joint3
-    400014: joint3_pointOnPolyConstraint1
-    400016: joint4
-    400018: joint4_pointOnPolyConstraint1
-    400020: joint5
-    400022: joint5_pointOnPolyConstraint1
-    400024: joint6
-    400026: joint6_pointOnPolyConstraint1
-    400028: joint7
-    400030: joint7_pointOnPolyConstraint1
-    400032: joint8
-    400034: joint8_pointOnPolyConstraint1
-    400036: Joints2
-    400038: Joints3
-    400040: Joints4
-    400042: Joints5
-    400044: LowerPole
-    400046: LowerSailPole
-    400048: //RootNode
-    400050: Mast
-    400052: Mast1
-    400054: Nest_Group
-    400056: pasted__group31
-    400058: pasted__group31 1
-    400060: pasted__joint1
-    400062: pasted__joint1 1
-    400064: pasted__joint1 2
-    400066: pasted__joint1 3
-    400068: pasted__joint1_pointOnPolyConstraint1
-    400070: pasted__joint1_pointOnPolyConstraint2
-    400072: pasted__joint1_pointOnPolyConstraint3
-    400074: pasted__joint1_pointOnPolyConstraint4
-    400076: pasted__joint2
-    400078: pasted__joint2 1
-    400080: pasted__joint2 2
-    400082: pasted__joint2 3
-    400084: pasted__joint2_pointOnPolyConstraint1
-    400086: pasted__joint2_pointOnPolyConstraint2
-    400088: pasted__joint2_pointOnPolyConstraint3
-    400090: pasted__joint2_pointOnPolyConstraint4
-    400092: pasted__joint3
-    400094: pasted__joint3 1
-    400096: pasted__joint3 2
-    400098: pasted__joint3 3
-    400100: pasted__joint3_pointOnPolyConstraint1
-    400102: pasted__joint3_pointOnPolyConstraint2
-    400104: pasted__joint3_pointOnPolyConstraint3
-    400106: pasted__joint3_pointOnPolyConstraint4
-    400108: pasted__joint4
-    400110: pasted__joint4 1
-    400112: pasted__joint4 2
-    400114: pasted__joint4 3
-    400116: pasted__joint4_pointOnPolyConstraint1
-    400118: pasted__joint4_pointOnPolyConstraint2
-    400120: pasted__joint4_pointOnPolyConstraint3
-    400122: pasted__joint4_pointOnPolyConstraint4
-    400124: pasted__joint5
-    400126: pasted__joint5 1
-    400128: pasted__joint5 2
-    400130: pasted__joint5 3
-    400132: pasted__joint5_pointOnPolyConstraint1
-    400134: pasted__joint5_pointOnPolyConstraint2
-    400136: pasted__joint5_pointOnPolyConstraint3
-    400138: pasted__joint5_pointOnPolyConstraint4
-    400140: pasted__joint6
-    400142: pasted__joint6 1
-    400144: pasted__joint6 2
-    400146: pasted__joint6 3
-    400148: pasted__joint6_pointOnPolyConstraint1
-    400150: pasted__joint6_pointOnPolyConstraint2
-    400152: pasted__joint6_pointOnPolyConstraint3
-    400154: pasted__joint6_pointOnPolyConstraint4
-    400156: pasted__joint7
-    400158: pasted__joint7 1
-    400160: pasted__joint7 2
-    400162: pasted__joint7 3
-    400164: pasted__joint7_pointOnPolyConstraint1
-    400166: pasted__joint7_pointOnPolyConstraint2
-    400168: pasted__joint7_pointOnPolyConstraint3
-    400170: pasted__joint7_pointOnPolyConstraint4
-    400172: pasted__joint8
-    400174: pasted__joint8 1
-    400176: pasted__joint8 2
-    400178: pasted__joint8 3
-    400180: pasted__joint8_pointOnPolyConstraint1
-    400182: pasted__joint8_pointOnPolyConstraint2
-    400184: pasted__joint8_pointOnPolyConstraint3
-    400186: pasted__joint8_pointOnPolyConstraint4
-    400188: pasted__pasted__joint1
-    400190: pasted__pasted__joint1 1
-    400192: pasted__pasted__joint1_pointOnPolyConstraint1
-    400194: pasted__pasted__joint1_pointOnPolyConstraint2
-    400196: pasted__pasted__joint2
-    400198: pasted__pasted__joint2 1
-    400200: pasted__pasted__joint2_pointOnPolyConstraint1
-    400202: pasted__pasted__joint2_pointOnPolyConstraint2
-    400204: pasted__pasted__joint3
-    400206: pasted__pasted__joint3 1
-    400208: pasted__pasted__joint3_pointOnPolyConstraint1
-    400210: pasted__pasted__joint3_pointOnPolyConstraint2
-    400212: pasted__pasted__joint4
-    400214: pasted__pasted__joint4 1
-    400216: pasted__pasted__joint4_pointOnPolyConstraint1
-    400218: pasted__pasted__joint4_pointOnPolyConstraint2
-    400220: pasted__pasted__joint5
-    400222: pasted__pasted__joint5 1
-    400224: pasted__pasted__joint5_pointOnPolyConstraint1
-    400226: pasted__pasted__joint5_pointOnPolyConstraint2
-    400228: pasted__pasted__joint6
-    400230: pasted__pasted__joint6 1
-    400232: pasted__pasted__joint6_pointOnPolyConstraint1
-    400234: pasted__pasted__joint6_pointOnPolyConstraint2
-    400236: pasted__pasted__joint7
-    400238: pasted__pasted__joint7 1
-    400240: pasted__pasted__joint7_pointOnPolyConstraint1
-    400242: pasted__pasted__joint7_pointOnPolyConstraint2
-    400244: pasted__pasted__joint8
-    400246: pasted__pasted__joint8 1
-    400248: pasted__pasted__joint8_pointOnPolyConstraint1
-    400250: pasted__pasted__joint8_pointOnPolyConstraint2
-    400252: pPlane1
-    400254: Sail1
-    400256: Sail_Pole
-    400258: transform10
-    400260: transform11
-    400262: transform12
-    400264: transform13
-    400266: transform8
-    400268: transform9
-    400270: Upper_Nest
-    400272: UpperPole
-    400274: UpperSailPole
-    400276: Wire1
-    400278: Wire2
-    400280: Wire_Group
-    2300000: Basket
-    2300002: CenterPole
-    2300004: LowerPole
-    2300006: UpperPole
-    2300008: Wire1
-    3300000: Basket
-    3300002: CenterPole
-    3300004: LowerPole
-    3300006: UpperPole
-    3300008: Wire1
-    4300000: LowerPole
-    4300002: Wire1
-    4300004: UpperPole
-    4300006: CenterPole
-    4300008: Sail1
-    4300010: Basket
-    7400000: Calm
-    7400002: Strong
-    7400004: Death
+    100000: //RootNode
+    100002: MastNew:Basket
+    100004: MastNew:CenterPole
+    100006: MastNew:joint1
+    100008: MastNew:joint1_pointOnPolyConstraint1
+    100010: MastNew:joint2
+    100012: MastNew:joint2_pointOnPolyConstraint1
+    100014: MastNew:joint3
+    100016: MastNew:joint3_pointOnPolyConstraint1
+    100018: MastNew:joint4
+    100020: MastNew:joint4_pointOnPolyConstraint1
+    100022: MastNew:joint5
+    100024: MastNew:joint5_pointOnPolyConstraint1
+    100026: MastNew:joint6
+    100028: MastNew:joint6_pointOnPolyConstraint1
+    100030: MastNew:joint7
+    100032: MastNew:joint7_pointOnPolyConstraint1
+    100034: MastNew:joint8
+    100036: MastNew:joint8_pointOnPolyConstraint1
+    100038: MastNew:Joints2
+    100040: MastNew:Joints3
+    100042: MastNew:Joints4
+    100044: MastNew:Joints5
+    100046: MastNew:LowerPole
+    100048: MastNew:Mast1
+    100050: MastNew:pasted__group31
+    100052: MastNew:pasted__group31 1
+    100054: MastNew:pasted__joint1
+    100056: MastNew:pasted__joint1 1
+    100058: MastNew:pasted__joint1 2
+    100060: MastNew:pasted__joint1 3
+    100062: MastNew:pasted__joint1_pointOnPolyConstraint1
+    100064: MastNew:pasted__joint1_pointOnPolyConstraint2
+    100066: MastNew:pasted__joint1_pointOnPolyConstraint3
+    100068: MastNew:pasted__joint1_pointOnPolyConstraint4
+    100070: MastNew:pasted__joint2
+    100072: MastNew:pasted__joint2 1
+    100074: MastNew:pasted__joint2 2
+    100076: MastNew:pasted__joint2 3
+    100078: MastNew:pasted__joint2_pointOnPolyConstraint1
+    100080: MastNew:pasted__joint2_pointOnPolyConstraint2
+    100082: MastNew:pasted__joint2_pointOnPolyConstraint3
+    100084: MastNew:pasted__joint2_pointOnPolyConstraint4
+    100086: MastNew:pasted__joint3
+    100088: MastNew:pasted__joint3 1
+    100090: MastNew:pasted__joint3 2
+    100092: MastNew:pasted__joint3 3
+    100094: MastNew:pasted__joint3_pointOnPolyConstraint1
+    100096: MastNew:pasted__joint3_pointOnPolyConstraint2
+    100098: MastNew:pasted__joint3_pointOnPolyConstraint3
+    100100: MastNew:pasted__joint3_pointOnPolyConstraint4
+    100102: MastNew:pasted__joint4
+    100104: MastNew:pasted__joint4 1
+    100106: MastNew:pasted__joint4 2
+    100108: MastNew:pasted__joint4 3
+    100110: MastNew:pasted__joint4_pointOnPolyConstraint1
+    100112: MastNew:pasted__joint4_pointOnPolyConstraint2
+    100114: MastNew:pasted__joint4_pointOnPolyConstraint3
+    100116: MastNew:pasted__joint4_pointOnPolyConstraint4
+    100118: MastNew:pasted__joint5
+    100120: MastNew:pasted__joint5 1
+    100122: MastNew:pasted__joint5 2
+    100124: MastNew:pasted__joint5 3
+    100126: MastNew:pasted__joint5_pointOnPolyConstraint1
+    100128: MastNew:pasted__joint5_pointOnPolyConstraint2
+    100130: MastNew:pasted__joint5_pointOnPolyConstraint3
+    100132: MastNew:pasted__joint5_pointOnPolyConstraint4
+    100134: MastNew:pasted__joint6
+    100136: MastNew:pasted__joint6 1
+    100138: MastNew:pasted__joint6 2
+    100140: MastNew:pasted__joint6 3
+    100142: MastNew:pasted__joint6_pointOnPolyConstraint1
+    100144: MastNew:pasted__joint6_pointOnPolyConstraint2
+    100146: MastNew:pasted__joint6_pointOnPolyConstraint3
+    100148: MastNew:pasted__joint6_pointOnPolyConstraint4
+    100150: MastNew:pasted__joint7
+    100152: MastNew:pasted__joint7 1
+    100154: MastNew:pasted__joint7 2
+    100156: MastNew:pasted__joint7 3
+    100158: MastNew:pasted__joint7_pointOnPolyConstraint1
+    100160: MastNew:pasted__joint7_pointOnPolyConstraint2
+    100162: MastNew:pasted__joint7_pointOnPolyConstraint3
+    100164: MastNew:pasted__joint7_pointOnPolyConstraint4
+    100166: MastNew:pasted__joint8
+    100168: MastNew:pasted__joint8 1
+    100170: MastNew:pasted__joint8 2
+    100172: MastNew:pasted__joint8 3
+    100174: MastNew:pasted__joint8_pointOnPolyConstraint1
+    100176: MastNew:pasted__joint8_pointOnPolyConstraint2
+    100178: MastNew:pasted__joint8_pointOnPolyConstraint3
+    100180: MastNew:pasted__joint8_pointOnPolyConstraint4
+    100182: MastNew:pasted__pasted__joint1
+    100184: MastNew:pasted__pasted__joint1 1
+    100186: MastNew:pasted__pasted__joint1_pointOnPolyConstraint1
+    100188: MastNew:pasted__pasted__joint1_pointOnPolyConstraint2
+    100190: MastNew:pasted__pasted__joint2
+    100192: MastNew:pasted__pasted__joint2 1
+    100194: MastNew:pasted__pasted__joint2_pointOnPolyConstraint1
+    100196: MastNew:pasted__pasted__joint2_pointOnPolyConstraint2
+    100198: MastNew:pasted__pasted__joint3
+    100200: MastNew:pasted__pasted__joint3 1
+    100202: MastNew:pasted__pasted__joint3_pointOnPolyConstraint1
+    100204: MastNew:pasted__pasted__joint3_pointOnPolyConstraint2
+    100206: MastNew:pasted__pasted__joint4
+    100208: MastNew:pasted__pasted__joint4 1
+    100210: MastNew:pasted__pasted__joint4_pointOnPolyConstraint1
+    100212: MastNew:pasted__pasted__joint4_pointOnPolyConstraint2
+    100214: MastNew:pasted__pasted__joint5
+    100216: MastNew:pasted__pasted__joint5 1
+    100218: MastNew:pasted__pasted__joint5_pointOnPolyConstraint1
+    100220: MastNew:pasted__pasted__joint5_pointOnPolyConstraint2
+    100222: MastNew:pasted__pasted__joint6
+    100224: MastNew:pasted__pasted__joint6 1
+    100226: MastNew:pasted__pasted__joint6_pointOnPolyConstraint1
+    100228: MastNew:pasted__pasted__joint6_pointOnPolyConstraint2
+    100230: MastNew:pasted__pasted__joint7
+    100232: MastNew:pasted__pasted__joint7 1
+    100234: MastNew:pasted__pasted__joint7_pointOnPolyConstraint1
+    100236: MastNew:pasted__pasted__joint7_pointOnPolyConstraint2
+    100238: MastNew:pasted__pasted__joint8
+    100240: MastNew:pasted__pasted__joint8 1
+    100242: MastNew:pasted__pasted__joint8_pointOnPolyConstraint1
+    100244: MastNew:pasted__pasted__joint8_pointOnPolyConstraint2
+    100246: MastNew:pasted__pasted__pCylinder7
+    100248: MastNew:Sail1
+    100250: MastNew:transform10
+    100252: MastNew:transform11
+    100254: MastNew:transform12
+    100256: MastNew:transform13
+    100258: MastNew:transform8
+    100260: MastNew:transform9
+    100262: MastNew:UpperPole
+    100264: MastNew:Wire1
+    100266: MastNew:Wire1 1
+    100268: MastNew:Wire4
+    400000: //RootNode
+    400002: MastNew:Basket
+    400004: MastNew:CenterPole
+    400006: MastNew:joint1
+    400008: MastNew:joint1_pointOnPolyConstraint1
+    400010: MastNew:joint2
+    400012: MastNew:joint2_pointOnPolyConstraint1
+    400014: MastNew:joint3
+    400016: MastNew:joint3_pointOnPolyConstraint1
+    400018: MastNew:joint4
+    400020: MastNew:joint4_pointOnPolyConstraint1
+    400022: MastNew:joint5
+    400024: MastNew:joint5_pointOnPolyConstraint1
+    400026: MastNew:joint6
+    400028: MastNew:joint6_pointOnPolyConstraint1
+    400030: MastNew:joint7
+    400032: MastNew:joint7_pointOnPolyConstraint1
+    400034: MastNew:joint8
+    400036: MastNew:joint8_pointOnPolyConstraint1
+    400038: MastNew:Joints2
+    400040: MastNew:Joints3
+    400042: MastNew:Joints4
+    400044: MastNew:Joints5
+    400046: MastNew:LowerPole
+    400048: MastNew:Mast1
+    400050: MastNew:pasted__group31
+    400052: MastNew:pasted__group31 1
+    400054: MastNew:pasted__joint1
+    400056: MastNew:pasted__joint1 1
+    400058: MastNew:pasted__joint1 2
+    400060: MastNew:pasted__joint1 3
+    400062: MastNew:pasted__joint1_pointOnPolyConstraint1
+    400064: MastNew:pasted__joint1_pointOnPolyConstraint2
+    400066: MastNew:pasted__joint1_pointOnPolyConstraint3
+    400068: MastNew:pasted__joint1_pointOnPolyConstraint4
+    400070: MastNew:pasted__joint2
+    400072: MastNew:pasted__joint2 1
+    400074: MastNew:pasted__joint2 2
+    400076: MastNew:pasted__joint2 3
+    400078: MastNew:pasted__joint2_pointOnPolyConstraint1
+    400080: MastNew:pasted__joint2_pointOnPolyConstraint2
+    400082: MastNew:pasted__joint2_pointOnPolyConstraint3
+    400084: MastNew:pasted__joint2_pointOnPolyConstraint4
+    400086: MastNew:pasted__joint3
+    400088: MastNew:pasted__joint3 1
+    400090: MastNew:pasted__joint3 2
+    400092: MastNew:pasted__joint3 3
+    400094: MastNew:pasted__joint3_pointOnPolyConstraint1
+    400096: MastNew:pasted__joint3_pointOnPolyConstraint2
+    400098: MastNew:pasted__joint3_pointOnPolyConstraint3
+    400100: MastNew:pasted__joint3_pointOnPolyConstraint4
+    400102: MastNew:pasted__joint4
+    400104: MastNew:pasted__joint4 1
+    400106: MastNew:pasted__joint4 2
+    400108: MastNew:pasted__joint4 3
+    400110: MastNew:pasted__joint4_pointOnPolyConstraint1
+    400112: MastNew:pasted__joint4_pointOnPolyConstraint2
+    400114: MastNew:pasted__joint4_pointOnPolyConstraint3
+    400116: MastNew:pasted__joint4_pointOnPolyConstraint4
+    400118: MastNew:pasted__joint5
+    400120: MastNew:pasted__joint5 1
+    400122: MastNew:pasted__joint5 2
+    400124: MastNew:pasted__joint5 3
+    400126: MastNew:pasted__joint5_pointOnPolyConstraint1
+    400128: MastNew:pasted__joint5_pointOnPolyConstraint2
+    400130: MastNew:pasted__joint5_pointOnPolyConstraint3
+    400132: MastNew:pasted__joint5_pointOnPolyConstraint4
+    400134: MastNew:pasted__joint6
+    400136: MastNew:pasted__joint6 1
+    400138: MastNew:pasted__joint6 2
+    400140: MastNew:pasted__joint6 3
+    400142: MastNew:pasted__joint6_pointOnPolyConstraint1
+    400144: MastNew:pasted__joint6_pointOnPolyConstraint2
+    400146: MastNew:pasted__joint6_pointOnPolyConstraint3
+    400148: MastNew:pasted__joint6_pointOnPolyConstraint4
+    400150: MastNew:pasted__joint7
+    400152: MastNew:pasted__joint7 1
+    400154: MastNew:pasted__joint7 2
+    400156: MastNew:pasted__joint7 3
+    400158: MastNew:pasted__joint7_pointOnPolyConstraint1
+    400160: MastNew:pasted__joint7_pointOnPolyConstraint2
+    400162: MastNew:pasted__joint7_pointOnPolyConstraint3
+    400164: MastNew:pasted__joint7_pointOnPolyConstraint4
+    400166: MastNew:pasted__joint8
+    400168: MastNew:pasted__joint8 1
+    400170: MastNew:pasted__joint8 2
+    400172: MastNew:pasted__joint8 3
+    400174: MastNew:pasted__joint8_pointOnPolyConstraint1
+    400176: MastNew:pasted__joint8_pointOnPolyConstraint2
+    400178: MastNew:pasted__joint8_pointOnPolyConstraint3
+    400180: MastNew:pasted__joint8_pointOnPolyConstraint4
+    400182: MastNew:pasted__pasted__joint1
+    400184: MastNew:pasted__pasted__joint1 1
+    400186: MastNew:pasted__pasted__joint1_pointOnPolyConstraint1
+    400188: MastNew:pasted__pasted__joint1_pointOnPolyConstraint2
+    400190: MastNew:pasted__pasted__joint2
+    400192: MastNew:pasted__pasted__joint2 1
+    400194: MastNew:pasted__pasted__joint2_pointOnPolyConstraint1
+    400196: MastNew:pasted__pasted__joint2_pointOnPolyConstraint2
+    400198: MastNew:pasted__pasted__joint3
+    400200: MastNew:pasted__pasted__joint3 1
+    400202: MastNew:pasted__pasted__joint3_pointOnPolyConstraint1
+    400204: MastNew:pasted__pasted__joint3_pointOnPolyConstraint2
+    400206: MastNew:pasted__pasted__joint4
+    400208: MastNew:pasted__pasted__joint4 1
+    400210: MastNew:pasted__pasted__joint4_pointOnPolyConstraint1
+    400212: MastNew:pasted__pasted__joint4_pointOnPolyConstraint2
+    400214: MastNew:pasted__pasted__joint5
+    400216: MastNew:pasted__pasted__joint5 1
+    400218: MastNew:pasted__pasted__joint5_pointOnPolyConstraint1
+    400220: MastNew:pasted__pasted__joint5_pointOnPolyConstraint2
+    400222: MastNew:pasted__pasted__joint6
+    400224: MastNew:pasted__pasted__joint6 1
+    400226: MastNew:pasted__pasted__joint6_pointOnPolyConstraint1
+    400228: MastNew:pasted__pasted__joint6_pointOnPolyConstraint2
+    400230: MastNew:pasted__pasted__joint7
+    400232: MastNew:pasted__pasted__joint7 1
+    400234: MastNew:pasted__pasted__joint7_pointOnPolyConstraint1
+    400236: MastNew:pasted__pasted__joint7_pointOnPolyConstraint2
+    400238: MastNew:pasted__pasted__joint8
+    400240: MastNew:pasted__pasted__joint8 1
+    400242: MastNew:pasted__pasted__joint8_pointOnPolyConstraint1
+    400244: MastNew:pasted__pasted__joint8_pointOnPolyConstraint2
+    400246: MastNew:pasted__pasted__pCylinder7
+    400248: MastNew:Sail1
+    400250: MastNew:transform10
+    400252: MastNew:transform11
+    400254: MastNew:transform12
+    400256: MastNew:transform13
+    400258: MastNew:transform8
+    400260: MastNew:transform9
+    400262: MastNew:UpperPole
+    400264: MastNew:Wire1
+    400266: MastNew:Wire1 1
+    400268: MastNew:Wire4
+    2300000: MastNew:Basket
+    2300002: MastNew:CenterPole
+    2300004: MastNew:LowerPole
+    2300006: MastNew:pasted__pasted__pCylinder7
+    2300008: MastNew:UpperPole
+    2300010: MastNew:Wire1
+    2300012: MastNew:Wire1 1
+    2300014: MastNew:Wire4
+    3300000: MastNew:Basket
+    3300002: MastNew:CenterPole
+    3300004: MastNew:LowerPole
+    3300006: MastNew:pasted__pasted__pCylinder7
+    3300008: MastNew:UpperPole
+    3300010: MastNew:Wire1
+    3300012: MastNew:Wire1 1
+    3300014: MastNew:Wire4
+    4300000: MastNew:Wire1
+    4300002: MastNew:LowerPole
+    4300004: MastNew:Wire1
+    4300006: MastNew:UpperPole
+    4300008: MastNew:CenterPole
+    4300010: MastNew:Sail1
+    4300012: MastNew:Basket
+    4300014: MastNew:Wire4
+    4300016: MastNew:pasted__pasted__pCylinder7
+    7400000: Death
+    7400002: Calm
+    7400004: Strong
+    7400006: Take 001
     9500000: //RootNode
-    13700000: Sail1
+    13700000: MastNew:Sail1
   materials:
     importMaterials: 1
     materialName: 0
@@ -321,622 +319,6 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
-    - serializedVersion: 16
-      name: Calm
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 100
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: joint1
-        weight: 1
-      - path: joint1/joint1_pointOnPolyConstraint1
-        weight: 1
-      - path: joint2
-        weight: 1
-      - path: joint2/joint2_pointOnPolyConstraint1
-        weight: 1
-      - path: joint3
-        weight: 1
-      - path: joint3/joint3_pointOnPolyConstraint1
-        weight: 1
-      - path: joint4
-        weight: 1
-      - path: joint4/joint4_pointOnPolyConstraint1
-        weight: 1
-      - path: joint5
-        weight: 1
-      - path: joint5/joint5_pointOnPolyConstraint1
-        weight: 1
-      - path: joint6
-        weight: 1
-      - path: joint6/joint6_pointOnPolyConstraint1
-        weight: 1
-      - path: joint7
-        weight: 1
-      - path: joint7/joint7_pointOnPolyConstraint1
-        weight: 1
-      - path: joint8
-        weight: 1
-      - path: joint8/joint8_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2
-        weight: 1
-      - path: Joints2/pasted__joint1
-        weight: 1
-      - path: Joints2/pasted__joint1/pasted__joint1_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint2
-        weight: 1
-      - path: Joints2/pasted__joint2/pasted__joint2_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint3
-        weight: 1
-      - path: Joints2/pasted__joint3/pasted__joint3_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint4
-        weight: 1
-      - path: Joints2/pasted__joint4/pasted__joint4_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint5
-        weight: 1
-      - path: Joints2/pasted__joint5/pasted__joint5_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint6
-        weight: 1
-      - path: Joints2/pasted__joint6/pasted__joint6_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint7
-        weight: 1
-      - path: Joints2/pasted__joint7/pasted__joint7_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint8
-        weight: 1
-      - path: Joints2/pasted__joint8/pasted__joint8_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3
-        weight: 1
-      - path: Joints3/pasted__group31
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint1/pasted__pasted__joint1_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint2
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint2/pasted__pasted__joint2_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint3
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint3/pasted__pasted__joint3_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint4
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint4/pasted__pasted__joint4_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint5
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint5/pasted__pasted__joint5_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint6
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint6/pasted__pasted__joint6_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint7
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint7/pasted__pasted__joint7_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint8
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint8/pasted__pasted__joint8_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__joint1 1
-        weight: 1
-      - path: Joints3/pasted__joint1 1/pasted__joint1_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint2 1
-        weight: 1
-      - path: Joints3/pasted__joint2 1/pasted__joint2_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint3 1
-        weight: 1
-      - path: Joints3/pasted__joint3 1/pasted__joint3_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint4 1
-        weight: 1
-      - path: Joints3/pasted__joint4 1/pasted__joint4_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint5 1
-        weight: 1
-      - path: Joints3/pasted__joint5 1/pasted__joint5_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint6 1
-        weight: 1
-      - path: Joints3/pasted__joint6 1/pasted__joint6_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint7 1
-        weight: 1
-      - path: Joints3/pasted__joint7 1/pasted__joint7_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint8 1
-        weight: 1
-      - path: Joints3/pasted__joint8 1/pasted__joint8_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4
-        weight: 1
-      - path: Joints4/pasted__group31 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint1 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint1 1/pasted__pasted__joint1_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint2 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint2 1/pasted__pasted__joint2_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint3 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint3 1/pasted__pasted__joint3_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint4 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint4 1/pasted__pasted__joint4_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint5 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint5 1/pasted__pasted__joint5_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint6 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint6 1/pasted__pasted__joint6_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint7 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint7 1/pasted__pasted__joint7_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint8 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint8 1/pasted__pasted__joint8_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__joint1 2
-        weight: 1
-      - path: Joints4/pasted__joint1 2/pasted__joint1_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint2 2
-        weight: 1
-      - path: Joints4/pasted__joint2 2/pasted__joint2_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint3 2
-        weight: 1
-      - path: Joints4/pasted__joint3 2/pasted__joint3_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint4 2
-        weight: 1
-      - path: Joints4/pasted__joint4 2/pasted__joint4_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint5 2
-        weight: 1
-      - path: Joints4/pasted__joint5 2/pasted__joint5_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint6 2
-        weight: 1
-      - path: Joints4/pasted__joint6 2/pasted__joint6_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint7 2
-        weight: 1
-      - path: Joints4/pasted__joint7 2/pasted__joint7_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint8 2
-        weight: 1
-      - path: Joints4/pasted__joint8 2/pasted__joint8_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints5
-        weight: 1
-      - path: Joints5/pasted__joint1 3
-        weight: 1
-      - path: Joints5/pasted__joint1 3/pasted__joint1_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint2 3
-        weight: 1
-      - path: Joints5/pasted__joint2 3/pasted__joint2_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint3 3
-        weight: 1
-      - path: Joints5/pasted__joint3 3/pasted__joint3_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint4 3
-        weight: 1
-      - path: Joints5/pasted__joint4 3/pasted__joint4_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint5 3
-        weight: 1
-      - path: Joints5/pasted__joint5 3/pasted__joint5_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint6 3
-        weight: 1
-      - path: Joints5/pasted__joint6 3/pasted__joint6_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint7 3
-        weight: 1
-      - path: Joints5/pasted__joint7 3/pasted__joint7_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint8 3
-        weight: 1
-      - path: Joints5/pasted__joint8 3/pasted__joint8_pointOnPolyConstraint4
-        weight: 1
-      - path: LowerSailPole
-        weight: 1
-      - path: LowerSailPole/transform13
-        weight: 1
-      - path: Mast
-        weight: 1
-      - path: Mast/transform10
-        weight: 1
-      - path: Mast1
-        weight: 1
-      - path: Mast1/Basket
-        weight: 1
-      - path: Mast1/CenterPole
-        weight: 1
-      - path: Mast1/LowerPole
-        weight: 1
-      - path: Mast1/Sail1
-        weight: 1
-      - path: Mast1/UpperPole
-        weight: 1
-      - path: Mast1/Wire1
-        weight: 1
-      - path: Nest_Group
-        weight: 1
-      - path: Nest_Group/Upper_Nest
-        weight: 1
-      - path: Nest_Group/Upper_Nest/transform8
-        weight: 1
-      - path: pPlane1
-        weight: 1
-      - path: pPlane1/transform9
-        weight: 1
-      - path: Sail_Pole
-        weight: 1
-      - path: Sail_Pole/UpperSailPole
-        weight: 1
-      - path: Sail_Pole/UpperSailPole/transform11
-        weight: 1
-      - path: Wire_Group
-        weight: 1
-      - path: Wire_Group/Wire2
-        weight: 1
-      - path: Wire_Group/Wire2/transform12
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Strong
-      takeName: Take 001
-      firstFrame: 110
-      lastFrame: 180
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: joint1
-        weight: 1
-      - path: joint1/joint1_pointOnPolyConstraint1
-        weight: 1
-      - path: joint2
-        weight: 1
-      - path: joint2/joint2_pointOnPolyConstraint1
-        weight: 1
-      - path: joint3
-        weight: 1
-      - path: joint3/joint3_pointOnPolyConstraint1
-        weight: 1
-      - path: joint4
-        weight: 1
-      - path: joint4/joint4_pointOnPolyConstraint1
-        weight: 1
-      - path: joint5
-        weight: 1
-      - path: joint5/joint5_pointOnPolyConstraint1
-        weight: 1
-      - path: joint6
-        weight: 1
-      - path: joint6/joint6_pointOnPolyConstraint1
-        weight: 1
-      - path: joint7
-        weight: 1
-      - path: joint7/joint7_pointOnPolyConstraint1
-        weight: 1
-      - path: joint8
-        weight: 1
-      - path: joint8/joint8_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2
-        weight: 1
-      - path: Joints2/pasted__joint1
-        weight: 1
-      - path: Joints2/pasted__joint1/pasted__joint1_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint2
-        weight: 1
-      - path: Joints2/pasted__joint2/pasted__joint2_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint3
-        weight: 1
-      - path: Joints2/pasted__joint3/pasted__joint3_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint4
-        weight: 1
-      - path: Joints2/pasted__joint4/pasted__joint4_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint5
-        weight: 1
-      - path: Joints2/pasted__joint5/pasted__joint5_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint6
-        weight: 1
-      - path: Joints2/pasted__joint6/pasted__joint6_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint7
-        weight: 1
-      - path: Joints2/pasted__joint7/pasted__joint7_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints2/pasted__joint8
-        weight: 1
-      - path: Joints2/pasted__joint8/pasted__joint8_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3
-        weight: 1
-      - path: Joints3/pasted__group31
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint1/pasted__pasted__joint1_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint2
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint2/pasted__pasted__joint2_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint3
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint3/pasted__pasted__joint3_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint4
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint4/pasted__pasted__joint4_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint5
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint5/pasted__pasted__joint5_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint6
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint6/pasted__pasted__joint6_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint7
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint7/pasted__pasted__joint7_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint8
-        weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint8/pasted__pasted__joint8_pointOnPolyConstraint1
-        weight: 1
-      - path: Joints3/pasted__joint1 1
-        weight: 1
-      - path: Joints3/pasted__joint1 1/pasted__joint1_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint2 1
-        weight: 1
-      - path: Joints3/pasted__joint2 1/pasted__joint2_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint3 1
-        weight: 1
-      - path: Joints3/pasted__joint3 1/pasted__joint3_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint4 1
-        weight: 1
-      - path: Joints3/pasted__joint4 1/pasted__joint4_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint5 1
-        weight: 1
-      - path: Joints3/pasted__joint5 1/pasted__joint5_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint6 1
-        weight: 1
-      - path: Joints3/pasted__joint6 1/pasted__joint6_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint7 1
-        weight: 1
-      - path: Joints3/pasted__joint7 1/pasted__joint7_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints3/pasted__joint8 1
-        weight: 1
-      - path: Joints3/pasted__joint8 1/pasted__joint8_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4
-        weight: 1
-      - path: Joints4/pasted__group31 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint1 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint1 1/pasted__pasted__joint1_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint2 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint2 1/pasted__pasted__joint2_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint3 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint3 1/pasted__pasted__joint3_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint4 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint4 1/pasted__pasted__joint4_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint5 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint5 1/pasted__pasted__joint5_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint6 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint6 1/pasted__pasted__joint6_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint7 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint7 1/pasted__pasted__joint7_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint8 1
-        weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint8 1/pasted__pasted__joint8_pointOnPolyConstraint2
-        weight: 1
-      - path: Joints4/pasted__joint1 2
-        weight: 1
-      - path: Joints4/pasted__joint1 2/pasted__joint1_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint2 2
-        weight: 1
-      - path: Joints4/pasted__joint2 2/pasted__joint2_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint3 2
-        weight: 1
-      - path: Joints4/pasted__joint3 2/pasted__joint3_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint4 2
-        weight: 1
-      - path: Joints4/pasted__joint4 2/pasted__joint4_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint5 2
-        weight: 1
-      - path: Joints4/pasted__joint5 2/pasted__joint5_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint6 2
-        weight: 1
-      - path: Joints4/pasted__joint6 2/pasted__joint6_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint7 2
-        weight: 1
-      - path: Joints4/pasted__joint7 2/pasted__joint7_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints4/pasted__joint8 2
-        weight: 1
-      - path: Joints4/pasted__joint8 2/pasted__joint8_pointOnPolyConstraint3
-        weight: 1
-      - path: Joints5
-        weight: 1
-      - path: Joints5/pasted__joint1 3
-        weight: 1
-      - path: Joints5/pasted__joint1 3/pasted__joint1_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint2 3
-        weight: 1
-      - path: Joints5/pasted__joint2 3/pasted__joint2_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint3 3
-        weight: 1
-      - path: Joints5/pasted__joint3 3/pasted__joint3_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint4 3
-        weight: 1
-      - path: Joints5/pasted__joint4 3/pasted__joint4_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint5 3
-        weight: 1
-      - path: Joints5/pasted__joint5 3/pasted__joint5_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint6 3
-        weight: 1
-      - path: Joints5/pasted__joint6 3/pasted__joint6_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint7 3
-        weight: 1
-      - path: Joints5/pasted__joint7 3/pasted__joint7_pointOnPolyConstraint4
-        weight: 1
-      - path: Joints5/pasted__joint8 3
-        weight: 1
-      - path: Joints5/pasted__joint8 3/pasted__joint8_pointOnPolyConstraint4
-        weight: 1
-      - path: LowerSailPole
-        weight: 1
-      - path: LowerSailPole/transform13
-        weight: 1
-      - path: Mast
-        weight: 1
-      - path: Mast/transform10
-        weight: 1
-      - path: Mast1
-        weight: 1
-      - path: Mast1/Basket
-        weight: 1
-      - path: Mast1/CenterPole
-        weight: 1
-      - path: Mast1/LowerPole
-        weight: 1
-      - path: Mast1/Sail1
-        weight: 1
-      - path: Mast1/UpperPole
-        weight: 1
-      - path: Mast1/Wire1
-        weight: 1
-      - path: Nest_Group
-        weight: 1
-      - path: Nest_Group/Upper_Nest
-        weight: 1
-      - path: Nest_Group/Upper_Nest/transform8
-        weight: 1
-      - path: pPlane1
-        weight: 1
-      - path: pPlane1/transform9
-        weight: 1
-      - path: Sail_Pole
-        weight: 1
-      - path: Sail_Pole/UpperSailPole
-        weight: 1
-      - path: Sail_Pole/UpperSailPole/transform11
-        weight: 1
-      - path: Wire_Group
-        weight: 1
-      - path: Wire_Group/Wire2
-        weight: 1
-      - path: Wire_Group/Wire2/transform12
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
     - serializedVersion: 16
       name: Death
       takeName: Take 001
@@ -963,285 +345,913 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: joint1
+      - path: MastNew:joint1
         weight: 1
-      - path: joint1/joint1_pointOnPolyConstraint1
+      - path: MastNew:joint1/MastNew:joint1_pointOnPolyConstraint1
         weight: 1
-      - path: joint2
+      - path: MastNew:joint2
         weight: 1
-      - path: joint2/joint2_pointOnPolyConstraint1
+      - path: MastNew:joint2/MastNew:joint2_pointOnPolyConstraint1
         weight: 1
-      - path: joint3
+      - path: MastNew:joint3
         weight: 1
-      - path: joint3/joint3_pointOnPolyConstraint1
+      - path: MastNew:joint3/MastNew:joint3_pointOnPolyConstraint1
         weight: 1
-      - path: joint4
+      - path: MastNew:joint4
         weight: 1
-      - path: joint4/joint4_pointOnPolyConstraint1
+      - path: MastNew:joint4/MastNew:joint4_pointOnPolyConstraint1
         weight: 1
-      - path: joint5
+      - path: MastNew:joint5
         weight: 1
-      - path: joint5/joint5_pointOnPolyConstraint1
+      - path: MastNew:joint5/MastNew:joint5_pointOnPolyConstraint1
         weight: 1
-      - path: joint6
+      - path: MastNew:joint6
         weight: 1
-      - path: joint6/joint6_pointOnPolyConstraint1
+      - path: MastNew:joint6/MastNew:joint6_pointOnPolyConstraint1
         weight: 1
-      - path: joint7
+      - path: MastNew:joint7
         weight: 1
-      - path: joint7/joint7_pointOnPolyConstraint1
+      - path: MastNew:joint7/MastNew:joint7_pointOnPolyConstraint1
         weight: 1
-      - path: joint8
+      - path: MastNew:joint8
         weight: 1
-      - path: joint8/joint8_pointOnPolyConstraint1
+      - path: MastNew:joint8/MastNew:joint8_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2
+      - path: MastNew:Joints2
         weight: 1
-      - path: Joints2/pasted__joint1
+      - path: MastNew:Joints2/MastNew:pasted__joint1
         weight: 1
-      - path: Joints2/pasted__joint1/pasted__joint1_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint1/MastNew:pasted__joint1_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint2
+      - path: MastNew:Joints2/MastNew:pasted__joint2
         weight: 1
-      - path: Joints2/pasted__joint2/pasted__joint2_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint2/MastNew:pasted__joint2_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint3
+      - path: MastNew:Joints2/MastNew:pasted__joint3
         weight: 1
-      - path: Joints2/pasted__joint3/pasted__joint3_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint3/MastNew:pasted__joint3_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint4
+      - path: MastNew:Joints2/MastNew:pasted__joint4
         weight: 1
-      - path: Joints2/pasted__joint4/pasted__joint4_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint4/MastNew:pasted__joint4_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint5
+      - path: MastNew:Joints2/MastNew:pasted__joint5
         weight: 1
-      - path: Joints2/pasted__joint5/pasted__joint5_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint5/MastNew:pasted__joint5_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint6
+      - path: MastNew:Joints2/MastNew:pasted__joint6
         weight: 1
-      - path: Joints2/pasted__joint6/pasted__joint6_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint6/MastNew:pasted__joint6_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint7
+      - path: MastNew:Joints2/MastNew:pasted__joint7
         weight: 1
-      - path: Joints2/pasted__joint7/pasted__joint7_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint7/MastNew:pasted__joint7_pointOnPolyConstraint1
         weight: 1
-      - path: Joints2/pasted__joint8
+      - path: MastNew:Joints2/MastNew:pasted__joint8
         weight: 1
-      - path: Joints2/pasted__joint8/pasted__joint8_pointOnPolyConstraint1
+      - path: MastNew:Joints2/MastNew:pasted__joint8/MastNew:pasted__joint8_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3
+      - path: MastNew:Joints3
         weight: 1
-      - path: Joints3/pasted__group31
+      - path: MastNew:Joints3/MastNew:pasted__group31
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint1/pasted__pasted__joint1_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint1/MastNew:pasted__pasted__joint1_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint2
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint2
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint2/pasted__pasted__joint2_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint2/MastNew:pasted__pasted__joint2_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint3
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint3
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint3/pasted__pasted__joint3_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint3/MastNew:pasted__pasted__joint3_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint4
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint4
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint4/pasted__pasted__joint4_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint4/MastNew:pasted__pasted__joint4_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint5
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint5
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint5/pasted__pasted__joint5_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint5/MastNew:pasted__pasted__joint5_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint6
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint6
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint6/pasted__pasted__joint6_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint6/MastNew:pasted__pasted__joint6_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint7
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint7
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint7/pasted__pasted__joint7_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint7/MastNew:pasted__pasted__joint7_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint8
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint8
         weight: 1
-      - path: Joints3/pasted__group31/pasted__pasted__joint8/pasted__pasted__joint8_pointOnPolyConstraint1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint8/MastNew:pasted__pasted__joint8_pointOnPolyConstraint1
         weight: 1
-      - path: Joints3/pasted__joint1 1
+      - path: MastNew:Joints3/MastNew:pasted__joint1 1
         weight: 1
-      - path: Joints3/pasted__joint1 1/pasted__joint1_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint1 1/MastNew:pasted__joint1_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint2 1
+      - path: MastNew:Joints3/MastNew:pasted__joint2 1
         weight: 1
-      - path: Joints3/pasted__joint2 1/pasted__joint2_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint2 1/MastNew:pasted__joint2_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint3 1
+      - path: MastNew:Joints3/MastNew:pasted__joint3 1
         weight: 1
-      - path: Joints3/pasted__joint3 1/pasted__joint3_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint3 1/MastNew:pasted__joint3_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint4 1
+      - path: MastNew:Joints3/MastNew:pasted__joint4 1
         weight: 1
-      - path: Joints3/pasted__joint4 1/pasted__joint4_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint4 1/MastNew:pasted__joint4_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint5 1
+      - path: MastNew:Joints3/MastNew:pasted__joint5 1
         weight: 1
-      - path: Joints3/pasted__joint5 1/pasted__joint5_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint5 1/MastNew:pasted__joint5_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint6 1
+      - path: MastNew:Joints3/MastNew:pasted__joint6 1
         weight: 1
-      - path: Joints3/pasted__joint6 1/pasted__joint6_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint6 1/MastNew:pasted__joint6_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint7 1
+      - path: MastNew:Joints3/MastNew:pasted__joint7 1
         weight: 1
-      - path: Joints3/pasted__joint7 1/pasted__joint7_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint7 1/MastNew:pasted__joint7_pointOnPolyConstraint2
         weight: 1
-      - path: Joints3/pasted__joint8 1
+      - path: MastNew:Joints3/MastNew:pasted__joint8 1
         weight: 1
-      - path: Joints3/pasted__joint8 1/pasted__joint8_pointOnPolyConstraint2
+      - path: MastNew:Joints3/MastNew:pasted__joint8 1/MastNew:pasted__joint8_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4
+      - path: MastNew:Joints4
         weight: 1
-      - path: Joints4/pasted__group31 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint1 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint1
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint1 1/pasted__pasted__joint1_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint1
+          1/MastNew:pasted__pasted__joint1_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint2 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint2
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint2 1/pasted__pasted__joint2_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint2
+          1/MastNew:pasted__pasted__joint2_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint3 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint3
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint3 1/pasted__pasted__joint3_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint3
+          1/MastNew:pasted__pasted__joint3_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint4 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint4
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint4 1/pasted__pasted__joint4_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint4
+          1/MastNew:pasted__pasted__joint4_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint5 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint5
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint5 1/pasted__pasted__joint5_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint5
+          1/MastNew:pasted__pasted__joint5_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint6 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint6
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint6 1/pasted__pasted__joint6_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint6
+          1/MastNew:pasted__pasted__joint6_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint7 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint7
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint7 1/pasted__pasted__joint7_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint7
+          1/MastNew:pasted__pasted__joint7_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint8 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint8
+          1
         weight: 1
-      - path: Joints4/pasted__group31 1/pasted__pasted__joint8 1/pasted__pasted__joint8_pointOnPolyConstraint2
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint8
+          1/MastNew:pasted__pasted__joint8_pointOnPolyConstraint2
         weight: 1
-      - path: Joints4/pasted__joint1 2
+      - path: MastNew:Joints4/MastNew:pasted__joint1 2
         weight: 1
-      - path: Joints4/pasted__joint1 2/pasted__joint1_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint1 2/MastNew:pasted__joint1_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint2 2
+      - path: MastNew:Joints4/MastNew:pasted__joint2 2
         weight: 1
-      - path: Joints4/pasted__joint2 2/pasted__joint2_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint2 2/MastNew:pasted__joint2_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint3 2
+      - path: MastNew:Joints4/MastNew:pasted__joint3 2
         weight: 1
-      - path: Joints4/pasted__joint3 2/pasted__joint3_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint3 2/MastNew:pasted__joint3_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint4 2
+      - path: MastNew:Joints4/MastNew:pasted__joint4 2
         weight: 1
-      - path: Joints4/pasted__joint4 2/pasted__joint4_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint4 2/MastNew:pasted__joint4_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint5 2
+      - path: MastNew:Joints4/MastNew:pasted__joint5 2
         weight: 1
-      - path: Joints4/pasted__joint5 2/pasted__joint5_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint5 2/MastNew:pasted__joint5_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint6 2
+      - path: MastNew:Joints4/MastNew:pasted__joint6 2
         weight: 1
-      - path: Joints4/pasted__joint6 2/pasted__joint6_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint6 2/MastNew:pasted__joint6_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint7 2
+      - path: MastNew:Joints4/MastNew:pasted__joint7 2
         weight: 1
-      - path: Joints4/pasted__joint7 2/pasted__joint7_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint7 2/MastNew:pasted__joint7_pointOnPolyConstraint3
         weight: 1
-      - path: Joints4/pasted__joint8 2
+      - path: MastNew:Joints4/MastNew:pasted__joint8 2
         weight: 1
-      - path: Joints4/pasted__joint8 2/pasted__joint8_pointOnPolyConstraint3
+      - path: MastNew:Joints4/MastNew:pasted__joint8 2/MastNew:pasted__joint8_pointOnPolyConstraint3
         weight: 1
-      - path: Joints5
+      - path: MastNew:Joints5
         weight: 1
-      - path: Joints5/pasted__joint1 3
+      - path: MastNew:Joints5/MastNew:pasted__joint1 3
         weight: 1
-      - path: Joints5/pasted__joint1 3/pasted__joint1_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint1 3/MastNew:pasted__joint1_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint2 3
+      - path: MastNew:Joints5/MastNew:pasted__joint2 3
         weight: 1
-      - path: Joints5/pasted__joint2 3/pasted__joint2_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint2 3/MastNew:pasted__joint2_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint3 3
+      - path: MastNew:Joints5/MastNew:pasted__joint3 3
         weight: 1
-      - path: Joints5/pasted__joint3 3/pasted__joint3_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint3 3/MastNew:pasted__joint3_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint4 3
+      - path: MastNew:Joints5/MastNew:pasted__joint4 3
         weight: 1
-      - path: Joints5/pasted__joint4 3/pasted__joint4_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint4 3/MastNew:pasted__joint4_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint5 3
+      - path: MastNew:Joints5/MastNew:pasted__joint5 3
         weight: 1
-      - path: Joints5/pasted__joint5 3/pasted__joint5_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint5 3/MastNew:pasted__joint5_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint6 3
+      - path: MastNew:Joints5/MastNew:pasted__joint6 3
         weight: 1
-      - path: Joints5/pasted__joint6 3/pasted__joint6_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint6 3/MastNew:pasted__joint6_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint7 3
+      - path: MastNew:Joints5/MastNew:pasted__joint7 3
         weight: 1
-      - path: Joints5/pasted__joint7 3/pasted__joint7_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint7 3/MastNew:pasted__joint7_pointOnPolyConstraint4
         weight: 1
-      - path: Joints5/pasted__joint8 3
+      - path: MastNew:Joints5/MastNew:pasted__joint8 3
         weight: 1
-      - path: Joints5/pasted__joint8 3/pasted__joint8_pointOnPolyConstraint4
+      - path: MastNew:Joints5/MastNew:pasted__joint8 3/MastNew:pasted__joint8_pointOnPolyConstraint4
         weight: 1
-      - path: LowerSailPole
+      - path: MastNew:Mast1
         weight: 1
-      - path: LowerSailPole/transform13
+      - path: MastNew:Mast1/MastNew:Basket
         weight: 1
-      - path: Mast
+      - path: MastNew:Mast1/MastNew:CenterPole
         weight: 1
-      - path: Mast/transform10
+      - path: MastNew:Mast1/MastNew:LowerPole
         weight: 1
-      - path: Mast1
+      - path: MastNew:Mast1/MastNew:Sail1
         weight: 1
-      - path: Mast1/Basket
+      - path: MastNew:Mast1/MastNew:UpperPole
         weight: 1
-      - path: Mast1/CenterPole
+      - path: MastNew:Mast1/MastNew:Wire1 1
         weight: 1
-      - path: Mast1/LowerPole
+      - path: MastNew:pasted__pasted__pCylinder7
         weight: 1
-      - path: Mast1/Sail1
+      - path: MastNew:transform8
         weight: 1
-      - path: Mast1/UpperPole
+      - path: MastNew:transform9
         weight: 1
-      - path: Mast1/Wire1
+      - path: MastNew:transform10
         weight: 1
-      - path: Nest_Group
+      - path: MastNew:transform11
         weight: 1
-      - path: Nest_Group/Upper_Nest
+      - path: MastNew:transform12
         weight: 1
-      - path: Nest_Group/Upper_Nest/transform8
+      - path: MastNew:transform13
         weight: 1
-      - path: pPlane1
+      - path: MastNew:Wire1
         weight: 1
-      - path: pPlane1/transform9
+      - path: MastNew:Wire4
         weight: 1
-      - path: Sail_Pole
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Calm
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
         weight: 1
-      - path: Sail_Pole/UpperSailPole
+      - path: MastNew:joint1
         weight: 1
-      - path: Sail_Pole/UpperSailPole/transform11
+      - path: MastNew:joint1/MastNew:joint1_pointOnPolyConstraint1
         weight: 1
-      - path: Wire_Group
+      - path: MastNew:joint2
         weight: 1
-      - path: Wire_Group/Wire2
+      - path: MastNew:joint2/MastNew:joint2_pointOnPolyConstraint1
         weight: 1
-      - path: Wire_Group/Wire2/transform12
+      - path: MastNew:joint3
+        weight: 1
+      - path: MastNew:joint3/MastNew:joint3_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint4
+        weight: 1
+      - path: MastNew:joint4/MastNew:joint4_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint5
+        weight: 1
+      - path: MastNew:joint5/MastNew:joint5_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint6
+        weight: 1
+      - path: MastNew:joint6/MastNew:joint6_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint7
+        weight: 1
+      - path: MastNew:joint7/MastNew:joint7_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint8
+        weight: 1
+      - path: MastNew:joint8/MastNew:joint8_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint1/MastNew:pasted__joint1_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint2
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint2/MastNew:pasted__joint2_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint3
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint3/MastNew:pasted__joint3_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint4
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint4/MastNew:pasted__joint4_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint5
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint5/MastNew:pasted__joint5_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint6
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint6/MastNew:pasted__joint6_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint7
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint7/MastNew:pasted__joint7_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint8
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint8/MastNew:pasted__joint8_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint1/MastNew:pasted__pasted__joint1_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint2/MastNew:pasted__pasted__joint2_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint3
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint3/MastNew:pasted__pasted__joint3_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint4
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint4/MastNew:pasted__pasted__joint4_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint5
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint5/MastNew:pasted__pasted__joint5_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint6
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint6/MastNew:pasted__pasted__joint6_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint7
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint7/MastNew:pasted__pasted__joint7_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint8
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint8/MastNew:pasted__pasted__joint8_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint1 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint1 1/MastNew:pasted__joint1_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint2 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint2 1/MastNew:pasted__joint2_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint3 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint3 1/MastNew:pasted__joint3_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint4 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint4 1/MastNew:pasted__joint4_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint5 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint5 1/MastNew:pasted__joint5_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint6 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint6 1/MastNew:pasted__joint6_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint7 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint7 1/MastNew:pasted__joint7_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint8 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint8 1/MastNew:pasted__joint8_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint1
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint1
+          1/MastNew:pasted__pasted__joint1_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint2
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint2
+          1/MastNew:pasted__pasted__joint2_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint3
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint3
+          1/MastNew:pasted__pasted__joint3_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint4
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint4
+          1/MastNew:pasted__pasted__joint4_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint5
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint5
+          1/MastNew:pasted__pasted__joint5_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint6
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint6
+          1/MastNew:pasted__pasted__joint6_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint7
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint7
+          1/MastNew:pasted__pasted__joint7_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint8
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint8
+          1/MastNew:pasted__pasted__joint8_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint1 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint1 2/MastNew:pasted__joint1_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint2 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint2 2/MastNew:pasted__joint2_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint3 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint3 2/MastNew:pasted__joint3_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint4 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint4 2/MastNew:pasted__joint4_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint5 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint5 2/MastNew:pasted__joint5_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint6 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint6 2/MastNew:pasted__joint6_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint7 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint7 2/MastNew:pasted__joint7_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint8 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint8 2/MastNew:pasted__joint8_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints5
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint1 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint1 3/MastNew:pasted__joint1_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint2 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint2 3/MastNew:pasted__joint2_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint3 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint3 3/MastNew:pasted__joint3_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint4 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint4 3/MastNew:pasted__joint4_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint5 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint5 3/MastNew:pasted__joint5_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint6 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint6 3/MastNew:pasted__joint6_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint7 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint7 3/MastNew:pasted__joint7_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint8 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint8 3/MastNew:pasted__joint8_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Mast1
+        weight: 1
+      - path: MastNew:Mast1/MastNew:Basket
+        weight: 1
+      - path: MastNew:Mast1/MastNew:CenterPole
+        weight: 1
+      - path: MastNew:Mast1/MastNew:LowerPole
+        weight: 1
+      - path: MastNew:Mast1/MastNew:Sail1
+        weight: 1
+      - path: MastNew:Mast1/MastNew:UpperPole
+        weight: 1
+      - path: MastNew:Mast1/MastNew:Wire1 1
+        weight: 1
+      - path: MastNew:pasted__pasted__pCylinder7
+        weight: 1
+      - path: MastNew:transform8
+        weight: 1
+      - path: MastNew:transform9
+        weight: 1
+      - path: MastNew:transform10
+        weight: 1
+      - path: MastNew:transform11
+        weight: 1
+      - path: MastNew:transform12
+        weight: 1
+      - path: MastNew:transform13
+        weight: 1
+      - path: MastNew:Wire1
+        weight: 1
+      - path: MastNew:Wire4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strong
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MastNew:joint1
+        weight: 1
+      - path: MastNew:joint1/MastNew:joint1_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint2
+        weight: 1
+      - path: MastNew:joint2/MastNew:joint2_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint3
+        weight: 1
+      - path: MastNew:joint3/MastNew:joint3_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint4
+        weight: 1
+      - path: MastNew:joint4/MastNew:joint4_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint5
+        weight: 1
+      - path: MastNew:joint5/MastNew:joint5_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint6
+        weight: 1
+      - path: MastNew:joint6/MastNew:joint6_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint7
+        weight: 1
+      - path: MastNew:joint7/MastNew:joint7_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:joint8
+        weight: 1
+      - path: MastNew:joint8/MastNew:joint8_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint1/MastNew:pasted__joint1_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint2
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint2/MastNew:pasted__joint2_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint3
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint3/MastNew:pasted__joint3_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint4
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint4/MastNew:pasted__joint4_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint5
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint5/MastNew:pasted__joint5_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint6
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint6/MastNew:pasted__joint6_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint7
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint7/MastNew:pasted__joint7_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint8
+        weight: 1
+      - path: MastNew:Joints2/MastNew:pasted__joint8/MastNew:pasted__joint8_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint1/MastNew:pasted__pasted__joint1_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint2/MastNew:pasted__pasted__joint2_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint3
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint3/MastNew:pasted__pasted__joint3_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint4
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint4/MastNew:pasted__pasted__joint4_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint5
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint5/MastNew:pasted__pasted__joint5_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint6
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint6/MastNew:pasted__pasted__joint6_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint7
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint7/MastNew:pasted__pasted__joint7_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint8
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__group31/MastNew:pasted__pasted__joint8/MastNew:pasted__pasted__joint8_pointOnPolyConstraint1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint1 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint1 1/MastNew:pasted__joint1_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint2 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint2 1/MastNew:pasted__joint2_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint3 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint3 1/MastNew:pasted__joint3_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint4 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint4 1/MastNew:pasted__joint4_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint5 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint5 1/MastNew:pasted__joint5_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint6 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint6 1/MastNew:pasted__joint6_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint7 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint7 1/MastNew:pasted__joint7_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint8 1
+        weight: 1
+      - path: MastNew:Joints3/MastNew:pasted__joint8 1/MastNew:pasted__joint8_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint1
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint1
+          1/MastNew:pasted__pasted__joint1_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint2
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint2
+          1/MastNew:pasted__pasted__joint2_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint3
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint3
+          1/MastNew:pasted__pasted__joint3_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint4
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint4
+          1/MastNew:pasted__pasted__joint4_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint5
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint5
+          1/MastNew:pasted__pasted__joint5_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint6
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint6
+          1/MastNew:pasted__pasted__joint6_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint7
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint7
+          1/MastNew:pasted__pasted__joint7_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint8
+          1
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__group31 1/MastNew:pasted__pasted__joint8
+          1/MastNew:pasted__pasted__joint8_pointOnPolyConstraint2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint1 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint1 2/MastNew:pasted__joint1_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint2 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint2 2/MastNew:pasted__joint2_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint3 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint3 2/MastNew:pasted__joint3_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint4 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint4 2/MastNew:pasted__joint4_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint5 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint5 2/MastNew:pasted__joint5_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint6 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint6 2/MastNew:pasted__joint6_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint7 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint7 2/MastNew:pasted__joint7_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint8 2
+        weight: 1
+      - path: MastNew:Joints4/MastNew:pasted__joint8 2/MastNew:pasted__joint8_pointOnPolyConstraint3
+        weight: 1
+      - path: MastNew:Joints5
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint1 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint1 3/MastNew:pasted__joint1_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint2 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint2 3/MastNew:pasted__joint2_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint3 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint3 3/MastNew:pasted__joint3_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint4 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint4 3/MastNew:pasted__joint4_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint5 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint5 3/MastNew:pasted__joint5_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint6 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint6 3/MastNew:pasted__joint6_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint7 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint7 3/MastNew:pasted__joint7_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint8 3
+        weight: 1
+      - path: MastNew:Joints5/MastNew:pasted__joint8 3/MastNew:pasted__joint8_pointOnPolyConstraint4
+        weight: 1
+      - path: MastNew:Mast1
+        weight: 1
+      - path: MastNew:Mast1/MastNew:Basket
+        weight: 1
+      - path: MastNew:Mast1/MastNew:CenterPole
+        weight: 1
+      - path: MastNew:Mast1/MastNew:LowerPole
+        weight: 1
+      - path: MastNew:Mast1/MastNew:Sail1
+        weight: 1
+      - path: MastNew:Mast1/MastNew:UpperPole
+        weight: 1
+      - path: MastNew:Mast1/MastNew:Wire1 1
+        weight: 1
+      - path: MastNew:pasted__pasted__pCylinder7
+        weight: 1
+      - path: MastNew:transform8
+        weight: 1
+      - path: MastNew:transform9
+        weight: 1
+      - path: MastNew:transform10
+        weight: 1
+      - path: MastNew:transform11
+        weight: 1
+      - path: MastNew:transform12
+        weight: 1
+      - path: MastNew:transform13
+        weight: 1
+      - path: MastNew:Wire1
+        weight: 1
+      - path: MastNew:Wire4
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
