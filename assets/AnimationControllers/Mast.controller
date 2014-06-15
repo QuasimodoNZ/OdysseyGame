@@ -26,21 +26,21 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1101 &110100000
+--- !u!1101 &110180257
 Transition:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_SrcState: {fileID: 110268172}
+  m_SrcState: {fileID: 110284498}
   m_DstState: {fileID: 110200000}
-  m_TransitionDuration: .100000001
+  m_TransitionDuration: .0869565234
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: health
-    m_EventTreshold: 0
-    m_ExitTime: .899999976
+    m_EventTreshold: .100000001
+    m_ExitTime: .913043499
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
@@ -59,18 +59,18 @@ State:
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
---- !u!1102 &110268172
+--- !u!1102 &110284498
 State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Idle State
+  m_Name: Strong
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400002, guid: 2f9d8af29269c41f5abeeadf346b1825, type: 3}
+  - {fileID: 7400004, guid: 2f9d8af29269c41f5abeeadf346b1825, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
-  m_Position: {x: 240, y: 0, z: 0}
+  m_Position: {x: 216, y: 0, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
   m_Tag: 
@@ -81,19 +81,22 @@ StateMachine:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Base Layer
-  m_DefaultState: {fileID: 110268172}
+  m_DefaultState: {fileID: 110284498}
   m_States:
   - {fileID: 110200000}
-  - {fileID: 110268172}
+  - {fileID: 110284498}
   m_ChildStateMachine: []
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110268172}
+      first: {fileID: 110284498}
       second:
-      - {fileID: 110100000}
+      - {fileID: 110180257}
     data:
       first: {fileID: 110200000}
+      second: []
+    data:
+      first: {fileID: 0}
       second: []
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: 0, y: 0, z: 0}
