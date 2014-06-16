@@ -138,6 +138,7 @@ ModelImporter:
     100264: MastNew:Wire1
     100266: MastNew:Wire1 1
     100268: MastNew:Wire4
+    100270: pPlane1
     400000: //RootNode
     400002: MastNew:Basket
     400004: MastNew:CenterPole
@@ -273,6 +274,7 @@ ModelImporter:
     400264: MastNew:Wire1
     400266: MastNew:Wire1 1
     400268: MastNew:Wire4
+    400270: pPlane1
     2300000: MastNew:Basket
     2300002: MastNew:CenterPole
     2300004: MastNew:LowerPole
@@ -281,6 +283,7 @@ ModelImporter:
     2300010: MastNew:Wire1
     2300012: MastNew:Wire1 1
     2300014: MastNew:Wire4
+    2300016: pPlane1
     3300000: MastNew:Basket
     3300002: MastNew:CenterPole
     3300004: MastNew:LowerPole
@@ -289,6 +292,7 @@ ModelImporter:
     3300010: MastNew:Wire1
     3300012: MastNew:Wire1 1
     3300014: MastNew:Wire4
+    3300016: pPlane1
     4300000: MastNew:Wire1
     4300002: MastNew:LowerPole
     4300004: MastNew:Wire1
@@ -298,6 +302,7 @@ ModelImporter:
     4300012: MastNew:Basket
     4300014: MastNew:Wire4
     4300016: MastNew:pasted__pasted__pCylinder7
+    4300018: pPlane1
     7400000: Death
     7400002: Calm
     7400004: Strong
