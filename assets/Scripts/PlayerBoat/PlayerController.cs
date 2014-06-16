@@ -113,8 +113,8 @@ public class PlayerController : MonoBehaviour
 		}
 	
 		public void InflictDamage (int damage)
-		{ // Call whenever damage should be inflicted to player from any source
-				if (isHealing)
+		{ // Call whenever damage should be inflicted to player from any source			
+				if (isHealing || dead)
 						return;
 				hp -= damage;
 
