@@ -46,8 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="assets\CirceController.cs" />
-     <Compile Include="assets\CirceProjectile.cs" />
      <Compile Include="assets\Scripts\Controllers\AnimController.cs" />
      <Compile Include="assets\Scripts\Controllers\CameraScript.cs" />
      <Compile Include="assets\Scripts\Controllers\GuiController.cs" />
@@ -55,9 +53,11 @@
      <Compile Include="assets\Scripts\Controllers\Menu_LittleMenController.cs" />
      <Compile Include="assets\Scripts\Controllers\ModelController.cs" />
      <Compile Include="assets\Scripts\Controllers\TileController.cs" />
-     <Compile Include="assets\Scripts\CyclopsClub.cs" />
-     <Compile Include="assets\Scripts\HealingHole.cs" />
-     <Compile Include="assets\Scripts\LurePlayer.cs" />
+     <Compile Include="assets\Scripts\Islands\CirceController.cs" />
+     <Compile Include="assets\Scripts\Islands\CirceProjectile.cs" />
+     <Compile Include="assets\Scripts\Islands\CyclopsClub.cs" />
+     <Compile Include="assets\Scripts\Islands\HealingHole.cs" />
+     <Compile Include="assets\Scripts\Islands\LurePlayer.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\BoatFollower.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\DebugScript.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\RotatableGuiItem.cs" />
@@ -75,8 +75,8 @@
      <Compile Include="assets\Scripts\PlayerBoat\PlayerMovement.cs" />
      <Compile Include="assets\Scripts\ScoreLogo.cs" />
      <Compile Include="assets\Scripts\Sound\ScrapingSound.cs" />
+     <Compile Include="assets\Scripts\SplashTranslation.cs" />
      <Compile Include="assets\Scripts\WorldTile.cs" />
-     <Compile Include="assets\SplashTranslation.cs" />
      <Compile Include="assets\imported assets\water (basic)\sources\Scripts\WaterSimple.cs" />
      <None Include="assets\imported assets\water (basic)\sources\Shaders\FX-Water Simple.shader" />
      <None Include="assets\Fonts\olympus\readme.txt" />
