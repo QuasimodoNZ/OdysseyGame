@@ -65,6 +65,7 @@ GameObject:
   - 65: {fileID: 6500000}
   - 114: {fileID: 11400002}
   - 64: {fileID: 6400000}
+  - 114: {fileID: 11400010}
   m_Layer: 0
   m_Name: WorldTile2_3
   m_TagString: Untagged
@@ -90,8 +91,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.99995422, y: -1.07088625, z: -4.93870258}
-  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
+  m_LocalPosition: {x: -12.2188969, y: -1.07088625, z: -4.93870258}
+  m_LocalScale: {x: 1.07385385, y: 1.07385385, z: 1.07385385}
   m_Children: []
   m_Father: {fileID: 400006}
 --- !u!4 &400004
@@ -244,6 +245,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frequency: 10
   splash: {fileID: 100004}
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2f50a8e0bb841a5aaa90ae55db8849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!154 &15400000
 TerrainCollider:
   m_ObjectHideFlags: 1
