@@ -6337,7 +6337,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400158, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
   m_PrefabInternal: {fileID: 1725579065}
   m_GameObject: {fileID: 295716712}
-  m_LocalRotation: {x: .0119250221, y: .0169394203, z: .648365557, w: .761047363}
+  m_LocalRotation: {x: .0119250212, y: .0169394203, z: .648365557, w: .761047304}
   m_LocalPosition: {x: -10.8963003, y: -.00619078102, z: 2.0019865}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -10023,6 +10023,7 @@ MonoBehaviour:
   turnRate: 4
   defaultMoveSpeed: .0199999996
   defaultAcceleration: .00100000005
+  thrustNodeOffset: {x: 0, y: 0, z: -3}
   collisionForce: 500
   pushForce: 20
   currentThrust: 15
@@ -33751,6 +33752,10 @@ Prefab:
     - target: {fileID: 400058, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
+      propertyPath: thrustNodeOffset.z
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: da979daf06a304379a02fd7c2be8a710, type: 2}
