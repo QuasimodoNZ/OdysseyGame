@@ -72,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 705.21582, y: 824.615967, z: 461.992432}
+  m_LocalPosition: {x: 705.21582, y: 824.615967, z: 526.663391}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 400192}
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
-  m_MaterialTemplate: {fileID: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: baea054cdf29748c9b1a3802a5780823, type: 2}
 --- !u!154 &15400000
 TerrainCollider:
   m_ObjectHideFlags: 1

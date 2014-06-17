@@ -10659,7 +10659,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100492}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -.177885592, y: -3.88891077, z: 15.3825073}
+  m_LocalPosition: {x: -.177883774, y: -3.80682468, z: 15.382513}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400470}
@@ -11603,7 +11603,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100652}
   m_LocalRotation: {x: .141187668, y: 0, z: 0, w: .989982903}
-  m_LocalPosition: {x: 4.85763645, y: -4.53668451, z: .15432024}
+  m_LocalPosition: {x: 4.85763931, y: -5.49086142, z: -.123492971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400674}
@@ -13623,7 +13623,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100990}
   m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: -.00135552115, y: .0886951536, z: .020894371}
+  m_LocalPosition: {x: -.00135665596, y: 5.48888397, z: -9.42249298}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 401012}
@@ -14969,7 +14969,7 @@ MonoBehaviour:
   m_LightmapIndex: -1
   m_LightmapSize: 1024
   m_DrawTreesAndFoliage: 1
-  m_MaterialTemplate: {fileID: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: baea054cdf29748c9b1a3802a5780823, type: 2}
 --- !u!154 &15400000
 TerrainCollider:
   m_ObjectHideFlags: 1
