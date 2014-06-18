@@ -18,6 +18,8 @@ public class GuiController : MonoBehaviour
 		private GameObject hpGui;
 		private GameObject speedGui;
 		private GameObject scoreGui;
+	    public GUIText endText;
+	private bool once = true;
 
 		// External Game Objects
 		private GameObject player;
@@ -45,6 +47,10 @@ public class GuiController : MonoBehaviour
 				manager.setScore (player.GetComponent<PlayerController> ().GetScore ());
 				scoreGui.guiText.text = "" + manager.getScore ();
 				if (player.GetComponent<PlayerController> ().GetHpPercent () == 0) {
+			if(once == true){     
+			endText.enabled = !endText.enabled;
+				once = false;
+			}
 						if (timeOfDeath != float.MaxValue && timeOfDeath < Time.realtimeSinceStartup - 5) {
 								Application.LoadLevel ("Menu");
 						} else if (timeOfDeath == float.MaxValue) {

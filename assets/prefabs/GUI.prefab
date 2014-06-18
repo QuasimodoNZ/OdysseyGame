@@ -210,7 +210,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0692789257, y: -4.18128538, z: 1.08512688}
+  m_LocalPosition: {x: .0837548077, y: -4.18128538, z: 1.08512688}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400006}
@@ -253,6 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c55d2557b173248b0f2503b6e7defd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endText: {fileID: 13200008}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -282,7 +283,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controls: {fileID: 13200002}
   instructions: {fileID: 13200010}
-  score: {fileID: 0}
 --- !u!132 &13200000
 GUIText:
   m_ObjectHideFlags: 1
@@ -381,7 +381,7 @@ GUIText:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Text: Abandon Ship!
   m_Anchor: 6

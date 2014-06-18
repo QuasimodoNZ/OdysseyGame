@@ -12,7 +12,7 @@ public class Guide_Script : MonoBehaviour {
 
 	void Start(){
 
-		//endText.enabled = !endText.enabled;
+
 
 		}
 
@@ -28,7 +28,7 @@ public class Guide_Script : MonoBehaviour {
 			}
 		}
 		/*
-		if (thing == 0) {
+		if (player.GetComponent<PlayerController> ().GetHpPercent () == 0) {
 			endText.enabled = !endText.enabled;
 				}
 				*/
