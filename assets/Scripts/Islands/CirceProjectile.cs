@@ -4,7 +4,7 @@ using System.Collections;
 public class CirceProjectile : MonoBehaviour {
 
 	private Transform target;
-	private float speed = 0.5f;
+	private float speed = 0.8f;
 
 	// Use this for initialization
 	void Start () {
@@ -12,7 +12,7 @@ public class CirceProjectile : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		transform.LookAt (target);
 		transform.Translate(0,0,speed);
 	}
@@ -24,15 +24,12 @@ public class CirceProjectile : MonoBehaviour {
 			Debug.Log ("PIGIFY PLAYER");			
 			Dissipate ();
 			other.gameObject.GetComponent<PlayerController> ().CirceAttackDamage ();
-		}
-		
-		
+		}		
 		Dissipate ();			
 		
 	}
 	
 	void Dissipate(){
-		Debug.Log ("Dissipate Projectile");
 		Destroy (gameObject);
 	}	
 }

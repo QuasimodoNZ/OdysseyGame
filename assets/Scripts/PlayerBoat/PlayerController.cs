@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
 	// Damage
 	public int cyclopsClubDamage = 20;
 	public int circeAttackDamage = 10;
+	public int giantAttackDamage = 10;
 	
 	// Score
 	private int score = 0; // Player's current
@@ -102,6 +103,14 @@ public class PlayerController : MonoBehaviour
 		}
 		return (int)(hp * 100 / fullHp);
 	}
+
+	public float GetHpFloat ()
+	{	// Get HP as an integer percentage of full hp
+		if (hp <= 0) {
+			return 0;
+		}
+		return ((float)hp / (float)fullHp);
+	}
 	
 	public void CyclopsClubDamage ()
 	{
@@ -113,6 +122,11 @@ public class PlayerController : MonoBehaviour
 		SetGlowyness (true);
 		glowyTimer = glowyDuration;
 		InflictDamage (circeAttackDamage);
+	}
+
+	public void GiantAttackDamage ()
+	{
+		InflictDamage (giantAttackDamage);
 	}
 	
 	public void HealingHoleEffect ()
