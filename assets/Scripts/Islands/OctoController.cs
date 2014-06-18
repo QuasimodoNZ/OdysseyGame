@@ -42,7 +42,7 @@ public class OctoController : MonoBehaviour {
 		} 
 		if(!diving){
 			transform.LookAt (player.transform);
-			transform.Translate(0,0,swimSpeed);
+			//transform.Translate(0,0,swimSpeed);
 		}
 	}
 	

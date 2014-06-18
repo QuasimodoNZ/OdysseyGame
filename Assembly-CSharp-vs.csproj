@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{BAD29B89-ACCC-8F8F-94E9-14BE78A2F78E}</ProjectGuid>
+	<ProjectGuid>{F68B3110-BE35-B906-C533-473F10E8AC2B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="assets\OctoSightController.cs" />
      <Compile Include="assets\Scripts\Controllers\AnimController.cs" />
      <Compile Include="assets\Scripts\Controllers\CameraScript.cs" />
      <Compile Include="assets\Scripts\Controllers\GuiController.cs" />
@@ -59,6 +58,8 @@
      <Compile Include="assets\Scripts\Islands\CyclopsClub.cs" />
      <Compile Include="assets\Scripts\Islands\HealingHole.cs" />
      <Compile Include="assets\Scripts\Islands\LurePlayer.cs" />
+     <Compile Include="assets\Scripts\Islands\OctoController.cs" />
+     <Compile Include="assets\Scripts\Islands\OctoSightController.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\BoatFollower.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\DebugScript.cs" />
      <Compile Include="assets\Scripts\Miscellaneous\RotatableGuiItem.cs" />
@@ -71,7 +72,6 @@
      <Compile Include="assets\Scripts\Ocean\WaveManipulator.cs" />
      <Compile Include="assets\Scripts\Ocean\WaveRiding.cs" />
      <Compile Include="assets\Scripts\Ocean\Weather.cs" />
-     <Compile Include="assets\Scripts\OctoController.cs" />
      <Compile Include="assets\Scripts\PlayerBoat\PlayerController.cs" />
      <Compile Include="assets\Scripts\PlayerBoat\PlayerCoreHull.cs" />
      <Compile Include="assets\Scripts\PlayerBoat\PlayerMovement.cs" />
