@@ -15,11 +15,30 @@ public class AnimController : MonoBehaviour
 				}
 		}	
 
-		public void SetHealth (float percentage)
+		public void SetHealth (int percentage)
 		{
-				Debug.Log ("Setting health for animations: " + percentage);
+				//Debug.Log ("Setting health for animations: " + percentage);
 				foreach (Animator animator in animators) {
-						animator.SetFloat ("health", percentage);
+						animator.SetInteger ("health", percentage);
+
+						AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo (0);
+				
+						/*if (animator.GetInteger ("threshold") < percentage) {
+								animator.gameObject.SetActive (true);
+						}*/
+
+						if (stateInfo.nameHash == Animator.StringToHash ("Base Layer.Final")) {
+								animator.gameObject.SetActive (false);
+						}
+			
+						/*
+						if (animator.GetInteger ("threshold") > percentage) {
+								if (animator.GetAnimatorTransitionInfo (0).nameHash == Animator.StringToHash ("Base Layer.Death")) {
+										Debug.Log ("This in animation state Death");
+								}
+						} else {
+
+						}*/
 				}
 				if (percentage <= 0) {
 						SetDead ();
@@ -28,7 +47,7 @@ public class AnimController : MonoBehaviour
 		public void SetDead ()
 		{
 				foreach (Animator animator in animators) {
-						animator.SetFloat ("health", -1f);
+						animator.SetInteger ("health", -1);
 				}
 				foreach (GameObject crew in GameObject.FindGameObjectsWithTag(Tags.crew)) {
 						if (!crew.GetComponent<Rigidbody> ()) {

@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
 						if (healCounter >= fullHealCounter) {
 								toBeHealedAmt -= 1;
 								hp += 1;
-								animController.SetHealth ((float)(GetHpPercent ()) / 100.0f);
+								animController.SetHealth (GetHpPercent ());
 								healCounter = 0;
 								if (hp > fullHp)
 										hp = fullHp;
@@ -68,6 +68,9 @@ public class PlayerController : MonoBehaviour
 						isHealing = false;
 						healCounter = 0;
 				}
+
+				animController.SetHealth (GetHpPercent ());
+
 		
 				if (!dead) {
 						score = (int)transform.position.magnitude;
@@ -110,7 +113,6 @@ public class PlayerController : MonoBehaviour
 				if ((toBeHealedAmt + hp) > fullHp) {
 						toBeHealedAmt = fullHp - hp;
 				}
-		
 		}
 	
 		public void InflictDamage (int damage)
@@ -119,8 +121,8 @@ public class PlayerController : MonoBehaviour
 						return;
 				hp -= damage;
 
-				animController.SetHealth ((float)(GetHpPercent ()) / 100.0f);
-
+/*				animController.SetHealth (GetHpPercent ());
+*/
 				if (hp <= 0) {
 						KillPlayer ();
 				}
