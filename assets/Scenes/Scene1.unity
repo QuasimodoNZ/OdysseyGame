@@ -11728,6 +11728,7 @@ Transform:
   m_Children:
   - {fileID: 1748401589}
   - {fileID: 435886701}
+  - {fileID: 1730741403}
   - {fileID: 723939774}
   - {fileID: 1939132935}
   - {fileID: 1965176236}
@@ -11869,10 +11870,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHp: 50
-  healSpeed: 10
+  healSpeed: 200
   healingHoleHealAmount: 15
   cyclopsClubDamage: 20
-  circeAttackDamage: 10
+  circeAttackDamage: 5
+  glowyDuration: 50
 --- !u!54 &516934618
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -16133,6 +16135,44 @@ Transform:
   m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
   m_Children: []
   m_Father: {fileID: 1102004803}
+--- !u!1 &711455750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 711455751}
+  - 122: {fileID: 711455752}
+  m_Layer: 0
+  m_Name: GlowyEffectsInner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &711455751
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711455750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1730741403}
+--- !u!122 &711455752
+Halo:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 711455750}
+  m_Enabled: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4292856479
+  m_Size: 3
 --- !u!1 &713832576
 GameObject:
   m_ObjectHideFlags: 0
@@ -38460,6 +38500,45 @@ Transform:
   m_Children:
   - {fileID: 1885032956}
   m_Father: {fileID: 91766822}
+--- !u!1 &1730741402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1730741403}
+  - 122: {fileID: 1730741404}
+  m_Layer: 0
+  m_Name: GlowyEffects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1730741403
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1730741402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.82230759, z: -.597333908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 711455751}
+  m_Father: {fileID: 516934609}
+--- !u!122 &1730741404
+Halo:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1730741402}
+  m_Enabled: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4291404372
+  m_Size: 5
 --- !u!1 &1730755160
 GameObject:
   m_ObjectHideFlags: 0
