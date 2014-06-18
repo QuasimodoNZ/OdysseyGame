@@ -8057,6 +8057,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -4.0772047
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 0174f082c93c842cd895a4712d1204a2, type: 2}
+      propertyPath: endAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f13d2cc528e342b98dc061e3d614124, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0174f082c93c842cd895a4712d1204a2, type: 2}
   m_RootGameObject: {fileID: 1184910214}
@@ -23283,6 +23287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endText: {fileID: 1856979124}
+  endAudio: {fileID: 8300000, guid: 9f13d2cc528e342b98dc061e3d614124, type: 3}
 --- !u!114 &1184910217
 MonoBehaviour:
   m_ObjectHideFlags: 0

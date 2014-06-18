@@ -20,6 +20,7 @@ public class GuiController : MonoBehaviour
 		private GameObject scoreGui;
 	    public GUIText endText;
 	private bool once = true;
+	public AudioClip endAudio;
 
 		// External Game Objects
 		private GameObject player;
@@ -49,6 +50,7 @@ public class GuiController : MonoBehaviour
 				if (player.GetComponent<PlayerController> ().GetHpPercent () == 0) {
 			if(once == true){     
 			endText.enabled = !endText.enabled;
+				audio.PlayOneShot (endAudio);
 				once = false;
 			}
 						if (timeOfDeath != float.MaxValue && timeOfDeath < Time.realtimeSinceStartup - 5) {
