@@ -8,7 +8,7 @@ public class GiantProjectile : MonoBehaviour {
 	private float speed = 2.2f;
 	private float friction = 0.985f;
 	private float gravity = 0.0f;
-	private float minSpeed = 0.2f;
+	private float minSpeed = 0.4f;
 	
 	// Use this for initialization
 	void Start () {

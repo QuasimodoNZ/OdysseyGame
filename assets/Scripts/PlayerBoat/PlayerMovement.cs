@@ -24,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
 	public int collisionForce = 200;	
 	public int pushForce = 20;
 	public float currentThrust = 0.01f;
+
+	public Vector3 thrustNodeOffset;	//the point from the center of mass that must be below the water to apply thrust
+
 	
 	// When player is dead
 	private bool isDead = false;
@@ -32,12 +35,14 @@ public class PlayerMovement : MonoBehaviour
 	private float sinkSpeed = 0.15f;
 	
 	private GameObject gameController;
+	private Weather waveGenerator;
 	
 	
 	// Use this for initialization
 	void Start ()
 	{
 		gameController = GameObject.FindGameObjectWithTag (Tags.gameController);
+		waveGenerator = GameObject.FindGameObjectWithTag (Tags.gameController).GetComponent<Weather> ();
 	}
 	
 	// Update is called once per frame
@@ -64,10 +69,19 @@ public class PlayerMovement : MonoBehaviour
 		//transform.Rotate (0, turnAmount, 0);
 		
 		// Movement
-		// Currently movement is at a fixed speed
 		currentThrust += defaultAcceleration;
-		//transform.Translate (0, 0, currentSpeed);
-		rigidbody.AddForce (transform.forward * currentThrust);
+		//rigidbody.AddForce (transform.forward * currentThrust);
+
+		Vector3 actionPoint = transform.position + transform.TransformDirection (thrustNodeOffset);
+		float waterLevel = waveGenerator.heightAt (actionPoint .x, actionPoint .z);
+		
+		if (actionPoint.y - waterLevel <= 0) {
+			rigidbody.AddForce (transform.forward * currentThrust);
+		}
+		
+		if (gameController.GetComponent<DebugScript> ().debug) {
+			Debug.DrawRay (transform.position, transform.forward * currentThrust);
+		}
 		
 		if (gameController.GetComponent<DebugScript> ().debug) {
 			Debug.DrawRay (transform.position, transform.forward * currentThrust);
