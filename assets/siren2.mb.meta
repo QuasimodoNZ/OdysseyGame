@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: faaef138e28211b41b8c21c91b7c43f3
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: body_mesh
+    100002: Character1_Ctrl_ChestEndEffector
+    100004: Character1_Ctrl_ChestOriginEffector
+    100006: Character1_Ctrl_Head
+    100008: Character1_Ctrl_HeadEffector
+    100010: Character1_Ctrl_Hips
+    100012: Character1_Ctrl_HipsEffector
+    100014: Character1_Ctrl_LeftAnkleEffector
+    100016: Character1_Ctrl_LeftArm
+    100018: Character1_Ctrl_LeftElbowEffector
+    100020: Character1_Ctrl_LeftFingerBase
+    100022: Character1_Ctrl_LeftFoot
+    100024: Character1_Ctrl_LeftFootEffector
+    100026: Character1_Ctrl_LeftFootExtraFinger1
+    100028: Character1_Ctrl_LeftFootExtraFinger2
+    100030: Character1_Ctrl_LeftFootExtraFingerEffector
+    100032: Character1_Ctrl_LeftForeArm
+    100034: Character1_Ctrl_LeftHand
+    100036: Character1_Ctrl_LeftHandEffector
+    100038: Character1_Ctrl_LeftHandIndex1
+    100040: Character1_Ctrl_LeftHandIndex2
+    100042: Character1_Ctrl_LeftHandIndex3
+    100044: Character1_Ctrl_LeftHandIndexEffector
+    100046: Character1_Ctrl_LeftHandMiddle1
+    100048: Character1_Ctrl_LeftHandMiddle2
+    100050: Character1_Ctrl_LeftHandMiddle3
+    100052: Character1_Ctrl_LeftHandMiddleEffector
+    100054: Character1_Ctrl_LeftHandPinky1
+    100056: Character1_Ctrl_LeftHandPinky2
+    100058: Character1_Ctrl_LeftHandPinky3
+    100060: Character1_Ctrl_LeftHandPinkyEffector
+    100062: Character1_Ctrl_LeftHandRing1
+    100064: Character1_Ctrl_LeftHandRing2
+    100066: Character1_Ctrl_LeftHandRing3
+    100068: Character1_Ctrl_LeftHandRingEffector
+    100070: Character1_Ctrl_LeftHandThumb1
+    100072: Character1_Ctrl_LeftHandThumb2
+    100074: Character1_Ctrl_LeftHandThumb3
+    100076: Character1_Ctrl_LeftHandThumbEffector
+    100078: Character1_Ctrl_LeftHipEffector
+    100080: Character1_Ctrl_LeftKneeEffector
+    100082: Character1_Ctrl_LeftLeg
+    100084: Character1_Ctrl_LeftShoulder
+    100086: Character1_Ctrl_LeftShoulderEffector
+    100088: Character1_Ctrl_LeftToeBase
+    100090: Character1_Ctrl_LeftUpLeg
+    100092: Character1_Ctrl_LeftWristEffector
+    100094: Character1_Ctrl_Neck
+    100096: Character1_Ctrl_Reference
+    100098: Character1_Ctrl_RightAnkleEffector
+    100100: Character1_Ctrl_RightArm
+    100102: Character1_Ctrl_RightElbowEffector
+    100104: Character1_Ctrl_RightFingerBase
+    100106: Character1_Ctrl_RightFoot
+    100108: Character1_Ctrl_RightFootEffector
+    100110: Character1_Ctrl_RightFootExtraFinger1
+    100112: Character1_Ctrl_RightFootExtraFinger2
+    100114: Character1_Ctrl_RightFootExtraFingerEffector
+    100116: Character1_Ctrl_RightForeArm
+    100118: Character1_Ctrl_RightHand
+    100120: Character1_Ctrl_RightHandEffector
+    100122: Character1_Ctrl_RightHandIndex1
+    100124: Character1_Ctrl_RightHandIndex2
+    100126: Character1_Ctrl_RightHandIndex3
+    100128: Character1_Ctrl_RightHandIndexEffector
+    100130: Character1_Ctrl_RightHandMiddle1
+    100132: Character1_Ctrl_RightHandMiddle2
+    100134: Character1_Ctrl_RightHandMiddle3
+    100136: Character1_Ctrl_RightHandMiddleEffector
+    100138: Character1_Ctrl_RightHandPinky1
+    100140: Character1_Ctrl_RightHandPinky2
+    100142: Character1_Ctrl_RightHandPinky3
+    100144: Character1_Ctrl_RightHandPinkyEffector
+    100146: Character1_Ctrl_RightHandRing1
+    100148: Character1_Ctrl_RightHandRing2
+    100150: Character1_Ctrl_RightHandRing3
+    100152: Character1_Ctrl_RightHandRingEffector
+    100154: Character1_Ctrl_RightHandThumb1
+    100156: Character1_Ctrl_RightHandThumb2
+    100158: Character1_Ctrl_RightHandThumb3
+    100160: Character1_Ctrl_RightHandThumbEffector
+    100162: Character1_Ctrl_RightHipEffector
+    100164: Character1_Ctrl_RightKneeEffector
+    100166: Character1_Ctrl_RightLeg
+    100168: Character1_Ctrl_RightShoulder
+    100170: Character1_Ctrl_RightShoulderEffector
+    100172: Character1_Ctrl_RightToeBase
+    100174: Character1_Ctrl_RightUpLeg
+    100176: Character1_Ctrl_RightWristEffector
+    100178: Character1_Ctrl_Spine
+    100180: Character1_Ctrl_Spine1
+    100182: Character1_Ctrl_Spine2
+    100184: dress1
+    100186: eye
+    100188: eye2
+    100190: hair_2
+    100192: polySurface10
+    100194: polySurface11
+    100196: polySurface12
+    100198: polySurface13
+    100200: polySurface4
+    100202: polySurface5
+    100204: polySurface6
+    100206: polySurface7
+    100208: polySurface8
+    100210: polySurface9
+    100212: rigonly:CenterHead
+    100214: rigonly:CenterNeck
+    100216: rigonly:CenterRoot
+    100218: rigonly:CenterSpine
+    100220: rigonly:CenterSpine 1
+    100222: rigonly:CenterSpine 2
+    100224: rigonly:Clothes
+    100226: rigonly:Left_Eye
+    100228: rigonly:LeftBigToe
+    100230: rigonly:LeftCollar
+    100232: rigonly:LeftElbow
+    100234: rigonly:LeftFinger
+    100236: rigonly:LeftFoot
+    100238: rigonly:LeftFoot 1
+    100240: rigonly:LeftHand
+    100242: rigonly:LeftHip
+    100244: rigonly:LeftIndexFinger
+    100246: rigonly:LeftIndexFinger 1
+    100248: rigonly:LeftIndexFinger 2
+    100250: rigonly:LeftKnee
+    100252: rigonly:LeftMiddleFinger
+    100254: rigonly:LeftMiddleFinger 1
+    100256: rigonly:LeftMiddleFinger 2
+    100258: rigonly:LeftPinkyFinger
+    100260: rigonly:LeftPinkyFinger 1
+    100262: rigonly:LeftPinkyFinger 2
+    100264: rigonly:LeftRingFinger
+    100266: rigonly:LeftRingFinger 1
+    100268: rigonly:LeftRingFinger 2
+    100270: rigonly:LeftShoulder
+    100272: rigonly:LeftThumb
+    100274: rigonly:LeftThumb 1
+    100276: rigonly:LeftThumb 2
+    100278: rigonly:LeftToe
+    100280: rigonly:nRigid1
+    100282: rigonly:nucleus1
+    100284: rigonly:Right_Eye
+    100286: rigonly:RightBigToe
+    100288: rigonly:RightCollar
+    100290: rigonly:RightElbow
+    100292: rigonly:RightFinger
+    100294: rigonly:RightFoot
+    100296: rigonly:RightFoot 1
+    100298: rigonly:RightHand
+    100300: rigonly:RightHip
+    100302: rigonly:RightIndexFinger
+    100304: rigonly:RightIndexFinger 1
+    100306: rigonly:RightIndexFinger 2
+    100308: rigonly:RightKnee
+    100310: rigonly:RightMiddleFinger
+    100312: rigonly:RightMiddleFinger 1
+    100314: rigonly:RightMiddleFinger 2
+    100316: rigonly:RightPinkyFinger
+    100318: rigonly:RightPinkyFinger 1
+    100320: rigonly:RightPinkyFinger 2
+    100322: rigonly:RightRingFinger
+    100324: rigonly:RightRingFinger 1
+    100326: rigonly:RightRingFinger 2
+    100328: rigonly:RightShoulder
+    100330: rigonly:RightThumb
+    100332: rigonly:RightThumb 1
+    100334: rigonly:RightThumb 2
+    100336: rigonly:RightToe
+    100338: //RootNode
+    100340: siren:polySurface1
+    100342: transform1
+    100344: transform2
+    100346: transform3
+    100348: transform4
+    100350: transform5
+    100352: transform6
+    100354: transform7
+    100356: transform8
+    100358: transform9
+    400000: body_mesh
+    400002: Character1_Ctrl_ChestEndEffector
+    400004: Character1_Ctrl_ChestOriginEffector
+    400006: Character1_Ctrl_Head
+    400008: Character1_Ctrl_HeadEffector
+    400010: Character1_Ctrl_Hips
+    400012: Character1_Ctrl_HipsEffector
+    400014: Character1_Ctrl_LeftAnkleEffector
+    400016: Character1_Ctrl_LeftArm
+    400018: Character1_Ctrl_LeftElbowEffector
+    400020: Character1_Ctrl_LeftFingerBase
+    400022: Character1_Ctrl_LeftFoot
+    400024: Character1_Ctrl_LeftFootEffector
+    400026: Character1_Ctrl_LeftFootExtraFinger1
+    400028: Character1_Ctrl_LeftFootExtraFinger2
+    400030: Character1_Ctrl_LeftFootExtraFingerEffector
+    400032: Character1_Ctrl_LeftForeArm
+    400034: Character1_Ctrl_LeftHand
+    400036: Character1_Ctrl_LeftHandEffector
+    400038: Character1_Ctrl_LeftHandIndex1
+    400040: Character1_Ctrl_LeftHandIndex2
+    400042: Character1_Ctrl_LeftHandIndex3
+    400044: Character1_Ctrl_LeftHandIndexEffector
+    400046: Character1_Ctrl_LeftHandMiddle1
+    400048: Character1_Ctrl_LeftHandMiddle2
+    400050: Character1_Ctrl_LeftHandMiddle3
+    400052: Character1_Ctrl_LeftHandMiddleEffector
+    400054: Character1_Ctrl_LeftHandPinky1
+    400056: Character1_Ctrl_LeftHandPinky2
+    400058: Character1_Ctrl_LeftHandPinky3
+    400060: Character1_Ctrl_LeftHandPinkyEffector
+    400062: Character1_Ctrl_LeftHandRing1
+    400064: Character1_Ctrl_LeftHandRing2
+    400066: Character1_Ctrl_LeftHandRing3
+    400068: Character1_Ctrl_LeftHandRingEffector
+    400070: Character1_Ctrl_LeftHandThumb1
+    400072: Character1_Ctrl_LeftHandThumb2
+    400074: Character1_Ctrl_LeftHandThumb3
+    400076: Character1_Ctrl_LeftHandThumbEffector
+    400078: Character1_Ctrl_LeftHipEffector
+    400080: Character1_Ctrl_LeftKneeEffector
+    400082: Character1_Ctrl_LeftLeg
+    400084: Character1_Ctrl_LeftShoulder
+    400086: Character1_Ctrl_LeftShoulderEffector
+    400088: Character1_Ctrl_LeftToeBase
+    400090: Character1_Ctrl_LeftUpLeg
+    400092: Character1_Ctrl_LeftWristEffector
+    400094: Character1_Ctrl_Neck
+    400096: Character1_Ctrl_Reference
+    400098: Character1_Ctrl_RightAnkleEffector
+    400100: Character1_Ctrl_RightArm
+    400102: Character1_Ctrl_RightElbowEffector
+    400104: Character1_Ctrl_RightFingerBase
+    400106: Character1_Ctrl_RightFoot
+    400108: Character1_Ctrl_RightFootEffector
+    400110: Character1_Ctrl_RightFootExtraFinger1
+    400112: Character1_Ctrl_RightFootExtraFinger2
+    400114: Character1_Ctrl_RightFootExtraFingerEffector
+    400116: Character1_Ctrl_RightForeArm
+    400118: Character1_Ctrl_RightHand
+    400120: Character1_Ctrl_RightHandEffector
+    400122: Character1_Ctrl_RightHandIndex1
+    400124: Character1_Ctrl_RightHandIndex2
+    400126: Character1_Ctrl_RightHandIndex3
+    400128: Character1_Ctrl_RightHandIndexEffector
+    400130: Character1_Ctrl_RightHandMiddle1
+    400132: Character1_Ctrl_RightHandMiddle2
+    400134: Character1_Ctrl_RightHandMiddle3
+    400136: Character1_Ctrl_RightHandMiddleEffector
+    400138: Character1_Ctrl_RightHandPinky1
+    400140: Character1_Ctrl_RightHandPinky2
+    400142: Character1_Ctrl_RightHandPinky3
+    400144: Character1_Ctrl_RightHandPinkyEffector
+    400146: Character1_Ctrl_RightHandRing1
+    400148: Character1_Ctrl_RightHandRing2
+    400150: Character1_Ctrl_RightHandRing3
+    400152: Character1_Ctrl_RightHandRingEffector
+    400154: Character1_Ctrl_RightHandThumb1
+    400156: Character1_Ctrl_RightHandThumb2
+    400158: Character1_Ctrl_RightHandThumb3
+    400160: Character1_Ctrl_RightHandThumbEffector
+    400162: Character1_Ctrl_RightHipEffector
+    400164: Character1_Ctrl_RightKneeEffector
+    400166: Character1_Ctrl_RightLeg
+    400168: Character1_Ctrl_RightShoulder
+    400170: Character1_Ctrl_RightShoulderEffector
+    400172: Character1_Ctrl_RightToeBase
+    400174: Character1_Ctrl_RightUpLeg
+    400176: Character1_Ctrl_RightWristEffector
+    400178: Character1_Ctrl_Spine
+    400180: Character1_Ctrl_Spine1
+    400182: Character1_Ctrl_Spine2
+    400184: dress1
+    400186: eye
+    400188: eye2
+    400190: hair_2
+    400192: polySurface10
+    400194: polySurface11
+    400196: polySurface12
+    400198: polySurface13
+    400200: polySurface4
+    400202: polySurface5
+    400204: polySurface6
+    400206: polySurface7
+    400208: polySurface8
+    400210: polySurface9
+    400212: rigonly:CenterHead
+    400214: rigonly:CenterNeck
+    400216: rigonly:CenterRoot
+    400218: rigonly:CenterSpine
+    400220: rigonly:CenterSpine 1
+    400222: rigonly:CenterSpine 2
+    400224: rigonly:Clothes
+    400226: rigonly:Left_Eye
+    400228: rigonly:LeftBigToe
+    400230: rigonly:LeftCollar
+    400232: rigonly:LeftElbow
+    400234: rigonly:LeftFinger
+    400236: rigonly:LeftFoot
+    400238: rigonly:LeftFoot 1
+    400240: rigonly:LeftHand
+    400242: rigonly:LeftHip
+    400244: rigonly:LeftIndexFinger
+    400246: rigonly:LeftIndexFinger 1
+    400248: rigonly:LeftIndexFinger 2
+    400250: rigonly:LeftKnee
+    400252: rigonly:LeftMiddleFinger
+    400254: rigonly:LeftMiddleFinger 1
+    400256: rigonly:LeftMiddleFinger 2
+    400258: rigonly:LeftPinkyFinger
+    400260: rigonly:LeftPinkyFinger 1
+    400262: rigonly:LeftPinkyFinger 2
+    400264: rigonly:LeftRingFinger
+    400266: rigonly:LeftRingFinger 1
+    400268: rigonly:LeftRingFinger 2
+    400270: rigonly:LeftShoulder
+    400272: rigonly:LeftThumb
+    400274: rigonly:LeftThumb 1
+    400276: rigonly:LeftThumb 2
+    400278: rigonly:LeftToe
+    400280: rigonly:nRigid1
+    400282: rigonly:nucleus1
+    400284: rigonly:Right_Eye
+    400286: rigonly:RightBigToe
+    400288: rigonly:RightCollar
+    400290: rigonly:RightElbow
+    400292: rigonly:RightFinger
+    400294: rigonly:RightFoot
+    400296: rigonly:RightFoot 1
+    400298: rigonly:RightHand
+    400300: rigonly:RightHip
+    400302: rigonly:RightIndexFinger
+    400304: rigonly:RightIndexFinger 1
+    400306: rigonly:RightIndexFinger 2
+    400308: rigonly:RightKnee
+    400310: rigonly:RightMiddleFinger
+    400312: rigonly:RightMiddleFinger 1
+    400314: rigonly:RightMiddleFinger 2
+    400316: rigonly:RightPinkyFinger
+    400318: rigonly:RightPinkyFinger 1
+    400320: rigonly:RightPinkyFinger 2
+    400322: rigonly:RightRingFinger
+    400324: rigonly:RightRingFinger 1
+    400326: rigonly:RightRingFinger 2
+    400328: rigonly:RightShoulder
+    400330: rigonly:RightThumb
+    400332: rigonly:RightThumb 1
+    400334: rigonly:RightThumb 2
+    400336: rigonly:RightToe
+    400338: //RootNode
+    400340: siren:polySurface1
+    400342: transform1
+    400344: transform2
+    400346: transform3
+    400348: transform4
+    400350: transform5
+    400352: transform6
+    400354: transform7
+    400356: transform8
+    400358: transform9
+    4300000: polySurface6
+    4300002: polySurface7
+    4300004: polySurface8
+    4300006: polySurface9
+    4300008: polySurface10
+    4300010: polySurface13
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface10
+    13700002: polySurface13
+    13700004: polySurface6
+    13700006: polySurface7
+    13700008: polySurface8
+    13700010: polySurface9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

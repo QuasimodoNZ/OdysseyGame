@@ -1,0 +1,1758 @@
+fileFormatVersion: 2
+guid: 3d10364f6f11d434d92229689e8a591d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: CenterHead
+    100002: CenterHead 1
+    100004: CenterHead 2
+    100006: CenterNeck
+    100008: CenterRoot
+    100010: ikHandle1
+    100012: ikHandle10
+    100014: ikHandle11
+    100016: ikHandle12
+    100018: ikHandle13
+    100020: ikHandle14
+    100022: ikHandle15
+    100024: ikHandle16
+    100026: ikHandle17
+    100028: ikHandle2
+    100030: ikHandle3
+    100032: ikHandle4
+    100034: ikHandle5
+    100036: ikHandle6
+    100038: ikHandle7
+    100040: ikHandle9
+    100042: Left_Leg_1
+    100044: Left_Leg_2
+    100046: Left_Leg_3
+    100048: Left_Leg_4
+    100050: LeftFoot1
+    100052: LeftFoot2
+    100054: LeftFoot3
+    100056: LeftFoot4
+    100058: LeftHip1
+    100060: LeftHip2
+    100062: LeftHip3
+    100064: LeftHip4
+    100066: LeftKnee1
+    100068: LeftKnee2
+    100070: LeftKnee3
+    100072: LeftKnee4
+    100074: LeftToe1
+    100076: LeftToe1 1
+    100078: LeftToe1 2
+    100080: LeftToe1 3
+    100082: LeftToe1 4
+    100084: LeftToe2
+    100086: LeftToe2 1
+    100088: LeftToe2 2
+    100090: LeftToe2 3
+    100092: LeftToe2 4
+    100094: LeftToe3
+    100096: LeftToe3 1
+    100098: LeftToe3 2
+    100100: LeftToe3 3
+    100102: LeftToe3 4
+    100104: LeftToe4
+    100106: LeftToe4 1
+    100108: LeftToe4 2
+    100110: LeftToe4 3
+    100112: LeftToe4 4
+    100114: nurbsCircle10
+    100116: nurbsCircle11
+    100118: nurbsCircle12
+    100120: nurbsCircle13
+    100122: nurbsCircle14
+    100124: nurbsCircle15
+    100126: nurbsCircle16
+    100128: nurbsCircle17
+    100130: nurbsCircle18
+    100132: nurbsCircle19
+    100134: nurbsCircle20
+    100136: nurbsCircle21
+    100138: nurbsCircle22
+    100140: nurbsCircle23
+    100142: nurbsCircle24
+    100144: nurbsCircle25
+    100146: nurbsCircle26
+    100148: nurbsCircle27
+    100150: nurbsCircle28
+    100152: nurbsCircle29
+    100154: nurbsCircle30
+    100156: nurbsCircle31
+    100158: nurbsCircle32
+    100160: nurbsCircle33
+    100162: //RootNode
+    100164: Octopus
+    100166: Right_Leg_1
+    100168: Right_Leg_2
+    100170: Right_Leg_3
+    100172: Right_Leg_4
+    100174: RightFoot1
+    100176: RightFoot2
+    100178: RightFoot3
+    100180: RightFoot4
+    100182: RightHip1
+    100184: RightHip2
+    100186: RightHip3
+    100188: RightHip4
+    100190: RightKnee1
+    100192: RightKnee2
+    100194: RightKnee3
+    100196: RightKnee4
+    100198: RightToe1
+    100200: RightToe1 1
+    100202: RightToe1 2
+    100204: RightToe1 3
+    100206: RightToe1 4
+    100208: RightToe2
+    100210: RightToe2 1
+    100212: RightToe2 2
+    100214: RightToe2 3
+    100216: RightToe2 4
+    100218: RightToe3
+    100220: RightToe3 1
+    100222: RightToe3 2
+    100224: RightToe3 3
+    100226: RightToe3 4
+    100228: RightToe4
+    100230: RightToe4 1
+    100232: RightToe4 2
+    100234: RightToe4 3
+    100236: RightToe4 4
+    100238: root
+    400000: CenterHead
+    400002: CenterHead 1
+    400004: CenterHead 2
+    400006: CenterNeck
+    400008: CenterRoot
+    400010: ikHandle1
+    400012: ikHandle10
+    400014: ikHandle11
+    400016: ikHandle12
+    400018: ikHandle13
+    400020: ikHandle14
+    400022: ikHandle15
+    400024: ikHandle16
+    400026: ikHandle17
+    400028: ikHandle2
+    400030: ikHandle3
+    400032: ikHandle4
+    400034: ikHandle5
+    400036: ikHandle6
+    400038: ikHandle7
+    400040: ikHandle9
+    400042: Left_Leg_1
+    400044: Left_Leg_2
+    400046: Left_Leg_3
+    400048: Left_Leg_4
+    400050: LeftFoot1
+    400052: LeftFoot2
+    400054: LeftFoot3
+    400056: LeftFoot4
+    400058: LeftHip1
+    400060: LeftHip2
+    400062: LeftHip3
+    400064: LeftHip4
+    400066: LeftKnee1
+    400068: LeftKnee2
+    400070: LeftKnee3
+    400072: LeftKnee4
+    400074: LeftToe1
+    400076: LeftToe1 1
+    400078: LeftToe1 2
+    400080: LeftToe1 3
+    400082: LeftToe1 4
+    400084: LeftToe2
+    400086: LeftToe2 1
+    400088: LeftToe2 2
+    400090: LeftToe2 3
+    400092: LeftToe2 4
+    400094: LeftToe3
+    400096: LeftToe3 1
+    400098: LeftToe3 2
+    400100: LeftToe3 3
+    400102: LeftToe3 4
+    400104: LeftToe4
+    400106: LeftToe4 1
+    400108: LeftToe4 2
+    400110: LeftToe4 3
+    400112: LeftToe4 4
+    400114: nurbsCircle10
+    400116: nurbsCircle11
+    400118: nurbsCircle12
+    400120: nurbsCircle13
+    400122: nurbsCircle14
+    400124: nurbsCircle15
+    400126: nurbsCircle16
+    400128: nurbsCircle17
+    400130: nurbsCircle18
+    400132: nurbsCircle19
+    400134: nurbsCircle20
+    400136: nurbsCircle21
+    400138: nurbsCircle22
+    400140: nurbsCircle23
+    400142: nurbsCircle24
+    400144: nurbsCircle25
+    400146: nurbsCircle26
+    400148: nurbsCircle27
+    400150: nurbsCircle28
+    400152: nurbsCircle29
+    400154: nurbsCircle30
+    400156: nurbsCircle31
+    400158: nurbsCircle32
+    400160: nurbsCircle33
+    400162: //RootNode
+    400164: Octopus
+    400166: Right_Leg_1
+    400168: Right_Leg_2
+    400170: Right_Leg_3
+    400172: Right_Leg_4
+    400174: RightFoot1
+    400176: RightFoot2
+    400178: RightFoot3
+    400180: RightFoot4
+    400182: RightHip1
+    400184: RightHip2
+    400186: RightHip3
+    400188: RightHip4
+    400190: RightKnee1
+    400192: RightKnee2
+    400194: RightKnee3
+    400196: RightKnee4
+    400198: RightToe1
+    400200: RightToe1 1
+    400202: RightToe1 2
+    400204: RightToe1 3
+    400206: RightToe1 4
+    400208: RightToe2
+    400210: RightToe2 1
+    400212: RightToe2 2
+    400214: RightToe2 3
+    400216: RightToe2 4
+    400218: RightToe3
+    400220: RightToe3 1
+    400222: RightToe3 2
+    400224: RightToe3 3
+    400226: RightToe3 4
+    400228: RightToe4
+    400230: RightToe4 1
+    400232: RightToe4 2
+    400234: RightToe4 3
+    400236: RightToe4 4
+    400238: root
+    4300000: Octopus
+    7400000: OctoIdle
+    7400002: OctoDive
+    7400004: OctoSeeBoat
+    7400006: OctoFlips
+    7400008: OctoGrab
+    7400010: OctoPull
+    7400012: OctoReIdle
+    9500000: //RootNode
+    13700000: Octopus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: OctoIdle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CenterRoot
+        weight: 1
+      - path: CenterRoot/CenterNeck
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1/CenterHead 2
+        weight: 1
+      - path: CenterRoot/LeftHip1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3/LeftToe1 4
+        weight: 1
+      - path: CenterRoot/LeftHip2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3/LeftToe2 4
+        weight: 1
+      - path: CenterRoot/LeftHip3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3/LeftToe3 4
+        weight: 1
+      - path: CenterRoot/LeftHip4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3/LeftToe4 4
+        weight: 1
+      - path: CenterRoot/RightHip1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3/RightToe1 4
+        weight: 1
+      - path: CenterRoot/RightHip2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3/RightToe2 4
+        weight: 1
+      - path: CenterRoot/RightHip3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3/RightToe3 4
+        weight: 1
+      - path: CenterRoot/RightHip4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3/RightToe4 4
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: ikHandle7
+        weight: 1
+      - path: ikHandle9
+        weight: 1
+      - path: ikHandle10
+        weight: 1
+      - path: ikHandle11
+        weight: 1
+      - path: ikHandle12
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      - path: ikHandle15
+        weight: 1
+      - path: ikHandle16
+        weight: 1
+      - path: ikHandle17
+        weight: 1
+      - path: Left_Leg_1
+        weight: 1
+      - path: Left_Leg_2
+        weight: 1
+      - path: Left_Leg_3
+        weight: 1
+      - path: Left_Leg_4
+        weight: 1
+      - path: nurbsCircle10
+        weight: 1
+      - path: nurbsCircle11
+        weight: 1
+      - path: nurbsCircle12
+        weight: 1
+      - path: nurbsCircle13
+        weight: 1
+      - path: nurbsCircle14
+        weight: 1
+      - path: nurbsCircle15
+        weight: 1
+      - path: nurbsCircle16
+        weight: 1
+      - path: nurbsCircle17
+        weight: 1
+      - path: nurbsCircle18
+        weight: 1
+      - path: nurbsCircle19
+        weight: 1
+      - path: nurbsCircle20
+        weight: 1
+      - path: nurbsCircle21
+        weight: 1
+      - path: nurbsCircle22
+        weight: 1
+      - path: nurbsCircle23
+        weight: 1
+      - path: nurbsCircle24
+        weight: 1
+      - path: nurbsCircle25
+        weight: 1
+      - path: nurbsCircle26
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle28
+        weight: 1
+      - path: nurbsCircle29
+        weight: 1
+      - path: nurbsCircle30
+        weight: 1
+      - path: nurbsCircle31
+        weight: 1
+      - path: nurbsCircle32
+        weight: 1
+      - path: nurbsCircle33
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: Right_Leg_1
+        weight: 1
+      - path: Right_Leg_2
+        weight: 1
+      - path: Right_Leg_3
+        weight: 1
+      - path: Right_Leg_4
+        weight: 1
+      - path: root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OctoDive
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CenterRoot
+        weight: 1
+      - path: CenterRoot/CenterNeck
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1/CenterHead 2
+        weight: 1
+      - path: CenterRoot/LeftHip1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3/LeftToe1 4
+        weight: 1
+      - path: CenterRoot/LeftHip2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3/LeftToe2 4
+        weight: 1
+      - path: CenterRoot/LeftHip3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3/LeftToe3 4
+        weight: 1
+      - path: CenterRoot/LeftHip4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3/LeftToe4 4
+        weight: 1
+      - path: CenterRoot/RightHip1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3/RightToe1 4
+        weight: 1
+      - path: CenterRoot/RightHip2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3/RightToe2 4
+        weight: 1
+      - path: CenterRoot/RightHip3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3/RightToe3 4
+        weight: 1
+      - path: CenterRoot/RightHip4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3/RightToe4 4
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: ikHandle7
+        weight: 1
+      - path: ikHandle9
+        weight: 1
+      - path: ikHandle10
+        weight: 1
+      - path: ikHandle11
+        weight: 1
+      - path: ikHandle12
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      - path: ikHandle15
+        weight: 1
+      - path: ikHandle16
+        weight: 1
+      - path: ikHandle17
+        weight: 1
+      - path: Left_Leg_1
+        weight: 1
+      - path: Left_Leg_2
+        weight: 1
+      - path: Left_Leg_3
+        weight: 1
+      - path: Left_Leg_4
+        weight: 1
+      - path: nurbsCircle10
+        weight: 1
+      - path: nurbsCircle11
+        weight: 1
+      - path: nurbsCircle12
+        weight: 1
+      - path: nurbsCircle13
+        weight: 1
+      - path: nurbsCircle14
+        weight: 1
+      - path: nurbsCircle15
+        weight: 1
+      - path: nurbsCircle16
+        weight: 1
+      - path: nurbsCircle17
+        weight: 1
+      - path: nurbsCircle18
+        weight: 1
+      - path: nurbsCircle19
+        weight: 1
+      - path: nurbsCircle20
+        weight: 1
+      - path: nurbsCircle21
+        weight: 1
+      - path: nurbsCircle22
+        weight: 1
+      - path: nurbsCircle23
+        weight: 1
+      - path: nurbsCircle24
+        weight: 1
+      - path: nurbsCircle25
+        weight: 1
+      - path: nurbsCircle26
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle28
+        weight: 1
+      - path: nurbsCircle29
+        weight: 1
+      - path: nurbsCircle30
+        weight: 1
+      - path: nurbsCircle31
+        weight: 1
+      - path: nurbsCircle32
+        weight: 1
+      - path: nurbsCircle33
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: Right_Leg_1
+        weight: 1
+      - path: Right_Leg_2
+        weight: 1
+      - path: Right_Leg_3
+        weight: 1
+      - path: Right_Leg_4
+        weight: 1
+      - path: root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OctoGrab
+      takeName: Take 001
+      firstFrame: 161
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CenterRoot
+        weight: 1
+      - path: CenterRoot/CenterNeck
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1/CenterHead 2
+        weight: 1
+      - path: CenterRoot/LeftHip1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3/LeftToe1 4
+        weight: 1
+      - path: CenterRoot/LeftHip2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3/LeftToe2 4
+        weight: 1
+      - path: CenterRoot/LeftHip3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3/LeftToe3 4
+        weight: 1
+      - path: CenterRoot/LeftHip4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3/LeftToe4 4
+        weight: 1
+      - path: CenterRoot/RightHip1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3/RightToe1 4
+        weight: 1
+      - path: CenterRoot/RightHip2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3/RightToe2 4
+        weight: 1
+      - path: CenterRoot/RightHip3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3/RightToe3 4
+        weight: 1
+      - path: CenterRoot/RightHip4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3/RightToe4 4
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: ikHandle7
+        weight: 1
+      - path: ikHandle9
+        weight: 1
+      - path: ikHandle10
+        weight: 1
+      - path: ikHandle11
+        weight: 1
+      - path: ikHandle12
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      - path: ikHandle15
+        weight: 1
+      - path: ikHandle16
+        weight: 1
+      - path: ikHandle17
+        weight: 1
+      - path: Left_Leg_1
+        weight: 1
+      - path: Left_Leg_2
+        weight: 1
+      - path: Left_Leg_3
+        weight: 1
+      - path: Left_Leg_4
+        weight: 1
+      - path: nurbsCircle10
+        weight: 1
+      - path: nurbsCircle11
+        weight: 1
+      - path: nurbsCircle12
+        weight: 1
+      - path: nurbsCircle13
+        weight: 1
+      - path: nurbsCircle14
+        weight: 1
+      - path: nurbsCircle15
+        weight: 1
+      - path: nurbsCircle16
+        weight: 1
+      - path: nurbsCircle17
+        weight: 1
+      - path: nurbsCircle18
+        weight: 1
+      - path: nurbsCircle19
+        weight: 1
+      - path: nurbsCircle20
+        weight: 1
+      - path: nurbsCircle21
+        weight: 1
+      - path: nurbsCircle22
+        weight: 1
+      - path: nurbsCircle23
+        weight: 1
+      - path: nurbsCircle24
+        weight: 1
+      - path: nurbsCircle25
+        weight: 1
+      - path: nurbsCircle26
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle28
+        weight: 1
+      - path: nurbsCircle29
+        weight: 1
+      - path: nurbsCircle30
+        weight: 1
+      - path: nurbsCircle31
+        weight: 1
+      - path: nurbsCircle32
+        weight: 1
+      - path: nurbsCircle33
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: Right_Leg_1
+        weight: 1
+      - path: Right_Leg_2
+        weight: 1
+      - path: Right_Leg_3
+        weight: 1
+      - path: Right_Leg_4
+        weight: 1
+      - path: root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OctoPull
+      takeName: Take 001
+      firstFrame: 171
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CenterRoot
+        weight: 1
+      - path: CenterRoot/CenterNeck
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1/CenterHead 2
+        weight: 1
+      - path: CenterRoot/LeftHip1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3/LeftToe1 4
+        weight: 1
+      - path: CenterRoot/LeftHip2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3/LeftToe2 4
+        weight: 1
+      - path: CenterRoot/LeftHip3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3/LeftToe3 4
+        weight: 1
+      - path: CenterRoot/LeftHip4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3/LeftToe4 4
+        weight: 1
+      - path: CenterRoot/RightHip1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3/RightToe1 4
+        weight: 1
+      - path: CenterRoot/RightHip2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3/RightToe2 4
+        weight: 1
+      - path: CenterRoot/RightHip3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3/RightToe3 4
+        weight: 1
+      - path: CenterRoot/RightHip4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3/RightToe4 4
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: ikHandle7
+        weight: 1
+      - path: ikHandle9
+        weight: 1
+      - path: ikHandle10
+        weight: 1
+      - path: ikHandle11
+        weight: 1
+      - path: ikHandle12
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      - path: ikHandle15
+        weight: 1
+      - path: ikHandle16
+        weight: 1
+      - path: ikHandle17
+        weight: 1
+      - path: Left_Leg_1
+        weight: 1
+      - path: Left_Leg_2
+        weight: 1
+      - path: Left_Leg_3
+        weight: 1
+      - path: Left_Leg_4
+        weight: 1
+      - path: nurbsCircle10
+        weight: 1
+      - path: nurbsCircle11
+        weight: 1
+      - path: nurbsCircle12
+        weight: 1
+      - path: nurbsCircle13
+        weight: 1
+      - path: nurbsCircle14
+        weight: 1
+      - path: nurbsCircle15
+        weight: 1
+      - path: nurbsCircle16
+        weight: 1
+      - path: nurbsCircle17
+        weight: 1
+      - path: nurbsCircle18
+        weight: 1
+      - path: nurbsCircle19
+        weight: 1
+      - path: nurbsCircle20
+        weight: 1
+      - path: nurbsCircle21
+        weight: 1
+      - path: nurbsCircle22
+        weight: 1
+      - path: nurbsCircle23
+        weight: 1
+      - path: nurbsCircle24
+        weight: 1
+      - path: nurbsCircle25
+        weight: 1
+      - path: nurbsCircle26
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle28
+        weight: 1
+      - path: nurbsCircle29
+        weight: 1
+      - path: nurbsCircle30
+        weight: 1
+      - path: nurbsCircle31
+        weight: 1
+      - path: nurbsCircle32
+        weight: 1
+      - path: nurbsCircle33
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: Right_Leg_1
+        weight: 1
+      - path: Right_Leg_2
+        weight: 1
+      - path: Right_Leg_3
+        weight: 1
+      - path: Right_Leg_4
+        weight: 1
+      - path: root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OctoReIdle
+      takeName: Take 001
+      firstFrame: 181
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CenterRoot
+        weight: 1
+      - path: CenterRoot/CenterNeck
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1
+        weight: 1
+      - path: CenterRoot/CenterNeck/CenterHead/CenterHead 1/CenterHead 2
+        weight: 1
+      - path: CenterRoot/LeftHip1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3
+        weight: 1
+      - path: CenterRoot/LeftHip1/LeftKnee1/LeftFoot1/LeftToe1/LeftToe1 1/LeftToe1
+          2/LeftToe1 3/LeftToe1 4
+        weight: 1
+      - path: CenterRoot/LeftHip2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3
+        weight: 1
+      - path: CenterRoot/LeftHip2/LeftKnee2/LeftFoot2/LeftToe2/LeftToe2 1/LeftToe2
+          2/LeftToe2 3/LeftToe2 4
+        weight: 1
+      - path: CenterRoot/LeftHip3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3
+        weight: 1
+      - path: CenterRoot/LeftHip3/LeftKnee3/LeftFoot3/LeftToe3/LeftToe3 1/LeftToe3
+          2/LeftToe3 3/LeftToe3 4
+        weight: 1
+      - path: CenterRoot/LeftHip4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3
+        weight: 1
+      - path: CenterRoot/LeftHip4/LeftKnee4/LeftFoot4/LeftToe4/LeftToe4 1/LeftToe4
+          2/LeftToe4 3/LeftToe4 4
+        weight: 1
+      - path: CenterRoot/RightHip1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3
+        weight: 1
+      - path: CenterRoot/RightHip1/RightKnee1/RightFoot1/RightToe1/RightToe1 1/RightToe1
+          2/RightToe1 3/RightToe1 4
+        weight: 1
+      - path: CenterRoot/RightHip2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3
+        weight: 1
+      - path: CenterRoot/RightHip2/RightKnee2/RightFoot2/RightToe2/RightToe2 1/RightToe2
+          2/RightToe2 3/RightToe2 4
+        weight: 1
+      - path: CenterRoot/RightHip3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3
+        weight: 1
+      - path: CenterRoot/RightHip3/RightKnee3/RightFoot3/RightToe3/RightToe3 1/RightToe3
+          2/RightToe3 3/RightToe3 4
+        weight: 1
+      - path: CenterRoot/RightHip4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3
+        weight: 1
+      - path: CenterRoot/RightHip4/RightKnee4/RightFoot4/RightToe4/RightToe4 1/RightToe4
+          2/RightToe4 3/RightToe4 4
+        weight: 1
+      - path: ikHandle1
+        weight: 1
+      - path: ikHandle2
+        weight: 1
+      - path: ikHandle3
+        weight: 1
+      - path: ikHandle4
+        weight: 1
+      - path: ikHandle5
+        weight: 1
+      - path: ikHandle6
+        weight: 1
+      - path: ikHandle7
+        weight: 1
+      - path: ikHandle9
+        weight: 1
+      - path: ikHandle10
+        weight: 1
+      - path: ikHandle11
+        weight: 1
+      - path: ikHandle12
+        weight: 1
+      - path: ikHandle13
+        weight: 1
+      - path: ikHandle14
+        weight: 1
+      - path: ikHandle15
+        weight: 1
+      - path: ikHandle16
+        weight: 1
+      - path: ikHandle17
+        weight: 1
+      - path: Left_Leg_1
+        weight: 1
+      - path: Left_Leg_2
+        weight: 1
+      - path: Left_Leg_3
+        weight: 1
+      - path: Left_Leg_4
+        weight: 1
+      - path: nurbsCircle10
+        weight: 1
+      - path: nurbsCircle11
+        weight: 1
+      - path: nurbsCircle12
+        weight: 1
+      - path: nurbsCircle13
+        weight: 1
+      - path: nurbsCircle14
+        weight: 1
+      - path: nurbsCircle15
+        weight: 1
+      - path: nurbsCircle16
+        weight: 1
+      - path: nurbsCircle17
+        weight: 1
+      - path: nurbsCircle18
+        weight: 1
+      - path: nurbsCircle19
+        weight: 1
+      - path: nurbsCircle20
+        weight: 1
+      - path: nurbsCircle21
+        weight: 1
+      - path: nurbsCircle22
+        weight: 1
+      - path: nurbsCircle23
+        weight: 1
+      - path: nurbsCircle24
+        weight: 1
+      - path: nurbsCircle25
+        weight: 1
+      - path: nurbsCircle26
+        weight: 1
+      - path: nurbsCircle27
+        weight: 1
+      - path: nurbsCircle28
+        weight: 1
+      - path: nurbsCircle29
+        weight: 1
+      - path: nurbsCircle30
+        weight: 1
+      - path: nurbsCircle31
+        weight: 1
+      - path: nurbsCircle32
+        weight: 1
+      - path: nurbsCircle33
+        weight: 1
+      - path: Octopus
+        weight: 1
+      - path: Right_Leg_1
+        weight: 1
+      - path: Right_Leg_2
+        weight: 1
+      - path: Right_Leg_3
+        weight: 1
+      - path: Right_Leg_4
+        weight: 1
+      - path: root
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
