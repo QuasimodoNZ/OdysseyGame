@@ -79,12 +79,7 @@ public class MenuController : MonoBehaviour {
 				once = true;
 			}
 				}
-			if (Input.GetKeyDown ("space") && move == false) {
-			text.enabled = !text.enabled;
-			move = true;			
-			audio.PlayOneShot (start);
-				}
-			
+	
 		}
 
 
