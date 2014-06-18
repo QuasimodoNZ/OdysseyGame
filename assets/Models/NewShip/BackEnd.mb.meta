@@ -16,6 +16,7 @@ ModelImporter:
     4300000: ShipBack
     4300002: Barrel
     7400000: Death
+    7400002: Final
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -36,6 +37,38 @@ ModelImporter:
       name: Death
       takeName: Take 001
       firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Barrel
+        weight: 1
+      - path: ShipBack
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Final
+      takeName: Take 001
+      firstFrame: 79
       lastFrame: 80
       wrapMode: 0
       orientationOffsetY: 0

@@ -21,6 +21,7 @@ ModelImporter:
     7400004: Straight to Right
     7400006: Right to Straight
     7400008: Death
+    7400010: Final
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -185,6 +186,42 @@ ModelImporter:
       name: Death
       takeName: Take 001
       firstFrame: 80
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__Rudder2
+        weight: 1
+      - path: pasted__Rudder2/pasted__Rudder2 1
+        weight: 1
+      - path: pasted__Rudder2/pasted__Rudder2 1/pasted__pasted__pasted__polySurface4
+        weight: 1
+      - path: pasted__Rudder2/pasted__Rudder2 1/pasted__pasted__pasted__polySurface4/pasted__pasted__pasted__polySurface3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Final
+      takeName: Take 001
+      firstFrame: 94
       lastFrame: 95
       wrapMode: 0
       orientationOffsetY: 0
