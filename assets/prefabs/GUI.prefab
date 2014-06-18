@@ -41,6 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 132: {fileID: 13200002}
+  - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: ScoreGUI
   m_TagString: Untagged
@@ -79,7 +80,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -167,6 +168,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c55d2557b173248b0f2503b6e7defd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44f7729c39aa46efb14d53ac10a8c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logo: {fileID: 2800000, guid: 5d2b9cd781c97407686e3b43d8ae5ea2, type: 3}
+  width: 90
+  height: 72
+  screenPercentW: .779999971
+  screenPercentH: .0199999996
 --- !u!132 &13200000
 GUIText:
   m_ObjectHideFlags: 1

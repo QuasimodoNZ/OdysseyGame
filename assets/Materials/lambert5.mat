@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: lambert5
-  m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 3, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -20,9 +20,17 @@ Material:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-    m_Floats: {}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .0538885444
     m_Colors:
       data:
         first:
           name: _Color
-        second: {r: .360294104, g: .263465077, b: .225183815, a: 1}
+        second: {r: .676470578, g: .392366648, b: .174091697, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .676470578, g: .594896197, b: .472534597, a: 1}

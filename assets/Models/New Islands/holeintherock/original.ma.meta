@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 058f95427b2d74a4ab89a467a12d5394
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: calypso_island
+    100002: group
+    100004: group1
+    100006: group2
+    100008: group3
+    100010: group4
+    100012: group5
+    100014: //RootNode
+    100016: pasted__group
+    100018: pasted__pCylinder3
+    100020: pasted__pCylinder3 1
+    100022: pasted__tree1
+    100024: pasted__tree2
+    100026: pasted__tree3
+    100028: pasted__tree4
+    100030: pasted__tree5
+    100032: pCube1
+    100034: pCube2
+    100036: pCube4
+    100038: pCube5
+    100040: pCylinder1
+    100042: pCylinder2
+    100044: pCylinder3
+    100046: pinetree1:group
+    100048: pinetree:_UNKNOWN_REF_NODE_fosterParent1
+    100050: pinetree:group
+    100052: pinetree:group1
+    100054: pinetree:group11
+    100056: pinetree:group12
+    100058: pinetree:group2
+    100060: pinetree:group3
+    100062: pinetree:group4
+    100064: pinetree:group5
+    100066: pinetree:group6
+    100068: pinetree:group8
+    100070: pinetree:group9
+    100072: pinetree:imagePlane1
+    100074: pinetree:pasted__group
+    100076: pinetree:pasted__group 1
+    100078: pinetree:pasted__group1
+    100080: pinetree:pasted__group3
+    100082: pinetree:pasted__group6
+    100084: pinetree:pasted__group6 1
+    100086: pinetree:pasted__pasted__group
+    100088: pinetree:pasted__pasted__group 1
+    100090: transform1
+    100092: transform2
+    100094: transform3
+    100096: transform4
+    100098: transform5
+    100100: transform6
+    100102: transform7
+    100104: transform8
+    100106: transform9
+    100108: tree
+    100110: tree1
+    100112: tree2:_UNKNOWN_REF_NODE_fosterParent1
+    100114: tree2:group
+    100116: tree2:group1
+    100118: tree2:group10
+    100120: tree2:group11
+    100122: tree2:group12
+    100124: tree2:group2
+    100126: tree2:group3
+    100128: tree2:group4
+    100130: tree2:group6
+    100132: tree2:group7
+    100134: tree2:imagePlane1
+    100136: tree2:pasted__group
+    100138: tree2:pasted__group 1
+    100140: tree2:pasted__group3
+    100142: tree2:pasted__group6
+    100144: tree2:pasted__group6 1
+    100146: tree2:pasted__group6 2
+    100148: tree2:pasted__pasted__group
+    100150: tree2:pasted__pasted__group 1
+    100152: tree2:pasted__pasted__group 2
+    100154: tree2:tree
+    100156: tree3
+    100158: tree4
+    100160: tree5
+    100162: tree6
+    400000: calypso_island
+    400002: group
+    400004: group1
+    400006: group2
+    400008: group3
+    400010: group4
+    400012: group5
+    400014: //RootNode
+    400016: pasted__group
+    400018: pasted__pCylinder3
+    400020: pasted__pCylinder3 1
+    400022: pasted__tree1
+    400024: pasted__tree2
+    400026: pasted__tree3
+    400028: pasted__tree4
+    400030: pasted__tree5
+    400032: pCube1
+    400034: pCube2
+    400036: pCube4
+    400038: pCube5
+    400040: pCylinder1
+    400042: pCylinder2
+    400044: pCylinder3
+    400046: pinetree1:group
+    400048: pinetree:_UNKNOWN_REF_NODE_fosterParent1
+    400050: pinetree:group
+    400052: pinetree:group1
+    400054: pinetree:group11
+    400056: pinetree:group12
+    400058: pinetree:group2
+    400060: pinetree:group3
+    400062: pinetree:group4
+    400064: pinetree:group5
+    400066: pinetree:group6
+    400068: pinetree:group8
+    400070: pinetree:group9
+    400072: pinetree:imagePlane1
+    400074: pinetree:pasted__group
+    400076: pinetree:pasted__group 1
+    400078: pinetree:pasted__group1
+    400080: pinetree:pasted__group3
+    400082: pinetree:pasted__group6
+    400084: pinetree:pasted__group6 1
+    400086: pinetree:pasted__pasted__group
+    400088: pinetree:pasted__pasted__group 1
+    400090: transform1
+    400092: transform2
+    400094: transform3
+    400096: transform4
+    400098: transform5
+    400100: transform6
+    400102: transform7
+    400104: transform8
+    400106: transform9
+    400108: tree
+    400110: tree1
+    400112: tree2:_UNKNOWN_REF_NODE_fosterParent1
+    400114: tree2:group
+    400116: tree2:group1
+    400118: tree2:group10
+    400120: tree2:group11
+    400122: tree2:group12
+    400124: tree2:group2
+    400126: tree2:group3
+    400128: tree2:group4
+    400130: tree2:group6
+    400132: tree2:group7
+    400134: tree2:imagePlane1
+    400136: tree2:pasted__group
+    400138: tree2:pasted__group 1
+    400140: tree2:pasted__group3
+    400142: tree2:pasted__group6
+    400144: tree2:pasted__group6 1
+    400146: tree2:pasted__group6 2
+    400148: tree2:pasted__pasted__group
+    400150: tree2:pasted__pasted__group 1
+    400152: tree2:pasted__pasted__group 2
+    400154: tree2:tree
+    400156: tree3
+    400158: tree4
+    400160: tree5
+    400162: tree6
+    2300000: calypso_island
+    2300002: pasted__tree1
+    2300004: pasted__tree2
+    2300006: pasted__tree3
+    2300008: pasted__tree4
+    2300010: pasted__tree5
+    2300012: tree
+    2300014: tree1
+    2300016: tree2:tree
+    2300018: tree3
+    2300020: tree4
+    2300022: tree5
+    2300024: tree6
+    3300000: calypso_island
+    3300002: pasted__tree1
+    3300004: pasted__tree2
+    3300006: pasted__tree3
+    3300008: pasted__tree4
+    3300010: pasted__tree5
+    3300012: tree
+    3300014: tree1
+    3300016: tree2:tree
+    3300018: tree3
+    3300020: tree4
+    3300022: tree5
+    3300024: tree6
+    4300000: calypso_island
+    4300002: tree1
+    4300004: pasted__tree1
+    4300006: pasted__tree2
+    4300008: pasted__tree3
+    4300010: pasted__tree4
+    4300012: pasted__tree5
+    4300014: tree2:tree
+    4300016: tree
+    4300018: tree3
+    4300020: tree4
+    4300022: tree5
+    4300024: tree6
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

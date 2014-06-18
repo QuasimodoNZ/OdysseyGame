@@ -67,16 +67,16 @@ public class MenuController : MonoBehaviour {
 								counter = 0;
 								go = true;
 						}
-			if(move == true){
-				boatSpeed+=0.003f;
-				sailScale += 0.1f;
-				sail.transform.localScale = new Vector3(-3.3f,sailScale,1.0f);
-				ship.transform.Translate(-0.05f,0,boatSpeed);
-				timer++;
-				if(timer==150 && once == false){
-					Application.LoadLevel("Scene1");
-					once = true;
-				}
+			}
+		if(move == true){
+			boatSpeed+=0.003f;
+			sailScale += 0.1f;
+			sail.transform.localScale = new Vector3(-3.3f,sailScale,1.0f);
+			ship.transform.Translate(-0.05f,0,boatSpeed);
+			timer++;
+			if(timer==150 && once == false){
+				Application.LoadLevel("Scene1");
+				once = true;
 			}
 				}
 			if (Input.GetKeyDown ("space") && move == false) {
@@ -86,5 +86,7 @@ public class MenuController : MonoBehaviour {
 				}
 			
 		}
+
+
 
 	}
