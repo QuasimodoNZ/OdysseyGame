@@ -265,7 +265,7 @@ TerrainCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: 567d6cf5b9b2e3f49b069faaacd69894, type: 2}
-  m_CreateTreeColliders: 1
+  m_CreateTreeColliders: 0
 --- !u!198 &19800000
 ParticleSystem:
   m_ObjectHideFlags: 1
