@@ -27,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
 	
 	// When player is dead
 	private bool isDead = false;
+	private bool isGrabbed = false;
+	private bool isPulled = false;
+	private float sinkSpeed = 0.15f;
 	
 	private GameObject gameController;
 	
@@ -41,6 +44,14 @@ public class PlayerMovement : MonoBehaviour
 	void FixedUpdate ()
 	{
 		if (isDead) {
+			return;
+		}
+		if (isPulled) {
+			transform.Translate (0,-sinkSpeed,0);
+			return;
+		}
+
+		if (isGrabbed) {
 			return;
 		}
 		
@@ -88,6 +99,16 @@ public class PlayerMovement : MonoBehaviour
 			rigidbody.AddForce (forceVec, ForceMode.Acceleration);
 			
 		}
+	}
+
+	public void OctopusGrabEffect ()
+	{
+		isGrabbed = true;
+	}
+
+	public void OctopusPullEffect ()
+	{
+		isPulled = true;		
 	}
 	
 	public float GetCurrentSpeed ()
