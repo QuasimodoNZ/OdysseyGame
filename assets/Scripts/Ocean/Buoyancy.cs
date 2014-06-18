@@ -34,7 +34,7 @@ public class Buoyancy : MonoBehaviour
 
 				Vector3 uplift = -Physics.gravity * (forceFactor - rigidbody.velocity.y * bounceDamp);
 				if (forceFactor > 0f) {
-						rigidbody.AddForceAtPosition (uplift / (numberOfForces + 1), actionPoint);
+						rigidbody.AddForceAtPosition (uplift, actionPoint);
 				}
 
 				if (debugSphere != null) {

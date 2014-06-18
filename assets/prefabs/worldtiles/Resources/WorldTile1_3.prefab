@@ -64,7 +64,6 @@ GameObject:
   - 114: {fileID: 11400006}
   - 65: {fileID: 6500000}
   - 114: {fileID: 11400008}
-  - 64: {fileID: 6400000}
   - 114: {fileID: 11400010}
   m_Layer: 0
   m_Name: WorldTile1_3
@@ -1258,7 +1257,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.10515137, y: .176757812, z: -.0382934585}
+  m_LocalPosition: {x: -.10515137, y: .351416022, z: -.0382934585}
   m_LocalScale: {x: .00277289492, y: .00277289492, z: .00277289492}
   m_Children:
   - {fileID: 400016}
@@ -2008,19 +2007,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100058}
   m_Mesh: {fileID: 4300008, guid: 1ad9db0d4e5cd4f65b35cfb8667c05f6, type: 3}
---- !u!64 &6400000
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100006}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_SmoothSphereCollisions: 1
-  m_Convex: 0
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!64 &6400002
 MeshCollider:
   m_ObjectHideFlags: 1

@@ -34822,12 +34822,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 100058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 716f69bcdb3a5aa4b9b87a3a1dc4760b, type: 3}
+  m_Script: {fileID: 11500000, guid: caae94ec0d2416f479c78c8bb2ba8e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turnRate: 4
   defaultMoveSpeed: .0199999996
   defaultAcceleration: .00100000005
+  thrustNodeOffset: {x: 0, y: 0, z: -3}
   collisionForce: 500
   pushForce: 20
   currentThrust: 15
