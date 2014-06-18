@@ -18572,7 +18572,7 @@ MonoBehaviour:
   tileTypesT2: []
   tileTypesT3: []
   tileTypesT4: []
-  NUM_TILE_TYPES_T1: 5
+  NUM_TILE_TYPES_T1: 6
   NUM_TILE_TYPES_T2: 5
   NUM_TILE_TYPES_T3: 1
   NUM_TILE_TYPES_T4: 1

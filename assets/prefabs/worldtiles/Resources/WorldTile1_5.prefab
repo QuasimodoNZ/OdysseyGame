@@ -1838,7 +1838,7 @@ GameObject:
   - 114: {fileID: 11400004}
   - 64: {fileID: 6400000}
   m_Layer: 0
-  m_Name: WorldTile2_5
+  m_Name: WorldTile1_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
